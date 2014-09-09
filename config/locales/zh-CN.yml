@@ -1,0 +1,72 @@
+zh-CN:
+  layout:
+    title: PANDA Course 2014
+    subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
+    location: 四川成都
+    time: "2014年10月"
+    navbar:
+      speakers: 演讲者
+      program: 课程安排
+      committee: 委员会
+      registration: 注册
+      sponsors: 赞助者
+      contact: 联系我们
+      venue: 地点
+      accommodations: 住宿
+
+  index:
+    jumbotron:
+      title: 欢迎来到 PANDA 2014 暑假班
+      para: |
+        本次暑期班由鲁汶大学<a href="http://www.esat.kuleuven.be/cosic/">COSIC</a> 研究所、中国科学院信息安全国家重点实验室（<a href="http://www.sklois.cn/">SKLOIS</a>） 共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+    media:
+      - image: images/dianlu.jpg
+        title: 创新的思维
+        para: 侧信道攻击。
+      - image: images/wuhouci.jpg
+        title: 美丽的景色
+        para: 武侯祠。
+      - image: images/panda.jpg
+        title: 可爱的熊猫
+        para: 成都大熊猫繁育研究基地。
+
+  speakers:
+    well:
+      - image: images/gierlichs_benedikt.jpg
+        title: Benedikt Gierlichs
+        subtitle: "KU Leuven, Belgium"
+        para: |
+          Dr. Benedikt Gierlichs joined the COSIC research group at KU Leuven (Belgium) as a PhD student in 2006. He obtained a PhD in electrical engineering with his thesis on "Statistical and Information-Theoretic Methods for Power Analysis on Embedded Cryptography" in 2011. His research focuses on the (physical) security of embedded devices, in particular side-channel analysis, fault analysis and countermeasures. Prior to joining COSIC, Benedikt Gierlichs studied IT-security engineering at the university of Bochum and obtained an MSc in 2006. Further, he completed a long-term internship at the Security Technologies department of Gemplus (now part of Gemalto). Dr. Gierlichs is currently a post-doctoral fellow with the Funds for Scientific Research Flanders (Belgium). He is (co-)author of more than 25 scientific publications in international, peer-reviewed conferences and journals.
+
+      - image: images/marc_witteman.png
+        title: Marc F. Witteman
+        subtitle: "Riscure Delft, The Netherlands"
+        para: |
+          Marc Witteman has a long track record in the security industry. He has been involved with a variety of security projects for over two decades and worked on applications in mobile communications, payment industry, identification, and pay television. Recent work includes secure programming and ePassport security issues. He has authored several articles on smart card and embedded device security issues. Further, he has extensive experience as a trainer, lecturing security topics for audiences ranging from novices to experts. As a security analyst he developed several tools for testing software and hardware security. This includes Inspector, a platform for conducting side-channel analysis and JCworkBench, a logical test tool. Marc Witteman has an MSc in Electrical Engineering from the Delft University of Technology in the Netherlands. From 1989 till 2001 he worked for several telecom operators, the ETSI standardization body and a security evaluation facility. In 2001 he founded Riscure, a security lab based in the Netherlands. Riscure offers consulting and testing services to manufacturers and issuers of advanced security technology. Between 2001 and 2011 he raised the company to a leading security test lab, and side channel test tool vendor. In 2010 Marc Witteman started Riscure Inc, the US branch of Riscure, based in San Francisco, California. At present he is the Chief Technology Officer of the Riscure Security Lab.
+          
+      - image: images/yier_jin.png
+        title: Yier Jin
+        subtitle: "EECS Department, University of Central Florida"
+        para: |
+          Yier Jin is currently an assistant professor in the EECS Department at the University of Central Florida. He received his PhD degree in Electrical Engineering in 2012 from Yale University after he got the B.S. and M.S. degrees in Electrical Engineering from Zhejiang University, China, in 2005 and 2007, respectively. His research focuses on the areas of trusted embedded systems, trusted hardware intellectual property (IP) cores and hardware-software co-protection on computer systems. He proposed various approaches in the area of hardware security, including the first hardware Trojan detection methodology relying on local side-channel information, the first post-deployment hardware trust assessment framework, and the first proof-carrying hardware IP protection scheme. He is also interested in the security analysis on Internet of Things (IoT) and wearable devices with particular emphasis on information integrity and privacy protection in the IoT era. He serves and has served on the Organizing Committees and Technical Program Committees of many Conferences and Workshops such as HOST, ISVLSI, ATS, ICCD, etc.
+
+  committee:
+    panel:
+      - title: 大会主席
+        list:
+          - "樊俊锋，鲁汶大学，比利时"
+          - "张锐，中国科学院"
+      - title: 组委会
+        list:
+          - "马晖，中国科学院"
+          - "李阳，中国科学院"
+      - title: 程序委员会主席
+        list:
+          - "樊俊锋，鲁汶大学，比利时"
+      - title: 顾问
+        list:
+          - "Feng Bao, 华为, 中国"
+          - "陈弘毅, 清华大学, 中国"
+          - "林东岱, 中国科学院"
+          - "Ingrid Verbauwhede，鲁汶大学，比利时"
+          - "Marc Witteman, Riscure, 荷兰"

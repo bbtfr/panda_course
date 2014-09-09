@@ -1,0 +1,20 @@
+<div class="row">
+  <% t("panel").each_slice(2) do |panel_slice| %>
+    <div class="col-md-6">
+      <% panel_slice.each do |panel| %>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><%= panel[:title] %></h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <% panel[:list].each do |list| %>
+                <li><p><%= list %></p></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

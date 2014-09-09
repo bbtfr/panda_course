@@ -1,0 +1,33 @@
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-7">
+      <h2><%= t "jumbotron.title" %></h2>
+      <p><%= raw t "jumbotron.para" %>
+        
+      </p>
+      <a href="http://www.sklois.cn/panda/2014/files/call for English.pdf" class="mt20 btn btn-lg btn-warning">Call For Participation »</a> 
+    </div>
+
+    <div class="col-md-5">
+      <%= image_tag "images/index.jpg", class: "img-thumbnail img-tilt" %>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <% t("media").each do |item| %>
+    <div class="col-sm-4">
+      <div class="media">
+        <div class="row">
+          <div class="media-img pull-left col-sm-5 col-md-4">
+            <%= image_tag item[:image] %>
+          </div>
+          <div class="media-body col-sm-7 col-md-8">
+            <h4 class="media-heading"><%= item[:title] %></h4>
+            <p class="hidden-sm"><%= item[:para] %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

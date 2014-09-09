@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-md-12">
+    <% t("well").each do |well| %>
+      <div class="well speaker">
+        <%= image_tag well[:image], class: "img-thumbnail pull-left" %>
+        <h1><%= well[:title] %> <small><%= well[:subtitle] %></small></h1>
+        <p><%= well[:para] %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
