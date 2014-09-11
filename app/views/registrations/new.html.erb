@@ -1,0 +1,79 @@
+<% params[:id] = "registration/new" %>
+
+<div class="well">
+  <div class="row">
+
+    <div class="page-header col-md-offset-1 col-md-10">
+      <h2><%= t :title %></h2>
+    </div>
+
+    <%= form_for @registration, url: registration_path, html: { class: "form-horizontal col-md-6" } do |f| %>
+
+      <% if @registration.errors.any? %>
+        <div class="alert alert-danger col-md-offset-2">
+          <ul>
+            <% @registration.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <!-- 
+      <%= bootstrap_text_field f, :username %>
+      <%= bootstrap_password_field f, :password %>
+
+      <hr>
+       -->
+      
+      <% if params[:locale] == "en" %>
+        <%= bootstrap_text_field f, :first_name %>
+        <%= bootstrap_text_field f, :family_name %>
+      <% else %>
+        <%= bootstrap_text_field f, :full_name %>
+      <% end %>
+      
+      <%= bootstrap_radio_buttons f, :profession, %i(student employee researcher) %>
+
+      <% if params[:locale] == "en" %>
+        <%= bootstrap_radio_buttons f, :title, %i(prof dr ms mr) %>
+      <% else %>
+        <%= bootstrap_text_field f, :title %>
+      <% end %>
+
+      <%= bootstrap_text_field f, :address %>
+      <%= bootstrap_text_field f, :postcode %>
+
+      <% if params[:locale] == "en" %>
+      <% else %>
+        <%= bootstrap_text_field f, :phone %>
+      <% end %>
+      
+      <%= bootstrap_text_field f, :email %>
+
+      <% if params[:locale] == "en" %>
+        <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash), tips: t("wire_transfer_tip") %>
+      <% else %>
+        <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer card_swipe   
+ cash) %>
+        <%= bootstrap_text_field f, :invoice_title %>
+      <% end %>
+
+      <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-8">
+          <button type="submit" class="btn btn-primary"><%= t :button %></button>
+        </div>
+      </div>
+
+    <% end %>
+
+    <div class="col-md-5">
+      <h4><%= t("note.title") %></h4>
+      <ol>
+        <% t("note.list").each do |list| %>
+          <li><%= raw list %></li>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+</div>

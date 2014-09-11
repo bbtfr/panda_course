@@ -1,4 +1,33 @@
 zh-CN:
+  activerecord:
+    attributes:
+      registration:
+        id: ID
+        username: 用户名
+        password: 登录密码
+        full_name: 姓名
+        profession: 职业
+        title: 职务 / 职称
+        address: 通讯地址
+        postcode: 邮编
+        phone: 联系电话
+        email: 电子邮箱
+        payment_type: 注册费缴纳方式
+        invoice_title: 发票抬头
+      registration/title:
+        prof: Prof.
+        dr: Dr.
+        ms: Ms.
+        mr: Mr.
+      registration/profession:
+        student: 全职学生
+        employee: 企业职员
+        researcher: 大学教师或研究所职员
+      registration/payment_type:
+        wire_transfer: 银行转账汇款
+        card_swipe: 现场刷卡支付
+        cash: 现场现金支付
+
   layout:
     title: PANDA Course 2014
     subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
@@ -9,16 +38,23 @@ zh-CN:
       program: 课程安排
       committee: 委员会
       registration: 注册
-      sponsors: 赞助者
+      sponsors: 赞助商
       contact: 联系我们
       venue: 地点
       accommodations: 住宿
+
+  to_be_announced:
+    title: 敬请期待
+    button: 返回首页
 
   index:
     jumbotron:
       title: 欢迎来到 PANDA 2014 暑假班
       para: |
         本次暑期班由鲁汶大学<a href="http://www.esat.kuleuven.be/cosic/">COSIC</a> 研究所、中国科学院信息安全国家重点实验室（<a href="http://www.sklois.cn/">SKLOIS</a>） 共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+      button: 
+        title: PANDA 2014 培训通知
+        link: http://www.sklois.cn/panda/2014/files/通知中文版.pdf
     media:
       - image: images/dianlu.jpg
         title: 创新的思维
@@ -70,3 +106,58 @@ zh-CN:
           - "林东岱, 中国科学院"
           - "Ingrid Verbauwhede，鲁汶大学，比利时"
           - "Marc Witteman, Riscure, 荷兰"
+
+  registration:
+    para: |
+      PANDA 2014暑期学校将于2014 年 9 月 9 日至 13 日在中国成都合江亭翰文大酒店开课，参加人员请填写报名信息。
+    subtitle: 注册费用 ( 待定 )
+    table:
+      - - 
+        - 费用
+      - - "学生"
+        - "3,000 RMB"
+      - - "大学教师或研究所职员"
+        - "4,000 RMB"
+      - - "公司职员"
+        - "5,400 RMB"
+    para2: |
+      如果您在注册事宜上有任何的疑问，请联系马晖先生 ( 邮箱：<a href="mailto:pandacourse@gmail.com/">pandacourse@gmail.com</a> )。
+    button: 立即报名
+
+  registration/new:
+    success: 恭喜您成功报名，请等待我们的工作人员与您联系。
+    title: PANDA2014 暑期班注册
+    button: 提交
+    note:
+      title: 备注：
+      list:
+        - 学生注册需发送学生证扫描件。
+        - 注册费标准：待定。
+        - 由于涉及到会议发票的开具，请在9月6日之前的注册人员，通过银行转账方式缴纳注册费；现场缴纳费用将多收取200元的手续费。
+        - 银行转帐汇款信息（请在9月5日（含）之前汇出）：待定。
+        - 通过银行汇款缴纳注册费，须将银行汇款凭证扫描件发送至<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>。
+
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: 必须是可被接受的
+      blank: 不能为空
+      confirmation: 与确认值不匹配
+      empty: 不能留空
+      equal_to: 必须等于 %{count}
+      even: 必须为双数
+      exclusion: 是保留关键字
+      greater_than: 必须大于 %{count}
+      greater_than_or_equal_to: 必须大于或等于 %{count}
+      inclusion: 不包含于列表中
+      invalid: 是无效的
+      less_than: 必须小于 %{count}
+      less_than_or_equal_to: 必须小于或等于 %{count}
+      not_a_number: 不是数字
+      not_an_integer: 必须是整数
+      odd: 必须为单数
+      record_invalid: ! '验证失败: %{errors}'
+      taken: 已经被使用
+      too_long: 过长（最长为 %{count} 个字符）
+      too_short: 过短（最短为 %{count} 个字符）
+      wrong_length: 长度非法（必须为 %{count} 个字符）

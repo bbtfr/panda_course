@@ -10,8 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+ *= require dataTables/jquery.dataTables.bootstrap
  */
 
 @import "bootstrap-sprockets";
@@ -23,10 +22,12 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -52,7 +53,7 @@ body {
   background-color: #e7e7e7;
 }
 
-.navbar, .jumbotron, .media, .panel {
+.navbar, .jumbotron, .media, .panel, .well {
   background-color: #f8f8f8;
   border-bottom: solid 1px #c7c9c8;
 }
@@ -113,6 +114,12 @@ body {
   opacity: .6;
 }
 
+.jumbotron {
+  a.btn {
+    margin-top: 20px;
+  }
+}
+
 .languages {
   position: absolute;
   right: 10px;
@@ -120,10 +127,11 @@ body {
   z-index: 10;
 
   a {
+    @include transition(200ms ease);
     color: #aaa;
     text-decoration: none;
   }
-  a.active {
+  a.active, a:hover {
     color: white;
   }
 }
@@ -132,9 +140,9 @@ body {
   margin-bottom: 30px;
 
   .pull-left {
-  overflow: hidden;
-  margin-right: -15px;
-  margin-left: 14px;
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: 14px;
   }
   .media-img {
     overflow: hidden;
@@ -154,39 +162,21 @@ body {
 }
 
 .media .media-img img {
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 2000ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 2000ms;
-  transform: scale(1, 1);
-  transition-timing-function: ease-out;
-  transition-duration: 2000ms;
+  @include scale(1, 1);
+  @include transition(2000ms ease-out);
   width: 100%;
   height: auto;
 }
 
 .media:hover .media-img img {
-  -webkit-transform: scale(1.15, 1.15);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 1500ms;
-  -moz-transform: scale(1.15, 1.15);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 1500ms;
-  transform: scale(1.15, 1.15);
-  transition-timing-function: ease-out;
-  transition-duration: 1500ms;
+  @include scale(1.15, 1.15);
+  @include transition(1500ms ease-out);
   position: relative;
   z-index: 3;
 }
 
 .img-tilt {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  transform: rotate(3deg);
+  @include rotate(3deg);
 }
 
 .speaker {

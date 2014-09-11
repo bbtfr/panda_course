@@ -1,4 +1,18 @@
 en:
+  activerecord:
+    attributes:
+      registration:
+        id: ID
+      registration/profession:
+        student: Full-time student
+        employee: Company employee
+        researcher: Academic researcher
+      registration/title:
+        prof: Prof.
+        dr: Dr.
+        ms: Ms.
+        mr: Mr.
+
   layout:
     title: PANDA Course 2014
     subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
@@ -14,11 +28,18 @@ en:
       venue: Venue
       accommodations: Accommodations
 
+  to_be_announced:
+    title: To Be Announced
+    button: Back to home page
+
   index:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
         The summer school is jointly organized by <a href="http://www.esat.kuleuven.be/cosic/">COSIC</a> from KU Leuven and <a href="http://www.sklois.cn/">SKLOIS</a> from Chinese Academy of Sciences (CAS), which aims at building a platform for security experts, academic researchers and students for exchanging ideas and discussing recent topics in the field.
+      button: 
+        title: Call For Participation
+        link: http://www.sklois.cn/panda/2014/files/call for English.pdf
     media:
       - image: images/dianlu.jpg
         title: Creative Ideas
@@ -70,3 +91,40 @@ en:
           - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
+
+  registration:
+    para: |
+      The PANDA 2014 Summer School will be held in Chengdu Hejiangting Hanwen Hotel, Chengdu, China, from Sep. 9 to Sep. 13, 2014, Please complete the registration form.
+    subtitle: REGISTRATION RELATED FEES ( To Be Announced )
+    table:
+      - - 
+        - Fee
+      - - "Student"
+        - "CNY 3,000"
+      - - "Academic researcher"
+        - "CNY 4,000"
+      - - "Company employee"
+        - "CNY 5,400"
+    para2: |
+      You have any question about the registration, please email Mr. Hui Ma via <a href="mailto:pandacourse@gmail.com/">pandacourse@gmail.com</a>.
+    button: Register Now
+
+  registration/new:
+    success: |
+      Congratulations! You have successfully registered, please wait for our staff to contact you.
+    title: PANDA2014 Summer School Registration
+    button: Register
+    wire_transfer_tip: |
+      If you insist on paying with wire transfer, please <a href="mailto:pandacourse@gmail.com">contact us</a> for necessary information. 
+    note:
+      title: |
+        Note:
+      list:
+        - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
+        - |
+          Registration related fees: TBA.
+        - | 
+          For participants from areas and countries other than the mainland of China, since we are not entitled to charge credit cards, and a third party service will charge over 10% as service fee, in addition to the charge made by banks, we prefer to collect cash payment at the registration counter.
+        - | 
+          If you insist on paying with wire transfer, please contact us (<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>) for necessary information.
+        - Remittance receipt should be attached to this registration form and email to <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>.

@@ -1,0 +1,122 @@
+<% attributes = %i(id full_name profession title address postcode phone email payment_type invoice_title) %>
+<% listed_attributes = %i(full_name profession title phone email payment_type) %>
+<% detailed_attributes = attributes %>
+<% translate_attributes = %i(profession title payment_type) %>
+<% data = @registrations.map do |registration|
+  [ registration.id, attributes.map do |attribute|
+    attr_value = registration.send(attribute)
+    [ attribute, translate_attributes.include?(attribute) ? attr_value.blank? ? nil : t(attr_value, scope: "activerecord.attributes.registration/#{attribute}", default: attr_value) : attr_value ]
+  end.to_h ]
+end.to_h %>
+
+<h1>报名注册人员名单</h1>
+<div class="well">
+  <table class="table datatable">
+    <thead>
+      <tr>
+        <th></th>
+        <% listed_attributes.each do |attribute| %>
+          <th><%= Registration.human_attribute_name(attribute) %></th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody>
+      <% @registrations.each do |registration| %>
+        <tr>
+          <td>
+            <i class="glyphicon glyphicon-plus" data-id="<%= registration.id %>"></i>
+          </td>
+          <% listed_attributes.each do |attribute| %>
+            <td>
+              <%= data[registration.id][attribute] %>
+            </td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<script type="text/javascript">
+
+function truncate(str) {
+  if (str.length > 15) {
+    return str.substring(0, 15)+'...';
+  } else {
+    return str;
+  }
+}
+
+function initDataTable() {
+  var oTable = $('.datatable').dataTable({
+    "sPaginationType": "bs_normal",
+    "oLanguage" : {
+      "sLengthMenu": "每页显示 _MENU_ 条记录",
+      "sZeroRecords": "抱歉， 没有找到",
+      "sInfo": "从 _START_ 到 _END_ /共 _TOTAL_ 条数据",
+      "sInfoEmpty": "没有数据",
+      "sInfoFiltered": "(从 _MAX_ 条数据中检索)",
+      "sZeroRecords": "没有检索到数据",
+      "sSearch": "",
+      "oPaginate": {
+        "sFirst": "首页",
+        "sPrevious": "前一页",
+        "sNext": "后一页",
+        "sLast": "尾页"
+      }
+    }
+  });
+
+  $('.datatable').each(function(){
+    var datatable = $(this);
+    // SEARCH - Add the placeholder for Search and Turn this into in-line form control
+    var search_input = datatable.closest('.dataTables_wrapper').find('div[id$=_filter] input');
+    search_input.attr('placeholder', '搜索');
+    search_input.addClass('form-control input-sm');
+    // LENGTH - Inline-Form control
+    var length_sel = datatable.closest('.dataTables_wrapper').find('div[id$=_length] select');
+    length_sel.addClass('form-control input-sm');
+  });
+
+  return oTable;
+}
+
+/* Formating function for row details */
+function fnFormatDetails(oTable, nTr) {
+  var iId = $(oTable.fnGetData(nTr)[0]).data("id"),
+      oData = <%= raw data.to_json %>[iId] || {};
+
+  var sOut = '';
+  sOut += '<dl class="dl-horizontal">';
+  <% detailed_attributes.each do |attribute| %>
+    sOut += '<dt><%= Registration.human_attribute_name(attribute) %></dt><dd>'+(oData["<%= attribute %>"]||'无')+'</dd>'
+  <% end %>
+  sOut += '</dl>';
+
+  return sOut;
+}
+
+$(document).ready(function(){
+
+  /* Add event listener for opening and closing details
+   * Note that the indicator for showing which row is open is not controlled by DataTables, rather it is done here
+   */
+  $('.datatable tbody td i.glyphicon-plus').click(function () {
+    var nTr = $(this).parents('tr')[0];
+    if (oTable.fnIsOpen(nTr)) {
+      /* This row is already open - close it */
+      this.className = "glyphicon glyphicon-plus";
+      oTable.fnClose(nTr);
+    } else {
+      /* Open this row */
+      this.className = "glyphicon glyphicon-minus";
+      oTable.fnOpen(nTr, fnFormatDetails(oTable, nTr), 'details');
+    }
+  });
+    
+  /*
+   * Initialse DataTables, with no sorting on the 'details' column
+   */
+  var oTable = initDataTable();
+});
+</script>

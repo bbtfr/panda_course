@@ -29,9 +29,9 @@
     </div>
     <div class="languages">
         Language: 
-        <a <%= raw locale?(:en) ? "class=\"active\"" : "href=\"#{page_en_path}\"" %>>English</a> 
+        <a <%= raw locale?(:en) ? "class=\"active\"" : "href=\"#{english_path}\"" %>>English</a> 
         | 
-        <a <%= raw locale?(:"zh-CN") ? "class=\"active\"" : "href=\"#{page_cn_path}\"" %>>简体中文</a> 
+        <a <%= raw locale?(:"zh-CN") ? "class=\"active\"" : "href=\"#{chinese_path}\"" %>>简体中文</a> 
     </div>
   </header>
 
@@ -45,17 +45,24 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index">PANDA 2014</a>
+        <a class="navbar-brand" href="<%= page_path(id: :index) %>">PANDA 2014</a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <% t("navbar", scope: :layout).each do |key, value| %>
-            <li <%= raw "class=\"active\"" if active? key %>><a href="<%= key %>"><%= value %></a></li>
+            <li <%= raw "class=\"active\"" if active? key %>><%= link_to value, page_path(id: key) %></li>
           <% end %>
         </ul>
       </div>
     </nav>
+
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %> alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert"><span>&times;</span><span class="sr-only">Close</span></button>
+        <%= value %>
+      </div>
+    <% end %>
 
     <%= yield %>
 

@@ -7,6 +7,7 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass'
+gem 'datatables-rails-bs3'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -40,5 +41,6 @@ gem 'spring', group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'high_voltage'
+gem 'bootstrap_form'
 
 gem 'quiet_assets', group: :development
