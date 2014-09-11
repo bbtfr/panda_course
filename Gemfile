@@ -41,6 +41,5 @@ gem 'spring', group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'high_voltage'
-gem 'bootstrap_form'
 
 gem 'quiet_assets', group: :development
