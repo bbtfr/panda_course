@@ -24,7 +24,7 @@ end ] %>
       <% @registrations.each do |registration| %>
         <tr>
           <td>
-            <i class="glyphicon glyphicon-plus" data-id="<%= registration.id %>"></i>
+            <i class="glyphicon glyphicon-chevron-down" data-id="<%= registration.id %>"></i>
           </td>
           <% listed_attributes.each do |attribute| %>
             <td>
@@ -101,15 +101,15 @@ $(document).ready(function(){
   /* Add event listener for opening and closing details
    * Note that the indicator for showing which row is open is not controlled by DataTables, rather it is done here
    */
-  $('.datatable tbody td i.glyphicon-plus').click(function () {
+  $('.datatable tbody td i.glyphicon-chevron-down').click(function () {
     var nTr = $(this).parents('tr')[0];
     if (oTable.fnIsOpen(nTr)) {
       /* This row is already open - close it */
-      this.className = "glyphicon glyphicon-plus";
+      this.className = "glyphicon glyphicon-chevron-down";
       oTable.fnClose(nTr);
     } else {
       /* Open this row */
-      this.className = "glyphicon glyphicon-minus";
+      this.className = "glyphicon glyphicon-chevron-up";
       oTable.fnOpen(nTr, fnFormatDetails(oTable, nTr), 'details');
     }
   });
