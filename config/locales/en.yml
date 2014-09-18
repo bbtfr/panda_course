@@ -16,8 +16,8 @@ en:
   layout:
     title: PANDA Course 2014
     subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
-    location: "Chengdu, Sichuan, China"
-    time: "Oct. 2014"
+    location: "Jinan, Shandong, China"
+    time: "Oct. 20 (Mon) - Oct. 24 (Fri), 2014"
     navbar:
       speakers: Speakers
       program: Program
@@ -36,20 +36,20 @@ en:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
-        The summer school is jointly organized by <a href="http://www.esat.kuleuven.be/cosic/">COSIC</a> from KU Leuven and <a href="http://www.sklois.cn/">SKLOIS</a> from Chinese Academy of Sciences (CAS), which aims at building a platform for security experts, academic researchers and students for exchanging ideas and discussing recent topics in the field.
+        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn"> Shandong University, China </a> and <a href="http://www.opsefy.com/">Open Security Research</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button: 
         title: Call For Participation
         link: http://www.sklois.cn/panda/2014/files/call for English.pdf
     media:
       - image: images/dianlu.jpg
         title: Creative Ideas
-        para: Side channel attack.
-      - image: images/wuhouci.jpg
-        title: Beautiful Views
-        para: Wuhou Memorial Temple.
-      - image: images/panda.jpg
-        title: Cute Pandas
-        para: Chengdu Research Base of Giant Panda Breeding.
+        para: "Side-Channel Analysis & Fault Analysis."
+      - image: images/hacker.jpg
+        title: Hacker's Events
+        para: Riscure HACKATON Evening.
+      - image: images/daminghu.jpg
+        title: Excursion
+        para: Beautiful view of Da Min Lake.
 
   speakers:
     well:
@@ -71,30 +71,98 @@ en:
         para: |
           Yier Jin is currently an assistant professor in the EECS Department at the University of Central Florida. He received his PhD degree in Electrical Engineering in 2012 from Yale University after he got the B.S. and M.S. degrees in Electrical Engineering from Zhejiang University, China, in 2005 and 2007, respectively. His research focuses on the areas of trusted embedded systems, trusted hardware intellectual property (IP) cores and hardware-software co-protection on computer systems. He proposed various approaches in the area of hardware security, including the first hardware Trojan detection methodology relying on local side-channel information, the first post-deployment hardware trust assessment framework, and the first proof-carrying hardware IP protection scheme. He is also interested in the security analysis on Internet of Things (IoT) and wearable devices with particular emphasis on information integrity and privacy protection in the IoT era. He serves and has served on the Organizing Committees and Technical Program Committees of many Conferences and Workshops such as HOST, ISVLSI, ATS, ICCD, etc.
 
+      - image: images/stefan_tillich.jpg
+        title: "Stefan Tillich"
+        subtitle: "Yagoba, Austria"
+        para: |
+          Stefan Tillich博士毕业于奥地利Graz大学，主要研究兴趣是密码芯片设计。博士毕业后，他在英国布里斯托大学从事博士后研究，师从著名密码学家Nigel Smart教授，主要研究侧信道攻击技术。Stefan Tillich博士于2013年和另外两位Graz大学教授共同创立了Yagoba，并担任CTO。Yagoba致力于高性能、高安全Java Card Applet设计。
+
+      - image: images/user.png
+        title: Junfeng Fan
+        subtitle: "Open Security Research, China"
+        para: |
+          樊俊锋博士毕业于比利时鲁汶大学，他的主要研究课题为密码芯片安全，在高性能密码芯片、低功耗椭圆曲线密码（ECC）核和抗物理攻击密码芯片设计。他在国际期刊上发表论文6篇，学术著作2本（章节），国际学术会议论文20余篇，包括CHES论文5篇。他率先提出了多项式-整数混合模乘算法，降低了基于BN曲线的线性对（Pairing）的运算复杂度。使用该算法，他设计了当时世界上最快的Pairing协处理器。他还设计了面向受限设备的超低功耗的ECC芯片，对ECC的抗攻击设计技术进行了系统化研究，提出了一系列低成本检错技术。与Gierlichs和Vercauteren联合设计了的基于无穷远点的攻击方法。他于2014年初在深圳创立了纽创信安开放安全技术研究所（Open Security Research, OSR），致力于密码芯片的攻击和防护新技术的研究。
+
+      - image: images/user.png
+        title: Viktor Fischer
+        subtitle: "Jean Monnet University Saint-Etienne, France"
+        para: |
+          Viktor Fischer博士任教于法国Saint-Etienne大学，主要研究兴趣为密码芯片设计和分析。他对不同平台、不同原理的随机数发生器做了长期、系统的研究，在CHES、FPL等国际会议上发表文章近30篇。他也应邀在2014的CHES会议上作随机数设计培训。
+
+  program:
+    para: |
+      PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向。
+    list:
+      - title: 安全芯片分析和测评：新技术和新挑战
+      - title: 模板攻击及其防护
+        list:
+          - title: 模板攻击的基本思想
+          - title: 常用模板攻击技术
+          - title: 模板攻击研究的最新进展
+      - title: 高阶DPA攻击及防护
+        list:
+          - title: 高阶DPA的基本思想
+          - title: 高阶DPA技术的应用
+          - title: 高阶DPA的最新进展
+      - title: 硬件木马设计及检测
+        list:
+          - title: 硬件木马的设计
+          - title: 硬件木马的检测
+          - title: 硬件木马技术的发展
+      - title: 高性能、高安全Java Card Applet设计
+        list:
+          - title: JCA的设计基础
+          - title: JCA性能优化策略
+          - title: JCA抗攻击设计方法
+      - title: 随机数发生器的设计和检测
+        list:
+          - title: 随机数发生器原理及再思考
+          - title: 真随机数发生器的攻击和评测
+
   committee:
     panel:
       - title: GENERAL CO-CHAIRS
         list:
+          - "Qiuliang Xu, Shandong University, China"
+          - "Guangjun Xing, SCSemicon, China"
+      - title: PROGRAM CHAIR
+        list:
           - "Junfeng Fan, KU Leuven, Belgium"
-          - "Rui Zhang, CAS, China"
       - title: ORGANIZATION COMMITTEE
         list:
           - "Hui Ma, CAS, China"
           - "Yang Li, CAS, China"
-      - title: PROGRAM CHAIR
-        list:
-          - "Junfeng Fan, KU Leuven, Belgium"
       - title: ADVISORY COMMITTEE
         list:
-          - "Feng Bao, Huawei Research, China"
+          - "Feng Bao, Huawei Research, Singapore"
           - "Hongyi Chen, Tsinghua University, China"
           - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
 
+  sponsors:
+    para: |
+      We would like to thank all of our generous sponsors who support PANDA Course 2014.
+    title:
+      - GOLD SPONSORS
+      - SILVER SPONSORS
+
+  contact:
+    panel:
+      - title: "Rui Zhang, CAS, China"
+        list:
+          - "Email: pandacourse@gmail.com"
+          - "Tel: 010 - 82546562 - 8060"
+          - "Fax: 010 - 82546564"
+      - title: "Hui Ma, CAS, China"
+        list:
+          - "Email: pandacourse@gmail.com"
+          - "Tel: 010 - 82546562 - 8060"
+          - "Fax: 010 - 82546564"
+
   registration:
     para: |
-      The PANDA 2014 Summer School will be held in Chengdu Hejiangting Hanwen Hotel, Chengdu, China, from Sep. 9 to Sep. 13, 2014, Please complete the registration form.
+      The PANDA 2014 Summer School will be held in Jinan, Shandong, China, from Oct. 20 (Mon) - Oct. 24 (Fri), 2014, Please complete the registration form.
     subtitle: REGISTRATION RELATED FEES ( To Be Announced )
     table:
       - - 
@@ -104,7 +172,7 @@ en:
       - - "Academic researcher"
         - "CNY 4,000"
       - - "Company employee"
-        - "CNY 5,400"
+        - "CNY 6,000"
     para2: |
       You have any question about the registration, please email Mr. Hui Ma via <a href="mailto:pandacourse@gmail.com/">pandacourse@gmail.com</a>.
     button: Register Now

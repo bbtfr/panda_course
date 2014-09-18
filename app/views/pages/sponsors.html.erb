@@ -1,1 +1,26 @@
-<%= render "pages/to_be_announced" %>
+<div class="jumbotron">
+  <p><%= t :para %></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h3><%= t(:title)[0] %></h3>
+      <p>
+        <a href="http://www.riscure.com/">
+          <%= image_tag "images/riscure.jpg", height: 135, width: 155 %>
+        </a>
+      </p>
+    </div>
+
+    <div class="col-md-8">
+      <h3><%= t(:title)[1] %></h3>
+      <p>
+        <a href="http://www.esat.kuleuven.be/cosic/">
+          <%= image_tag "images/COSIC.jpg", height: 135, width: 155 %>
+        </a>
+        <a href="http://www.sklois.cn">
+          <%= image_tag "images/Sklois.jpg", height: 135, width: 135 %>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
