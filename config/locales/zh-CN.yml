@@ -168,17 +168,22 @@ zh-CN:
       - 银牌赞助商
 
   contact:
+    para: |
+      如果您有任何关于PANDA Course的疑问，请联系我们：
     panel:
-      - title: 张锐，中国科学院
+      - title: "张锐，中国科学院"
         list:
-          - "电子邮件：pandacourse@gmail.com"
+          - |
+            电子邮件：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "电话：010 - 82546562 - 8060"
           - "传真：010 - 82546564"
-      - title: 马晖，中国科学院
+      - title: "马晖，中国科学院"
         list:
-          - "电子邮件：pandacourse@gmail.com"
+          - |
+            电子邮件：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "电话：010 - 82546562 - 8060"
           - "传真：010 - 82546564"
+    list:
 
   registration:
     para: |
@@ -194,7 +199,7 @@ zh-CN:
       - - "公司职员"
         - "6,000 RMB"
     para2: |
-      如果您在注册事宜上有任何的疑问，请联系马晖先生（ 邮箱：<a href="mailto:pandacourse@gmail.com/">pandacourse@gmail.com</a> ）。
+      如果您在注册事宜上有任何的疑问，请联系马晖先生（ 邮箱：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a> ）。
     button: 立即报名
 
   registration/new:

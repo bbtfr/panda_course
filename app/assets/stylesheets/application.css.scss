@@ -114,9 +114,18 @@ body {
   opacity: .6;
 }
 
+.padded {
+  padding: 0 15px 10px;
+}
+
 .jumbotron {
   a.btn {
     margin-top: 20px;
+  }
+  ul li {
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 9px;
   }
 }
 

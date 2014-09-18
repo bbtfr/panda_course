@@ -75,7 +75,7 @@ en:
         title: "Stefan Tillich"
         subtitle: "Yagoba, Austria"
         para: |
-          Stefan Tillich博士毕业于奥地利Graz大学，主要研究兴趣是密码芯片设计。博士毕业后，他在英国布里斯托大学从事博士后研究，师从著名密码学家Nigel Smart教授，主要研究侧信道攻击技术。Stefan Tillich博士于2013年和另外两位Graz大学教授共同创立了Yagoba，并担任CTO。Yagoba致力于高性能、高安全Java Card Applet设计。
+          Dr. Stefan Tillich graduated from the University of Graz in Austria, his research focuses on the design of crypto chips. After graduated, he worked at the University of Bristol for postdoctoral research, under the tutelage of renowned cryptographer Professor Nigel Smart, on side-channel attack techniques. In 2013, Dr. Stefan Tillich co-founded Yagoba with other two Graz University professors, and served as CTO. Yagoba is committed to high performance, high security Java Card Applet design.
 
       - image: images/user.png
         title: Junfeng Fan
@@ -150,15 +150,19 @@ en:
       - SILVER SPONSORS
 
   contact:
+    para: |
+      For answers to your questions and information about PANDA Course, contact us via: 
     panel:
       - title: "Rui Zhang, CAS, China"
         list:
-          - "Email: pandacourse@gmail.com"
+          - |
+            Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "Tel: 010 - 82546562 - 8060"
           - "Fax: 010 - 82546564"
       - title: "Hui Ma, CAS, China"
         list:
-          - "Email: pandacourse@gmail.com"
+          - |
+            Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "Tel: 010 - 82546562 - 8060"
           - "Fax: 010 - 82546564"
 
