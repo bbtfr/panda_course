@@ -91,33 +91,35 @@ en:
 
   program:
     para: |
-      PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向。
-    list:
-      - title: 安全芯片分析和测评：新技术和新挑战
+      PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向：
+    panel:
+      - title: 安全芯片分析和测评
+        list:
+          - 新技术和新挑战
       - title: 模板攻击及其防护
         list:
-          - title: 模板攻击的基本思想
-          - title: 常用模板攻击技术
-          - title: 模板攻击研究的最新进展
+          - 模板攻击的基本思想
+          - 常用模板攻击技术
+          - 模板攻击研究的最新进展
       - title: 高阶DPA攻击及防护
         list:
-          - title: 高阶DPA的基本思想
-          - title: 高阶DPA技术的应用
-          - title: 高阶DPA的最新进展
+          - 高阶DPA的基本思想
+          - 高阶DPA技术的应用
+          - 高阶DPA的最新进展
       - title: 硬件木马设计及检测
         list:
-          - title: 硬件木马的设计
-          - title: 硬件木马的检测
-          - title: 硬件木马技术的发展
+          - 硬件木马的设计
+          - 硬件木马的检测
+          - 硬件木马技术的发展
       - title: 高性能、高安全Java Card Applet设计
         list:
-          - title: JCA的设计基础
-          - title: JCA性能优化策略
-          - title: JCA抗攻击设计方法
+          - JCA的设计基础
+          - JCA性能优化策略
+          - JCA抗攻击设计方法
       - title: 随机数发生器的设计和检测
         list:
-          - title: 随机数发生器原理及再思考
-          - title: 真随机数发生器的攻击和评测
+          - 随机数发生器原理及再思考
+          - 真随机数发生器的攻击和评测
 
   committee:
     panel:

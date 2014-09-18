@@ -1,20 +1,4 @@
-<div class="jumbotron">
-  <p><%= t :para %></p>
-
-  <ul>
-    <% t(:list).each do |list| %>
-      <li>
-        <%= list[:title] %>
-        <% if list[:list] %>
-          <ul>
-            <% list[:list].each do |sublist| %>
-              <li><%= sublist[:title] %></li>
-            <% end %>
-          </ul>
-        <% end %>
-      </li>
-    <% end %>
-  </ul>
-  
+<div class="well">
+  <h4><%= t :para %></h4>
 </div>
-
+<%= render "pages/panel_list" %>

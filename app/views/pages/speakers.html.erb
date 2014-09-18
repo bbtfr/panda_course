@@ -3,7 +3,7 @@
     <% t("well").each do |well| %>
       <div class="well speaker">
         <%= image_tag well[:image], class: "img-thumbnail pull-left" %>
-        <h1><%= well[:title] %> <small><%= well[:subtitle] %></small></h1>
+        <h2><%= well[:title] %> <small><%= well[:subtitle] %></small></h2>
         <p><%= simple_format well[:para] %></p>
       </div>
     <% end %>
