@@ -56,17 +56,4 @@ namespace :deploy do
       end
     end
   end
-
-  desc "Update mobile files"
-  task :update_mobile do
-    run_locally do
-      within "mobile" do
-        execute :middleman, :build
-        execute :middleman, :deploy
-      end
-    end
-  end
-
-  after :publishing, :update_mobile
-
 end
