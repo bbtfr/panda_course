@@ -110,7 +110,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("/assets/masthead-pattern.png") repeat center center;
+  background: image-url("masthead-pattern.png") repeat center center;
   opacity: .6;
 }
 
@@ -200,3 +200,12 @@ body {
     margin: -45px 20px 20px 0;
   }
 }
+
+
+table.table thead .sorting { background: image-url('datatables/sort_both.png') no-repeat center right; }
+table.table thead .sorting_asc { background: image-url('datatables/sort_asc.png') no-repeat center right; }
+table.table thead .sorting_desc { background: image-url('datatables/sort_desc.png') no-repeat center right; }
+
+table.table thead .sorting_asc_disabled { background: image-url('datatables/sort_asc_disabled.png') no-repeat center right; }
+table.table thead .sorting_desc_disabled { background: image-url('datatables/sort_desc_disabled.png') no-repeat center right; }
+
