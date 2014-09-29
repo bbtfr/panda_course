@@ -51,7 +51,7 @@ zh-CN:
     jumbotron:
       title: 欢迎来到 PANDA 2014 暑假班
       para: |
-        本次暑期班由 <a href="http://www.sdu.edu.cn">山东大学</a> ，和 <a href="http://www.opsefy.com/">Open Security Research</a> 共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>和<a href="http://www.opsefy.com/">Open Security Research</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button: 
         title: PANDA 2014 培训通知
         link: http://www.sklois.cn/panda/2014/files/通知中文版.pdf
@@ -94,7 +94,7 @@ zh-CN:
         para: |
           Stefan Tillich博士毕业于奥地利Graz大学，主要研究兴趣是密码芯片设计。博士毕业后，他在英国布里斯托大学从事博士后研究，师从著名密码学家Nigel Smart教授，主要研究侧信道攻击技术。Stefan Tillich博士于2013年和另外两位Graz大学教授共同创立了Yagoba，并担任CTO。Yagoba致力于高性能、高安全Java Card Applet设计。
 
-      - image: images/user.png
+      - image: images/junfeng_fan.jpg
         title: 樊俊锋
         subtitle: "Open Security Research, China"
         para: |

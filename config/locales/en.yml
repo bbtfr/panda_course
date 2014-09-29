@@ -36,7 +36,7 @@ en:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
-        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn"> Shandong University, China </a> and <a href="http://www.opsefy.com/">Open Security Research</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
+        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a> and <a href="http://www.opsefy.com/">Open Security Research</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button:
         title: Call For Participation
         link: http://www.sklois.cn/panda/2014/files/call for English.pdf
@@ -77,7 +77,7 @@ en:
         para: |
           Dr. Stefan Tillich graduated from the University of Graz in Austria, his research focuses on the design of crypto chips. After graduated, he worked at the University of Bristol for postdoctoral research, under the tutelage of renowned cryptographer Professor Nigel Smart, on side-channel attack techniques. In 2013, Dr. Stefan Tillich co-founded Yagoba with other two Graz University professors, and served as CTO. Yagoba is committed to high performance, high security Java Card Applet design.
 
-      - image: images/user.png
+      - image: images/junfeng_fan.jpg
         title: Junfeng Fan
         subtitle: "Open Security Research, China"
         para: |
@@ -130,6 +130,7 @@ en:
       - title: PROGRAM CHAIR
         list:
           - "Junfeng Fan, KU Leuven, Belgium"
+          - "Rui Zhang，CAS, China"
       - title: ORGANIZATION COMMITTEE
         list:
           - "Hui Ma, CAS, China"
