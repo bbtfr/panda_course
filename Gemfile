@@ -41,5 +41,6 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'high_voltage'
+gem "rails-settings-cached"
 
 gem 'quiet_assets', group: :development

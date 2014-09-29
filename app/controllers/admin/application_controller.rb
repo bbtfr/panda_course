@@ -1,5 +1,5 @@
 class Admin::ApplicationController < ApplicationController
-  USER_NAME, PASSWORD = "admin", "secret"  
+  USERNAME, PASSWORD = Setting.admin_username, Setting.admin_password  
   
   before_action :authenticate
   layout "admin"
@@ -7,8 +7,8 @@ class Admin::ApplicationController < ApplicationController
   private  
   
     def authenticate  
-      authenticate_or_request_with_http_basic do |user_name, password| 
-        user_name == USER_NAME && password == PASSWORD  
+      authenticate_or_request_with_http_basic do |username, password| 
+        username == USERNAME && password == PASSWORD  
       end  
     end
 
