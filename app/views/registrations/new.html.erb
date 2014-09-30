@@ -32,6 +32,8 @@
       <% else %>
         <%= bootstrap_text_field f, :full_name %>
       <% end %>
+    
+      <%= bootstrap_text_field f, :affiliation %>
       
       <%= bootstrap_radio_buttons f, :profession, %i(student employee researcher) %>
 
@@ -43,12 +45,7 @@
 
       <%= bootstrap_text_field f, :address %>
       <%= bootstrap_text_field f, :postcode %>
-
-      <% if params[:locale] == "en" %>
-      <% else %>
-        <%= bootstrap_text_field f, :phone %>
-      <% end %>
-      
+      <%= bootstrap_text_field f, :phone %>
       <%= bootstrap_text_field f, :email %>
 
       <% if params[:locale] == "en" %>

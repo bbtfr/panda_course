@@ -81,13 +81,13 @@ en:
         title: Junfeng Fan
         subtitle: "Open Security Research, China"
         para: |
-          Dr. Junfeng Fan graduated from KU Leuven (Belgium), his research focuses on the design of high-performance crypto chips, low-power elliptic curve cryptography (ECC) and resist physical attacks crypto chips. He has published six papers in international journals, two academic works(Chapters), twenties International academic conference papers, including 5 papers of CHES. He fist proposed the algorithm for polynomials-integer mixed modular multiplication, reduced the computational complexity of bilinear pairing (Pairing) based on BN curves. Using this algorithm, he designed the world's fastest Pairing coprocessor. He also designed for constrained devices the ECC ultra low-power chips, has systematic study of resist attacks of ECC, made a series of low-cost technology to check for errors. Designed in combination with Gierlichs and Vercauteren attack method based on the point at infinity. He founded the Open Security Research (Open Security Research, OSR) in Shenzhen in early 2014, dedicated to cryptographic chip attack and defense technology research.
+          Dr. Junfeng Fan obtained his Ph.D from KU Leuven (Belgium). His research interests include design of high-performance crypto chips, low-power ECC accelerators and physical security of crypto chips. He has published eight papers in international journals and books, more than 20 papers in international conferences such as CHES and DAC. He proposed an efficient algorithm for modular multiplication for BN curves. Using this algorithm, he achieved the fastest hardware implementation of pairing using 256-bit BN curves when the paper was published. Together with Gierlichs and Vercauteren, he proposed an ECC attack method using the point at infinity. He is the founder of Open Security Research (OSR), which is dedicated to open research in cryptographic chip design and analysis.
 
       - image: images/user.png
         title: Viktor Fischer
         subtitle: "Jean Monnet University Saint-Etienne, France"
         para: |
-          Dr. Viktor Fischer teached in France Saint-Etienne University, main research interests include cryptographic chip design and analysis. He has long-term and systematic study of random number generator with different platforms and different mechanisms. He has published nealy thirty papers in International Conference, such as CHES, FPL, etc. He also was invited to the CHES2014 Conference for tutorials on RNGs for cryptography.
+          Dr. Viktor Fischer is currently a full-time professor at the Jean Monnet University in Saint-Etienne in France, and also as an external consultant of a private company (Micronic) in Slovakia. His research activities are mostly realized at the Hubert Curien Laboratory of the Jean Monnet University.His main research interests include cryptographic chip design and analysis. He has done extensive research on random number generators with different mechanisms. He has published nearly thirty papers in International Conference, such as CHES, FPL, etc. He was invited to give a RNG tutorial at CHES'14 in Busan.
 
   program:
     para: |
@@ -123,18 +123,6 @@ en:
 
   committee:
     panel:
-      - title: GENERAL CO-CHAIRS
-        list:
-          - "Qiuliang Xu, Shandong University, China"
-          - "Guangjun Xing, SCSemicon, China"
-      - title: PROGRAM CHAIR
-        list:
-          - "Junfeng Fan, KU Leuven, Belgium"
-          - "Rui Zhang，CAS, China"
-      - title: ORGANIZATION COMMITTEE
-        list:
-          - "Hui Ma, CAS, China"
-          - "Yang Li, CAS, China"
       - title: ADVISORY COMMITTEE
         list:
           - "Feng Bao, Huawei Research, Singapore"
@@ -142,6 +130,21 @@ en:
           - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
+      - title: "GENERAL CO-CHAIRS"
+        list:
+          - "Qiuliang Xu, Shandong University, China"
+          - "Guangjun Xing, SCSemicon, China"
+      - title: PROGRAM COMMITTEE
+        list:
+          - "Junfeng Fan (Chair), KU Leuven, Belgium"
+          - "Rui Zhang (Chair), CAS, China"
+          - "Yongbin Zhou, CAS, China"
+          - "Yiwei Zhang, Nationz Technologies, China"
+          - "Benedikt Gierlichs, KU Leuven, Belgium"
+      - title: ORGANIZATION COMMITTEE
+        list:
+          - "Hui Ma, CAS, China"
+          - "Yang Li, CAS, China"
 
   sponsors:
     para: |
@@ -154,13 +157,15 @@ en:
     para: |
       For answers to your questions and information about PANDA Course, contact us via:
     panel:
-      - title: "Rui Zhang, CAS, China"
+      - title: "Rui Zhang"
+        subtitle: "CAS, China"
         list:
           - |
             Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "Tel: 010 - 82546562 - 8060"
           - "Fax: 010 - 82546564"
-      - title: "Hui Ma, CAS, China"
+      - title: "Hui Ma"
+        subtitle: "CAS, China"
         list:
           - |
             Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
@@ -170,7 +175,7 @@ en:
   registration:
     para: |
       The PANDA 2014 Summer School will be held in Jinan, Shandong, China, from Oct. 20 (Mon) - Oct. 24 (Fri), 2014, Please complete the registration form.
-    subtitle: REGISTRATION RELATED FEES ( To Be Announced )
+    subtitle: Registration Fee
     table:
       - -
         - Fee
@@ -197,9 +202,31 @@ en:
       list:
         - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
         - |
-          Registration related fees: TBA.
+          Registration fee: <a href="/en/registration">see this</a>.
         - |
-          For participants from areas and countries other than the mainland of China, since we are not entitled to charge credit cards, and a third party service will charge over 10% as service fee, in addition to the charge made by banks, we prefer to collect cash payment at the registration counter.
+          For participants from areas and countries other than the mainland of China, since we are not entitled to charge credit cards, and a third party service will charge over 10% as service fee, in addition to the charge made by banks.
         - |
           If you insist on paying with wire transfer, please contact us (<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>) for necessary information.
         - Remittance receipt should be attached to this registration form and email to <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>.
+
+  accommodations:
+    title: "Nearby Hotels"
+    map: Map
+    list:
+      - title: Donghai Shanzhuang Hotel
+        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E4%B8%9C%E6%B5%B7%E5%B1%B1%E5%BA%84%E9%85%92%E5%BA%97&aq=&sll=36.642735,117.079604&sspn=0.012396,0.022724&vpsrc=6&ie=UTF8&hq=&hnear=&ll=36.672808,117.138811&spn=0.003098,0.005681&t=m&z=18&iwloc=A&cid=5193862880879066184"
+        para: |
+          Address: A8, Zhihuiyuan, Shunhua Rd, Jinan
+          Reservation: 0531 - 88956111
+      - title: Dawei International Hotel
+        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E5%A4%A7%E5%8D%AB%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97&aq=&sll=36.672808,117.138811&sspn=0.003098,0.005681&vpsrc=0&ie=UTF8&hq=%E5%A4%A7%E5%8D%AB%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97&hnear=Jinan,+Shandong,+China&t=m&z=14&iwloc=A&cid=9641338315921138615"
+        para: |
+          Address: 600, Shunhua East Rd, Lixia, Jinan
+          Reservation: 0531 - 88693666
+      - title: Junyue Shiyuan Hotel
+        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E5%86%9B%E6%82%A6%E4%B8%96%E6%BA%90%E9%85%92%E5%BA%97&aq=&sll=36.66295,117.13097&sspn=0.049572,0.090895&vpsrc=0&g=Jinan,+Shandong,+China&ie=UTF8&hq=&hnear=&ll=36.661224,117.125566&spn=0.012393,0.022724&t=m&z=16&iwloc=A&cid=4381315497503737190"
+        para: |
+          Address: 7777, Jingshi Rd, Jinan
+          Reservation: 0531 - 85951111
+
+

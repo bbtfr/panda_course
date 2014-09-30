@@ -1,5 +1,11 @@
 module ApplicationHelper
 
+  def dash_nobr text
+    text.split(" ").map do |word|
+      word.include?("-") ? "<nobr>#{word}</nobr>" : word
+    end.join(" ").html_safe
+  end
+
   def active? id
     params[:id].split("/")[0] == id.to_s
   end

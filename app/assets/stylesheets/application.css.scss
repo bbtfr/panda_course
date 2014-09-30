@@ -45,7 +45,7 @@ body {
   margin: 20px 0;
 }
 
-ul {
+ul, ol {
   padding-left: 25px;
 }
 
@@ -122,7 +122,7 @@ body {
   a.btn {
     margin-top: 20px;
   }
-  ul li {
+  ul li, ol li {
     font-size: 21px;
     font-weight: 200;
     margin-bottom: 9px;
@@ -209,3 +209,29 @@ table.table thead .sorting_desc { background: image-url('datatables/sort_desc.pn
 table.table thead .sorting_asc_disabled { background: image-url('datatables/sort_asc_disabled.png') no-repeat center right; }
 table.table thead .sorting_desc_disabled { background: image-url('datatables/sort_desc_disabled.png') no-repeat center right; }
 
+.mt0 { margin-top: 0!important; }
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
+.mt30 { margin-top: 30px; }
+
+.ml0 { margin-left: 0!important; }
+.ml10 { margin-left: 10px; }
+.ml20 { margin-left: 20px; }
+.ml30 { margin-left: 30px; }
+.ml50 { margin-left: 50px; }
+.ml100 { margin-left: 100px; }
+
+.mb0 { margin-bottom: 0!important; }
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+.mb30 { margin-bottom: 30px; }
+
+.sm-except-text-right {
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .sm-except-text-right {
+    text-align: inherit;
+  }
+}

@@ -1,1 +1,16 @@
-<%= render "pages/panel_list" %>
+<% t("panel").each do |panel| %>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20"><%= dash_nobr panel[:title] %></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb10">
+          <% panel[:list].each do |list| %>
+            <li><p><%= raw list %></p></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+<% end %>

@@ -1,1 +1,27 @@
-<%= render "pages/to_be_announced" %>
+<div class="jumbotron">
+<!-- 
+  <h2>会议酒店</h2>
+  <p><a href="http://www.hjt-hotel.com/">合江亭翰文大酒店(四星级)</a>为PANDA 2014的参会人员提供优惠房价（469 RMB 单人间 / 双人间），请直接通过拨打电话：0086-28-88822222进行预订，并告知您是PANDA 2014的参会人员。
+  </p>
+
+  <p>只有已成功注册的人员才能享受优惠房价，已注册的人员名单会定期向酒店更新。预定酒店房间时，建议使用注册的姓名。
+  </p>
+
+  <p>酒店提供的优惠房价的有效期截止到2014年9月1日，由于酒店保留的房间有限，请尽快预定。
+  </p>
+
+  <br>
+ -->
+  <h2><%= t(:title) %></h2>
+  <ol class="mt30">
+    <% t(:list).each do |list| %>
+      <li>
+        <h3><%= list[:title] %> <a class="mt0 btn btn-primary btn-xs" href="<%= list[:map] %>" target="_blank"><span class="glyphicon glyphicon-map-marker"></span><%= t(:map) %></a></h3>
+        <p>
+          <%= simple_format list[:para] %>
+        </p>
+      </li>
+    <% end %>
+  </ol>
+
+</div>

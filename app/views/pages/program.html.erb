@@ -1,4 +1,20 @@
 <div class="padded">
   <h4 class="text-muted"><%= t :para %></h4>
 </div>
-<%= render "pages/panel_list" %>
+<div class="row">
+  <% panels = t("panel").each_slice(2).to_a.transpose %>
+  <% panels.each do |panels_slice| %>
+    <div class="col-md-6">
+      <% panels_slice.each do |panel| %>
+        <div class="well">
+          <h3 class="ml20 mb20"><%= panel[:title] %></h3>
+          <ul class="ml20">
+            <% panel[:list].each do |list| %>
+              <li><p><%= raw list %></p></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
