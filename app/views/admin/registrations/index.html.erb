@@ -1,21 +1,10 @@
-<% attributes = %i(id full_name profession title address postcode phone email payment_type invoice_title created_at) %>
-<% listed_attributes = %i(full_name profession title phone email payment_type) %>
-<% detailed_attributes = attributes %>
-<% translate_attributes = %i(profession title payment_type) %>
-<% data = Hash[ @registrations.map do |registration|
-  [ registration.id, Hash[ attributes.map do |attribute|
-    attr_value = registration.send(attribute)
-    [ attribute, translate_attributes.include?(attribute) ? attr_value.blank? ? nil : t(attr_value, scope: "activerecord.attributes.registration/#{attribute}", default: attr_value) : attr_value ]
-  end ] ]
-end ] %>
-
 <h1>报名注册人员名单</h1>
 <div class="well">
   <table class="table datatable">
     <thead>
       <tr>
         <th></th>
-        <% listed_attributes.each do |attribute| %>
+        <% @listed_attributes.each do |attribute| %>
           <th><%= Registration.human_attribute_name(attribute) %></th>
         <% end %>
       </tr>
@@ -26,15 +15,16 @@ end ] %>
           <td>
             <i class="glyphicon glyphicon-chevron-down" data-id="<%= registration.id %>"></i>
           </td>
-          <% listed_attributes.each do |attribute| %>
+          <% @listed_attributes.each do |attribute| %>
             <td>
-              <%= data[registration.id][attribute] %>
+              <%= @data[registration.id][attribute] %>
             </td>
           <% end %>
         </tr>
       <% end %>
     </tbody>
   </table>
+  下载为 <%= link_to "Excel", admin_registrations_path(format: :xls) %> | <%= link_to "CSV", admin_registrations_path(format: :csv) %>
 </div>
 
 <script type="text/javascript">
@@ -84,11 +74,11 @@ function initDataTable() {
 /* Formating function for row details */
 function fnFormatDetails(oTable, nTr) {
   var iId = $(oTable.fnGetData(nTr)[0]).data("id"),
-      oData = <%= raw data.to_json %>[iId] || {};
+      oData = <%= raw @data.to_json %>[iId] || {};
 
   var sOut = '';
   sOut += '<dl class="dl-horizontal">';
-  <% detailed_attributes.each do |attribute| %>
+  <% @detailed_attributes.each do |attribute| %>
     sOut += '<dt><%= Registration.human_attribute_name(attribute) %></dt><dd>'+(oData["<%= attribute %>"]||'无')+'</dd>'
   <% end %>
   sOut += '</dl>';

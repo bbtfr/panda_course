@@ -1,0 +1,7 @@
+<% detailed_attributes = @detailed_attributes.map(&:to_s) %>
+<%= CSV.generate do |csv|
+  csv << detailed_attributes
+  @registrations.each do |registration|
+    csv << registration.attributes.values_at(*detailed_attributes)
+  end
+end.html_safe %>
