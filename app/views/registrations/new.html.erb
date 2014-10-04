@@ -44,8 +44,7 @@
       <% if params[:locale] == "en" %>
         <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash), tips: t("wire_transfer_tip") %>
       <% else %>
-        <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer card_swipe   
- cash) %>
+        <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash) %>
         <%= bootstrap_text_field f, :invoice_title %>
       <% end %>
 

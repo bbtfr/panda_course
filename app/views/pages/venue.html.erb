@@ -1,1 +1,63 @@
-<%= render "pages/to_be_announced" %>
+<div class="map-wrapper">
+  <div id="map"></div>
+
+  <div class="content">
+    <ul class="mt30 ml20">
+      <% t(:list).each_with_index do |list, index| %>
+        <li>
+          <h4><%= list[:title] %></h4>
+          <%= simple_format list[:para] %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<% if params[:locale] == "en" %>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
+  <script type="text/javascript">
+    function initialize() {
+      var center = new google.maps.LatLng(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] %>);
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        disableDefaultUI: true,
+        center: center,
+        zoom: 15
+      });
+
+      var infowindow = new google.maps.InfoWindow();
+
+      var marker = new google.maps.Marker({
+        map: map,
+        content: "<%= t(:position)[:content] %>",
+        position: center
+      });
+
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent(this.content);
+        infowindow.open(map, this);
+      });
+      google.maps.event.trigger(markers[i], 'click');
+    }
+
+    $(document).ready(initialize);
+  </script>
+<% else %>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=E5072c8281660dfc534548f8fda2be11"></script>
+  <script type="text/javascript">
+    var local;
+
+    function initialize() {
+      // 百度地图API功能
+      var map = new BMap.Map("map");            // 创建Map实例
+      map.enableScrollWheelZoom(true);
+      var local = new BMap.LocalSearch(map, {
+        renderOptions: {map: map}, 
+        pageCapacity: 1
+      });
+      local.search("<%= t(:title) %>");
+    }
+
+    $(document).ready(initialize);
+  </script>
+<% end %>

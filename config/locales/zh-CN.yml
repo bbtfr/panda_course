@@ -15,6 +15,7 @@ zh-CN:
         payment_type: 注册费缴纳方式
         invoice_title: 发票抬头
         affiliation: 所在单位
+        created_at: 注册时间
       registration/title:
         prof: Prof.
         dr: Dr.
@@ -43,6 +44,7 @@ zh-CN:
       contact: 联系我们
       venue: 地点
       accommodations: 住宿
+      stipend: Riscure奖学金
 
   to_be_announced:
     title: 敬请期待
@@ -189,7 +191,7 @@ zh-CN:
             电子邮件：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "电话：010 - 82546562 - 8060"
           - "传真：010 - 82546564"
-    list:
+    weixin: 关于会议最新信息，请参考官方微信<code>pandacourse</code>：
 
   registration:
     para: |
@@ -215,11 +217,28 @@ zh-CN:
     note:
       title: 备注：
       list:
-        - 学生注册需发送学生证扫描件。
         - 注册费标准：<a href="/zh-CN/registration">参照这里</a>。
-        - 由于涉及到会议发票的开具，请在9月6日之前的注册人员，通过银行转账方式缴纳注册费；现场缴纳费用将多收取200元的手续费。
-        - 银行转帐汇款信息（请在9月5日（含）之前汇出）：待定。
+        - 因受场地所限，名额有限，先到先得。请于2014年10月16日前（含）完成在线注册。
+        - |
+          注册费可缴纳可选择以下方式之一：
+          <ol style="list-style-type: lower-alpha;">
+            <li>
+              银行转账汇款（请在2014年10月18日之前（含）汇出）
+              <ul>
+                <li>账户名：深圳市纽创信安科技开发有限公司</li>
+                <li>开户行：中国工商银行深圳蛇口支行</li>
+                <li>帐号：4000020209200537760</li>
+                <li>附言：PANDA2014 + 姓名</li>
+              </ul>
+            </li>
+            <li>
+              现场缴费（只限于2014年10月17日之后的注册人员）
+              <br>
+              由于涉及到会议发票的开具，现场缴纳费用将多收取100元的手续费，交款方式为现金。
+            </li>
+          </ol>
         - 通过银行汇款缴纳注册费，须将银行汇款凭证扫描件发送至<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>。
+        - 学生注册需发送学生证扫描件。
 
   accommodations:
     title: "附近酒店"
@@ -246,6 +265,22 @@ zh-CN:
         para: |
           地址: 济南市经十路7777号，省军区东门
           电话: 0531 - 85951111
+
+  venue:
+    title: 山东省济南市齐鲁软件园
+    list:
+      - title: 主办单位
+        para: |
+          山东大学计算机科学与技术学院、山东省华芯半导体、深圳市纽创信安科技开发有限公司
+      - title: 会议时间
+        para: |
+          报到时间：2014年10月19日晚17:00-21:00
+          会议时间：2014年10月20日至24日
+      - title: 会议地点
+        para: 山东省济南市齐鲁软件园A415会议室
+      - title: 参会人员
+        para: |
+          高等院校、科研院所从事密码芯片及相关专业的专家、学者、科技工作者，信息安全专业和密码专业的在读博士生、研究生，从事密码产品开发和应用的企事业技术人员。
 
   errors: &errors
     format: ! '%{attribute} %{message}'

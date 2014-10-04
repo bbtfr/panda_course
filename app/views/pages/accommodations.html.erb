@@ -7,9 +7,7 @@
       <% t(:list).each_with_index do |list, index| %>
         <li>
           <h4><%= list[:title] %> <a class="mt0 btn btn-primary btn-xs" href="javascript: show(<%= index %>);"><span class="glyphicon glyphicon-map-marker"></span><%= t(:map) %></a></h4>
-          <p>
-            <%= simple_format list[:para] %>
-          </p>
+          <%= simple_format list[:para] %>
         </li>
       <% end %>
     </ol>
@@ -34,6 +32,7 @@
 </script>
 
 <% if params[:locale] == "en" %>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
   <script type="text/javascript">
     var markers = [];
 
@@ -71,6 +70,7 @@
     $(document).ready(initialize);
   </script>
 <% else %>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=E5072c8281660dfc534548f8fda2be11"></script>
   <script type="text/javascript">
     var local;
 

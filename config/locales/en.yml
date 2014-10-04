@@ -27,6 +27,7 @@ en:
       contact: Contact
       venue: Venue
       accommodations: Accommodations
+      stipend: Student Stipend
 
   to_be_announced:
     title: To Be Announced
@@ -171,6 +172,7 @@ en:
             Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "Tel: 010 - 82546562 - 8060"
           - "Fax: 010 - 82546564"
+    weixin: "Follow us on Weixin for latest news about <code>pandacourse</code>:" 
 
   registration:
     para: |
@@ -200,7 +202,6 @@ en:
       title: |
         Note:
       list:
-        - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
         - |
           Registration fee: <a href="/en/registration">see this</a>.
         - |
@@ -208,6 +209,7 @@ en:
         - |
           If you insist on paying with wire transfer, please contact us (<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>) for necessary information.
         - Remittance receipt should be attached to this registration form and email to <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>.
+        - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
 
   accommodations:
     title: "Nearby Hotels"
@@ -234,5 +236,24 @@ en:
         para: |
           Address: 7777, Jingshi Rd, Jinan
           Reservation: 0531 - 85951111
+
+  venue:
+    position:
+      lat: 36.682050
+      lng: 117.136132
+      content: "济南市齐鲁软件园"
+    list:
+      - title: 主办单位
+        para: |
+          山东大学计算机科学与技术学院、山东省华芯半导体、深圳市纽创信安科技开发有限公司
+      - title: 会议时间
+        para: |
+          报到时间：2014年10月19日晚17:00-21:00
+          会议时间：2014年10月20日至24日
+      - title: 会议地点
+        para: 山东省济南市齐鲁软件园A415会议室
+      - title: 参会人员
+        para: |
+          高等院校、科研院所从事密码芯片及相关专业的专家、学者、科技工作者，信息安全专业和密码专业的在读博士生、研究生，从事密码产品开发和应用的企事业技术人员。
 
 
