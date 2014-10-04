@@ -214,17 +214,23 @@ en:
     map: Map
     list:
       - title: Donghai Shanzhuang Hotel
-        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E4%B8%9C%E6%B5%B7%E5%B1%B1%E5%BA%84%E9%85%92%E5%BA%97&aq=&sll=36.642735,117.079604&sspn=0.012396,0.022724&vpsrc=6&ie=UTF8&hq=&hnear=&ll=36.672808,117.138811&spn=0.003098,0.005681&t=m&z=18&iwloc=A&cid=5193862880879066184"
+        position:
+          lat: 36.673672
+          lng: 117.137365
         para: |
           Address: A8, Zhihuiyuan, Shunhua Rd, Jinan
           Reservation: 0531 - 88956111
       - title: Dawei International Hotel
-        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E5%A4%A7%E5%8D%AB%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97&aq=&sll=36.672808,117.138811&sspn=0.003098,0.005681&vpsrc=0&ie=UTF8&hq=%E5%A4%A7%E5%8D%AB%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97&hnear=Jinan,+Shandong,+China&t=m&z=14&iwloc=A&cid=9641338315921138615"
+        position: 
+          lat: 36.672050
+          lng: 117.136132
         para: |
           Address: 600, Shunhua East Rd, Lixia, Jinan
           Reservation: 0531 - 88693666
       - title: Junyue Shiyuan Hotel
-        map: "https://maps.google.com/maps?f=q&source=s_q&hl=en_US&geocode=&q=%E6%B5%8E%E5%8D%97%E5%86%9B%E6%82%A6%E4%B8%96%E6%BA%90%E9%85%92%E5%BA%97&aq=&sll=36.66295,117.13097&sspn=0.049572,0.090895&vpsrc=0&g=Jinan,+Shandong,+China&ie=UTF8&hq=&hnear=&ll=36.661224,117.125566&spn=0.012393,0.022724&t=m&z=16&iwloc=A&cid=4381315497503737190"
+        position:
+          lat: 36.660949
+          lng: 117.125541
         para: |
           Address: 7777, Jingshi Rd, Jinan
           Reservation: 0531 - 85951111

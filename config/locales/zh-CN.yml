@@ -226,17 +226,23 @@ zh-CN:
     map: 地图
     list:
       - title: 济南东海山庄大酒店
-        map: "http://map.baidu.com/?newmap=1&s=inf%26uid%3D9e84207a11f284c13010af32%26wd%3D%E6%B5%8E%E5%8D%97%E4%B8%9C%E6%B5%B7%E5%B1%B1%E5%BA%84%E5%A4%A7%E9%85%92%E5%BA%97%26all%3D1%26c%3D131&tpl=map_singlepoint"
+        position:
+          lat: 36.660949
+          lng: 117.125541
         para: |
           地址: 济南市高新区知慧园A8号，齐鲁软件园B座东侧
           电话: 0531 - 88956111
       - title: 济南大卫国际酒店
-        map: "http://map.baidu.com/?newmap=1&s=inf%26uid%3Da1418eb4f7060966ebe58211%26wd%3D%E6%B5%8E%E5%8D%97%E5%A4%A7%E5%8D%AB%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%26all%3D1%26c%3D131&tpl=mapdots"
+        position:
+          lat: 36.660949
+          lng: 117.125541
         para: |
           地址: 济南市历下区舜华东路600号
           电话: 0531 - 88693666
       - title: 济南军悦世源酒店
-        map: "http://map.baidu.com/?newmap=1&s=inf%26uid%3D4642844abf668ec0c9fa5f53%26wd%3D%E5%86%9B%E6%82%A6%E4%B8%96%E6%BA%90%E9%85%92%E5%BA%97%26all%3D1%26c%3D131&tpl=map_singlepoint"
+        position:
+          lat: 36.660949
+          lng: 117.125541
         para: |
           地址: 济南市经十路7777号，省军区东门
           电话: 0531 - 85951111

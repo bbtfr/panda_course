@@ -19,13 +19,6 @@
         </div>
       <% end %>
 
-      <!-- 
-      <%= bootstrap_text_field f, :username %>
-      <%= bootstrap_password_field f, :password %>
-
-      <hr>
-       -->
-      
       <% if params[:locale] == "en" %>
         <%= bootstrap_text_field f, :first_name %>
         <%= bootstrap_text_field f, :family_name %>
@@ -34,7 +27,7 @@
       <% end %>
     
       <%= bootstrap_text_field f, :affiliation %>
-      
+
       <%= bootstrap_radio_buttons f, :profession, %i(student employee researcher) %>
 
       <% if params[:locale] == "en" %>

@@ -235,3 +235,25 @@ table.table thead .sorting_desc_disabled { background: image-url('datatables/sor
     text-align: inherit;
   }
 }
+
+.map-wrapper {
+  position: relative; 
+  margin-bottom: 20px; 
+  border-radius: 4px; 
+  overflow: hidden;
+
+  #map {
+    height: 500px;
+    border-radius: 4px;
+  }
+
+  .content {
+    position: absolute; 
+    top: 0; 
+    height: 100%;
+    padding: 19px; 
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgba(255,255,255,0.8);
+  }
+}
