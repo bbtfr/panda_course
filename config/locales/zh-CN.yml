@@ -57,7 +57,7 @@ zh-CN:
         本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>和<a href="http://www.opsefy.com/">Open Security Research</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button: 
         title: PANDA 2014 培训通知
-        link: http://www.sklois.cn/panda/2014/files/通知中文版.pdf
+        link: /files/PANDA2014CN.pdf
     media:
       - image: images/dianlu.jpg
         title: 创新思维
