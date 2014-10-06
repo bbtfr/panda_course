@@ -17,11 +17,9 @@
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
   <script type="text/javascript">
     function initialize() {
-      var center = new google.maps.LatLng(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] %>);
-
       var map = new google.maps.Map(document.getElementById('map'), {
         disableDefaultUI: true,
-        center: center,
+        center: new google.maps.LatLng(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] - 0.01 %>),
         zoom: 15
       });
 
@@ -30,7 +28,7 @@
       var marker = new google.maps.Marker({
         map: map,
         content: "<%= t(:position)[:content] %>",
-        position: center
+        position: new google.maps.LatLng(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] %>)
       });
 
       google.maps.event.addListener(marker, 'click', function() {

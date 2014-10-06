@@ -90,7 +90,7 @@ en:
         para: |
           Dr. Viktor Fischer is currently a full-time professor at the Jean Monnet University in Saint-Etienne in France, and also as an external consultant of a private company (Micronic) in Slovakia. His research activities are mostly realized at the Hubert Curien Laboratory of the Jean Monnet University.His main research interests include cryptographic chip design and analysis. He has done extensive research on random number generators with different mechanisms. He has published nearly thirty papers in International Conference, such as CHES, FPL, etc. He was invited to give a RNG tutorial at CHES'14 in Busan.
 
-      - image: images/user.png
+      - image: images/fre.png
         title: Frederik Vercauteren
         subtitle: "COSIC, KU Leuven, Belgium"
         para: |
