@@ -37,10 +37,10 @@ en:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
-        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a> and <a href="http://www.opsefy.com/">Open Security Research</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
+        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a>, <a href="http://www.opsefy.com/">Open Security Research</a> and <a href="http://www.scsemicon.com/">SCS Emicon</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button:
         title: Call For Participation
-        link: http://www.sklois.cn/panda/2014/files/call for English.pdf
+        link: /files/PANDA2014CN.pdf
     media:
       - image: images/dianlu.jpg
         title: Creative Ideas
@@ -90,6 +90,18 @@ en:
         para: |
           Dr. Viktor Fischer is currently a full-time professor at the Jean Monnet University in Saint-Etienne in France, and also as an external consultant of a private company (Micronic) in Slovakia. His research activities are mostly realized at the Hubert Curien Laboratory of the Jean Monnet University.His main research interests include cryptographic chip design and analysis. He has done extensive research on random number generators with different mechanisms. He has published nearly thirty papers in International Conference, such as CHES, FPL, etc. He was invited to give a RNG tutorial at CHES'14 in Busan.
 
+      - image: images/user.png
+        title: Frederik Vercauteren
+        subtitle: "COSIC, KU Leuven, Belgium"
+        para: |
+          Frederik Vercauteren received the M.Sc. degree in computer science, the M.Sc. degree in pure mathematics, and the Ph.D. degree in electrical engineering from the Katholieke Universiteit Leuven, Belgium. He is currently a Postdoctoral Fellow of the Research Foundation-Flanders (FWO Vlaanderen) at the Department of Electrical Engineering, Katholieke Universiteit Leuven, Belgium. Previously, he held a lecturer position at the Department of Computer Science, University of Bristol, U.K. His current research interests include applications of computational number theory and arithmetic geometry in cryptography.
+
+      - image: images/user.png
+        title: Hongsong Shi
+        subtitle: "CITSE, China"
+        para: |
+          Dr. Hongsong Shi is now an analyst at China Information Technology Security Evaluation Center (CITSE). He obtained his PhD from University of Electronic Science and Technology of China. He was also a visiting scholar at the iCIS lab led by Prof. Rei Safavi-Naini at Calgary university, Canada. His research interest now includes random number generators and their evaluation, side-channel analysis and leakage-resilient cryptography.
+
   program:
     para: |
       PANDA 2014 have five days, specify several directions guided by advisory group as follows:
@@ -128,7 +140,7 @@ en:
         list:
           - "Feng Bao, Huawei Research, Singapore"
           - "Hongyi Chen, Tsinghua University, China"
-          - "Dongdai Lin, CAS, China"
+          # - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
       - title: "GENERAL CO-CHAIRS"
@@ -140,7 +152,7 @@ en:
           - "Junfeng Fan (Chair), KU Leuven, Belgium"
           - "Rui Zhang (Chair), CAS, China"
           - "Yongbin Zhou, CAS, China"
-          - "Yiwei Zhang, Nationz Technologies, China"
+          # - "Yiwei Zhang, Nationz Technologies, China"
           - "Benedikt Gierlichs, KU Leuven, Belgium"
       - title: ORGANIZATION COMMITTEE
         list:
@@ -172,7 +184,7 @@ en:
             Email: <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
           - "Tel: 010 - 82546562 - 8060"
           - "Fax: 010 - 82546564"
-    weixin: "Follow us on Weixin for latest news about <code>pandacourse</code>:" 
+    weixin: "Follow us on Wechat for latest news about <code>pandacourse</code>:" 
 
   registration:
     para: |
@@ -239,8 +251,8 @@ en:
 
   venue:
     position:
-      lat: 36.682050
-      lng: 117.136132
+      lat: 36.673754
+      lng: 117.132794
       content: "济南市齐鲁软件园"
     list:
       - title: 主办单位

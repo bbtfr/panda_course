@@ -54,7 +54,7 @@ zh-CN:
     jumbotron:
       title: 欢迎来到 PANDA 2014 暑假班
       para: |
-        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>和<a href="http://www.opsefy.com/">Open Security Research</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.scsemicon.com/">华芯半导体</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button: 
         title: PANDA 2014 培训通知
         link: /files/PANDA2014CN.pdf
@@ -109,6 +109,18 @@ zh-CN:
         para: |
           Viktor Fischer博士任教于法国Saint-Etienne大学，主要研究兴趣为密码芯片设计和分析。他对不同平台、不同原理的随机数发生器做了长期、系统的研究，在CHES、FPL等国际会议上发表文章近30篇。他也应邀在2014的CHES会议上作随机数设计培训。
 
+      - image: images/user.png
+        title: Frederik Vercauteren
+        subtitle: "COSIC, KU Leuven, Belgium"
+        para: |
+          Frederik Vercauteren 博士任教于比利时鲁汶大学，主要研究兴趣为密码数学理论。他在椭圆曲线和超椭圆曲线、线性对（Pairing）和全同态密码领域都有重要成果。特别是在全同态密码技术方面，他在软硬件性能优化方面都有国际先进的研究进展。
+
+      - image: images/user.png
+        title: 石竑松
+        subtitle: "中国信息安全测评中心"
+        para: |
+          石竑松博士毕业于电子科技大学，研究方向为密码学和理论计算机科学，2007-2009 在加拿大 Calgary 大学 Rei Safavi-Naini 教授处（iCIS 实验室）学习，目前在中国信息安全测评中心从事密码产品安全评估工作，主要研究随机数发生器、侧信道安全及 Leakage-resilient Cryptography。
+
   program:
     para: |
       PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向：
@@ -147,7 +159,7 @@ zh-CN:
         list:
           - "鲍丰, 华为安全与隐私研究所所长，新加坡"
           - "陈弘毅, 清华大学微电子所"
-          - "林东岱, 中国科学院"
+          # - "林东岱, 中国科学院"
           - "Ingrid Verbauwhede，鲁汶大学，比利时"
           - "Marc Witteman, Riscure, 荷兰"
       - title: 大会主席
@@ -159,7 +171,7 @@ zh-CN:
           - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
           - "张锐（主席），中国科学院"
           - "周永彬，中国科学院"
-          - "张翌维，国民技术股份有限公司"
+          # - "张翌维，国民技术股份有限公司"
           - "Benedikt Gierlichs，鲁汶大学，比利时"
       - title: 组委会
         list:
