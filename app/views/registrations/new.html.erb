@@ -43,9 +43,11 @@
 
       <% if params[:locale] == "en" %>
         <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash), tips: t("wire_transfer_tip") %>
+        <%= bootstrap_radio_buttons f, :invoice_needed, %i(receipt nothing) %>
       <% else %>
         <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash) %>
-        <%= bootstrap_text_field f, :invoice_title %>
+        <%= bootstrap_radio_buttons f, :invoice_needed, %i(invoice nothing) %>
+        <%= bootstrap_text_field f, :invoice_title, tips: t("invoice_title_tip") %>
       <% end %>
 
       <div class="form-group">

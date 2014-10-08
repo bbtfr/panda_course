@@ -3,6 +3,7 @@ en:
     attributes:
       registration:
         id: ID
+        invoice_needed: Receipt needed
       registration/profession:
         student: Full-time student
         employee: Company employee
@@ -12,6 +13,9 @@ en:
         dr: Dr.
         ms: Ms.
         mr: Mr.
+      registration/invoice_needed:
+        receipt: "Yes"
+        nothing: "No"
 
   layout:
     title: PANDA Course 2014
@@ -222,6 +226,7 @@ en:
           If you insist on paying with wire transfer, please contact us (<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>) for necessary information.
         - Remittance receipt should be attached to this registration form and email to <a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>.
         - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
+        - 国内友人<a href="/zh-CN/registration/new">请在这里注册</a>
 
   accommodations:
     title: "Nearby Hotels"

@@ -14,6 +14,7 @@ zh-CN:
         email: 电子邮箱
         payment_type: 注册费缴纳方式
         invoice_title: 发票抬头
+        invoice_needed: 是否需要发票
         affiliation: 所在单位
         created_at: 注册时间
       registration/title:
@@ -29,6 +30,9 @@ zh-CN:
         wire_transfer: 银行转账汇款
         card_swipe: 现场刷卡支付
         cash: 现场现金支付
+      registration/invoice_needed:
+        invoice: 是
+        nothing: 否
 
   layout:
     title: PANDA Course 2014
@@ -225,6 +229,7 @@ zh-CN:
   registration/new:
     success: 恭喜您成功报名，请等待我们的工作人员与您联系。
     title: PANDA2014 暑期班注册
+    invoice_title_tip: 如不需要发票则留空
     button: 提交
     note:
       title: 备注：
