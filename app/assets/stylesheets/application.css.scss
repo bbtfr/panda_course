@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require animate
  *= require dataTables/jquery.dataTables.bootstrap
  */
 
@@ -266,4 +267,19 @@ label div {
 [class^="bg-"] {
   margin: -5px;
   padding: 5px;
+}
+
+.weixin {
+  cursor: pointer;
+
+  .qrcode {
+    display: none;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+  }
+}
+
+.weixin:hover .qrcode {
+  display: block;
 }
