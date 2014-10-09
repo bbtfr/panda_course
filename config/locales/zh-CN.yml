@@ -39,6 +39,7 @@ zh-CN:
     subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
     location: 山东济南
     time: "2014年10月20日（周一） 至 10月24日（周五）"
+    wechat: 请关注微信公众号 
     navbar:
       speakers: 演讲者
       program: 课程安排
@@ -191,6 +192,17 @@ zh-CN:
 
   committee:
     panel:
+      - title: 大会主席
+        list:
+          - "徐秋亮，山东大学"
+          - "张锐，中国科学院"
+          # - "邢广军，山东华芯半导体有限公司"
+      - title: 程序委员会
+        list:
+          - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
+          - "周永彬，中国科学院"
+          # - "张翌维，国民技术股份有限公司"
+          - "Benedikt Gierlichs，鲁汶大学，比利时"
       - title: 顾问
         list:
           - "鲍丰, 华为安全与隐私研究所所长，新加坡"
@@ -198,17 +210,6 @@ zh-CN:
           # - "林东岱, 中国科学院"
           - "Ingrid Verbauwhede，鲁汶大学，比利时"
           - "Marc Witteman, Riscure, 荷兰"
-      - title: 程序委员会
-        list:
-          - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
-          - "周永彬，中国科学院"
-          # - "张翌维，国民技术股份有限公司"
-          - "Benedikt Gierlichs，鲁汶大学，比利时"
-      - title: 大会主席
-        list:
-          - "徐秋亮，山东大学"
-          - "张锐，中国科学院"
-          # - "邢广军，山东华芯半导体有限公司"
       - title: 组委会
         list:
           - "马晖，中国科学院"

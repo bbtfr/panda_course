@@ -130,11 +130,12 @@ body {
   }
 }
 
-.languages {
+.right-top {
   position: absolute;
   right: 10px;
   top: 10px;
   z-index: 10;
+  text-align: right;
 
   a {
     @include transition(200ms ease);
@@ -275,8 +276,9 @@ label div {
   .qrcode {
     display: none;
     position: fixed;
-    top: 25px;
-    right: 25px;
+    top: 30px;
+    right: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9)
   }
 }
 

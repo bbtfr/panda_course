@@ -22,6 +22,7 @@ en:
     subtitle: Summer Course on Physical Attacks aNd Design Attestation 2014
     location: "Jinan, Shandong, China"
     time: "Oct. 20 (Mon) - Oct. 24 (Fri), 2014"
+    wechat: Follow us on Wechat 
     navbar:
       speakers: Speakers
       program: Program
@@ -140,6 +141,17 @@ en:
 
   committee:
     panel:
+      - title: "GENERAL CO-CHAIRS"
+        list:
+          - "Qiuliang Xu, Shandong University, China"
+          - "Rui Zhang, CAS, China"
+          # - "Guangjun Xing, SCSemicon, China"
+      - title: PROGRAM COMMITTEE
+        list:
+          - "Junfeng Fan (Chair), Open Security Research, China"
+          - "Yongbin Zhou, CAS, China"
+          # - "Yiwei Zhang, Nationz Technologies, China"
+          - "Benedikt Gierlichs, KU Leuven, Belgium"
       - title: ADVISORY COMMITTEE
         list:
           - "Feng Bao, Huawei Research, Singapore"
@@ -147,17 +159,6 @@ en:
           # - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
-      - title: PROGRAM COMMITTEE
-        list:
-          - "Junfeng Fan (Chair), Open Security Research, China"
-          - "Yongbin Zhou, CAS, China"
-          # - "Yiwei Zhang, Nationz Technologies, China"
-          - "Benedikt Gierlichs, KU Leuven, Belgium"
-      - title: "GENERAL CO-CHAIRS"
-        list:
-          - "Qiuliang Xu, Shandong University, China"
-          - "Rui Zhang, CAS, China"
-          # - "Guangjun Xing, SCSemicon, China"
       - title: ORGANIZATION COMMITTEE
         list:
           - "Hui Ma, CAS, China"
