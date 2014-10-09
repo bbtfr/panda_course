@@ -137,7 +137,7 @@ zh-CN:
           - "<span class='text-muted'>08:45 - 09:00</span> <strong>欢迎辞</strong> 大会主席、程序委员会主席"
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>特邀报告</strong> Marc Witteman"
           - "<span class='text-muted'>09:50 - 10:30</span> <strong>银联卡安全性检测</strong> 彭乾"
-          - "<span class='text-muted'>10:30 – 10:50</span> 茶歇"
+          - "<span class='text-muted'>10:30 - 10:50</span> 茶歇"
           - "<span class='text-muted'>10:50 - 11:40</span> <strong>密钥产品的安全评估 - 方法与问题</strong> 石竑松"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
           - "<span class='text-muted'>14:00 - 14:50</span> <strong>硬件木马设计与检测 - S1</strong> 金意儿"
@@ -148,7 +148,7 @@ zh-CN:
         list:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>Lattice-based Attack on ECDSA</strong> Frederik Vercauteren"
           - "<span class='text-muted'>09:50 - 10:40</span> <strong>Smart Nest Thermostat - A Smart Spy in Your Home</strong> 金意儿"
-          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>10:40 - 11:00</span> 茶歇"
           - "<span class='text-muted'>11:40 - 11:50</span> <strong>Java Card Applet - S1</strong> Stefan Tillich"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
           - "<span class='text-muted'>14:00 - 14:50</span> <strong>Java Card Applet - S2</strong> Stefan Tillich"
@@ -160,7 +160,7 @@ zh-CN:
         list:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>Java Card Applet - S5</strong> Stefan Tillich"
           - "<span class='text-muted'>09:50 - 10:40</span> <strong>Java Card Applet - S6</strong> Stefan Tillich"
-          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>10:40 - 11:00</span> 茶歇"
           - "<span class='text-muted'>11:40 - 11:50</span> <strong>Template Attacks - S1</strong> Benedikt Gierlichs"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
           - "<span class='text-muted'>14:00 - 14:50</span> <strong>Template Attacks - S2</strong> Benedikt Gierlichs"
@@ -172,7 +172,7 @@ zh-CN:
         list:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>High Order  DPA - S1</strong> Benedikt Gierlichs"
           - "<span class='text-muted'>09:50 - 10:40</span> <strong>High Order  DPA - S2</strong> Benedikt Gierlichs"
-          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>10:40 - 11:00</span> 茶歇"
           - "<span class='text-muted'>11:40 - 11:50</span> <strong>High Order  DPA - S3</strong> Benedikt Gierlichs"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
           - "<span class='text-muted'>14:00 - 17:00</span> Excursion"
@@ -180,7 +180,7 @@ zh-CN:
         list:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>Fully Homomorphic Encryption （全同态密码技术）</strong> Frederik Vercauteren"
           - "<span class='text-muted'>09:50 - 10:40</span> <strong>Random Number Generators - S1</strong> Viktor Fischer"
-          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>10:40 - 11:00</span> 茶歇"
           - "<span class='text-muted'>11:40 - 11:50</span> <strong>Random Number Generators - S2</strong> Viktor Fischer"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
           - "<span class='text-muted'>14:00 - 14:50</span> <strong>Random Number Generators - S3</strong> Viktor Fischer"
