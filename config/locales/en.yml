@@ -88,7 +88,7 @@ en:
         para: |
           Dr. Junfeng Fan obtained his Ph.D from KU Leuven (Belgium). His research interests include design of high-performance crypto chips, low-power ECC accelerators and physical security of crypto chips. He has published eight papers in international journals and books, more than 20 papers in international conferences such as CHES and DAC. He proposed an efficient algorithm for modular multiplication for BN curves. Using this algorithm, he achieved the fastest hardware implementation of pairing using 256-bit BN curves when the paper was published. Together with Gierlichs and Vercauteren, he proposed an ECC attack method using the point at infinity. He is the founder of Open Security Research (OSR), which is dedicated to open research in cryptographic chip design and analysis.
 
-      - image: images/user.png
+      - image: images/fischer.jpg
         title: Viktor Fischer
         subtitle: "Jean Monnet University Saint-Etienne, France"
         para: |
@@ -147,17 +147,17 @@ en:
           # - "Dongdai Lin, CAS, China"
           - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
-      - title: "GENERAL CO-CHAIRS"
-        list:
-          - "Qiuliang Xu, Shandong University, China"
-          - "Guangjun Xing, SCSemicon, China"
       - title: PROGRAM COMMITTEE
         list:
-          - "Junfeng Fan (Chair), KU Leuven, Belgium"
-          - "Rui Zhang (Chair), CAS, China"
+          - "Junfeng Fan (Chair), Open Security Research, China"
           - "Yongbin Zhou, CAS, China"
           # - "Yiwei Zhang, Nationz Technologies, China"
           - "Benedikt Gierlichs, KU Leuven, Belgium"
+      - title: "GENERAL CO-CHAIRS"
+        list:
+          - "Qiuliang Xu, Shandong University, China"
+          - "Rui Zhang, CAS, China"
+          # - "Guangjun Xing, SCSemicon, China"
       - title: ORGANIZATION COMMITTEE
         list:
           - "Hui Ma, CAS, China"

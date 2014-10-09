@@ -40,6 +40,7 @@ function truncate(str) {
 function initDataTable() {
   var oTable = $('.datatable').dataTable({
     "sPaginationType": "bs_normal",
+    "iDisplayLength": 100,
     "oLanguage" : {
       "sLengthMenu": "每页显示 _MENU_ 条记录",
       "sZeroRecords": "抱歉， 没有找到",

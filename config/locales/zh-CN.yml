@@ -107,7 +107,7 @@ zh-CN:
         para: |
           樊俊锋博士毕业于比利时鲁汶大学，他的主要研究课题为密码芯片安全，在高性能密码芯片、低功耗椭圆曲线密码（ECC）核和抗物理攻击密码芯片设计。他在国际期刊上发表论文6篇，学术著作2本（章节），国际学术会议论文20余篇，包括CHES论文5篇。他率先提出了多项式-整数混合模乘算法，降低了基于BN曲线的线性对（Pairing）的运算复杂度。使用该算法，他设计了当时世界上最快的Pairing协处理器。他还设计了面向受限设备的超低功耗的ECC芯片，对ECC的抗攻击设计技术进行了系统化研究，提出了一系列低成本检错技术。与Gierlichs和Vercauteren联合设计了的基于无穷远点的攻击方法。他于2014年初在深圳创立了纽创信安开放安全技术研究所（Open Security Research, OSR），致力于密码芯片的攻击和防护新技术的研究。
 
-      - image: images/user.png
+      - image: images/fischer.jpg
         title: Viktor Fischer
         subtitle: "Jean Monnet University Saint-Etienne, France"
         para: |
@@ -129,33 +129,65 @@ zh-CN:
     para: |
       PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向：
     panel:
-      - title: 安全芯片分析和测评
+      - title: 10月19日 周日
         list:
-          - 新技术和新挑战
-      - title: 模板攻击及其防护
+          - "<span class='text-muted'>17:00 - 21:00</span> 报到、注册" 
+      - title: 10月20日 周一
         list:
-          - 模板攻击的基本思想
-          - 常用模板攻击技术
-          - 模板攻击研究的最新进展
-      - title: 高阶DPA攻击及防护
+          - "<span class='text-muted'>08:45 - 09:00</span> 欢迎辞 大会主席、程序委员会主席"
+          - "<span class='text-muted'>09:00 - 09:50</span> 特邀报告  Marc Witteman"
+          - "<span class='text-muted'>09:50 - 10:30</span> 银联卡安全性检测  彭乾"
+          - "<span class='text-muted'>10:30 – 10:50</span> 茶歇"
+          - "<span class='text-muted'>10:50 - 11:40</span> 密钥产品的安全评估-方法与问题 石竑松"
+          - "<span class='text-muted'>12:10 - 14:00</span> <span class='text-primary'>午餐</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> 硬件木马设计与检测-S1  金意儿"
+          - "<span class='text-muted'>14:50 - 15:40</span> 硬件木马设计与检测-S2  金意儿"
+          - "<span class='text-muted'>15:40 - 16:10</span> 茶歇"
+          - "<span class='text-muted'>16:10 - 17:00</span> 硬件木马设计与检测-S3  金意儿"
+      - title: 10月21日 周二
         list:
-          - 高阶DPA的基本思想
-          - 高阶DPA技术的应用
-          - 高阶DPA的最新进展
-      - title: 硬件木马设计及检测
+          - "<span class='text-muted'>09:00 - 09:50</span> Lattice-based Attack on ECDSA   Frederik Vercauteren"
+          - "<span class='text-muted'>09:50 - 10:40</span> Smart Nest Thermostat - A Smart Spy in Your Home  金意儿"
+          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>11:40 - 11:50</span> Java Card Applet - S1 Stefan Tillich"
+          - "<span class='text-muted'>12:10 - 14:00</span> <span class='text-primary'>午餐</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> Java Card Applet - S2 Stefan Tillich"
+          - "<span class='text-muted'>14:50 - 15:40</span> Java Card Applet - S3 Stefan Tillich"
+          - "<span class='text-muted'>15:40 - 16:10</span> 茶歇"
+          - "<span class='text-muted'>16:10 - 17:00</span> Java Card Applet - S4 Stefan Tillich"
+          - "<span class='text-muted'>18:00 - 21:00</span> <span class='text-danger'>Riscure HACTON活动 Riscure</span>"
+      - title: 10月22日 周三
         list:
-          - 硬件木马的设计
-          - 硬件木马的检测
-          - 硬件木马技术的发展
-      - title: 高性能、高安全Java Card Applet设计
+          - "<span class='text-muted'>09:00 - 09:50</span> Java Card Applet - S5 Stefan Tillich"
+          - "<span class='text-muted'>09:50 - 10:40</span> Java Card Applet - S6 Stefan Tillich"
+          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>11:40 - 11:50</span> Template Attacks - S1 Benedikt Gierlichs"
+          - "<span class='text-muted'>12:10 - 14:00</span> <span class='text-primary'>午餐</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> Template Attacks - S2 Benedikt Gierlichs"
+          - "<span class='text-muted'>14:50 - 15:40</span> Template Attacks - S3 Benedikt Gierlichs"
+          - "<span class='text-muted'>15:40 - 16:10</span> 茶歇"
+          - "<span class='text-muted'>16:10 - 17:00</span> Template Attacks - S4 Benedikt Gierlichs"
+          - "<span class='text-muted'>18:00 - 21:00</span> 会议晚餐"
+      - title: 10月23日 周四
         list:
-          - JCA的设计基础
-          - JCA性能优化策略
-          - JCA抗攻击设计方法
-      - title: 随机数发生器的设计和检测
+          - "<span class='text-muted'>09:00 - 09:50</span> High Order  DPA - S1  Benedikt Gierlichs"
+          - "<span class='text-muted'>09:50 - 10:40</span> High Order  DPA - S2  Benedikt Gierlichs"
+          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>11:40 - 11:50</span> High Order  DPA - S3  Benedikt Gierlichs"
+          - "<span class='text-muted'>12:10 - 14:00</span> <span class='text-primary'>午餐</span>"
+          - "<span class='text-muted'>14:00 - 17:00</span> Excursion"
+      - title: 10月24日 周五
         list:
-          - 随机数发生器原理及再思考
-          - 真随机数发生器的攻击和评测
+          - "<span class='text-muted'>09:00 - 09:50</span> Fully Homomorphic Encryption  (全同态密码技术) Frederik Vercauteren"
+          - "<span class='text-muted'>09:50 - 10:40</span> Random Number Generators - S1 Viktor Fischer"
+          - "<span class='text-muted'>10:40 – 11:00</span> 茶歇"
+          - "<span class='text-muted'>11:40 - 11:50</span> Random Number Generators - S2 Viktor Fischer"
+          - "<span class='text-muted'>12:10 - 14:00</span> <span class='text-primary'>午餐</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> Random Number Generators - S3 Viktor Fischer"
+          - "<span class='text-muted'>14:50 - 15:40</span> Random Number Generators - S4 Viktor Fischer"
+          - "<span class='text-muted'>15:40 - 16:00</span> 茶歇"
+          - "<span class='text-muted'>16:00 - 16:50</span> Random Number Generators - S5 Viktor Fischer"
+          - "<span class='text-muted'>16:50 - 17:00</span> 总结、再见"
 
   committee:
     panel:
@@ -166,17 +198,17 @@ zh-CN:
           # - "林东岱, 中国科学院"
           - "Ingrid Verbauwhede，鲁汶大学，比利时"
           - "Marc Witteman, Riscure, 荷兰"
-      - title: 大会主席
-        list:
-          - "徐秋亮，山东大学"
-          - "邢广军，山东华芯半导体有限公司"
       - title: 程序委员会
         list:
           - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
-          - "张锐（主席），中国科学院"
           - "周永彬，中国科学院"
           # - "张翌维，国民技术股份有限公司"
           - "Benedikt Gierlichs，鲁汶大学，比利时"
+      - title: 大会主席
+        list:
+          - "徐秋亮，山东大学"
+          - "张锐，中国科学院"
+          # - "邢广军，山东华芯半导体有限公司"
       - title: 组委会
         list:
           - "马晖，中国科学院"
