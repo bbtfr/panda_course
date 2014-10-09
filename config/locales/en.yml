@@ -108,36 +108,66 @@ en:
           Dr. Hongsong Shi is now an analyst at China Information Technology Security Evaluation Center (CITSE). He obtained his PhD from University of Electronic Science and Technology of China. He was also a visiting scholar at the iCIS lab led by Prof. Rei Safavi-Naini at Calgary university, Canada. His research interest now includes random number generators and their evaluation, side-channel analysis and leakage-resilient cryptography.
 
   program:
-    para: |
-      PANDA 2014 have five days, specify several directions guided by advisory group as follows:
     panel:
-      - title: Security analysis and evaluation
+      - title: "OCTOBER 19<br> <small>Sunday</small>"
         list:
-          - New technologies and new challenges
-      - title: Template attacks and defense
+          - "<span class='text-muted'>17:00 - 21:00</span> &nbsp; Registration  "
+      - title: "OCTOBER 20<br> <small>Monday</small>"
         list:
-          - The basic of template attacks
-          - Common techniques of template attacks
-          - Latest research advances of template attacks
-      - title: High-order DPA attacks and defense
+          - "<span class='text-muted'>08:45 - 09:00</span> &nbsp; Welcome, General Chair & Program Chair"
+          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Keynote, Marc Witteman"
+          - "<span class='text-muted'>09:50 - 10:30</span> &nbsp; Security Evaluation of China UnionPay Cards, Qian Peng"
+          - "<span class='text-muted'>10:30 - 10:50</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>10:50 - 11:40</span> &nbsp; Security Evaluation of Cryptographic Devices - Methods & Problems, Hongsong Shi"
+          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; Design and Detection of Hardware Trojan-S1, Yier Jin"
+          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; Design and Detection of Hardware Trojan-S2, Yier Jin"
+          - "<span class='text-muted'>15:40 - 16:10</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>16:10 - 17:00</span> &nbsp; Design and Detection of Hardware Trojan-S3, Yier Jin"
+      - title: "OCTOBER 21<br> <small>Tuesday</small>"
         list:
-          - The basic of High-order DPA
-          - Application of High-order DPA
-          - Latest research advances of High-order DPA
-      - title: Design and detection of Hardware Trojans
+          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Lattice-based Attack on ECDSA, Frederik Vercauteren"
+          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; Smart Nest Thermostat - A Smart Spy in Your Home, Yier Jin"
+          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>11:40 - 11:50</span> &nbsp; Java Card Applet - S1, Stefan Tillich"
+          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; Java Card Applet - S2, Stefan Tillich"
+          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; Java Card Applet - S3, Stefan Tillich"
+          - "<span class='text-muted'>15:40 - 16:10</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>16:10 - 17:00</span> &nbsp; Java Card Applet - S4, Stefan Tillich"
+          - "<span class='bg-warning text-warning'>18:00 - 21:00 &nbsp; Riscure HACTON, Riscure</span>"
+      - title: "OCTOBER 22<br> <small>Wednesday</small>"
         list:
-          - Design of Hardware Trojans
-          - Detection of Hardware Trojans
-          - Development of Hardware Trojans
-      - title: Design of high performance and high security Java Card Applet
+          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Java Card Applet - S5, Stefan Tillich"
+          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; Java Card Applet - S6, Stefan Tillich"
+          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>11:40 - 11:50</span> &nbsp; Template Attacks - S1, Benedikt Gierlichs"
+          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; Template Attacks - S2, Benedikt Gierlichs"
+          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; Template Attacks - S3, Benedikt Gierlichs"
+          - "<span class='text-muted'>15:40 - 16:10</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>16:10 - 17:00</span> &nbsp; Template Attacks - S4, Benedikt Gierlichs"
+          - "<span class='text-muted'>18:00 - 21:00</span> &nbsp; Banquet"
+      - title: "OCTOBER 23<br> <small>Thursday</small>"
         list:
-          - The basic design of JCA
-          - Performance optimization strategies of JCA
-          - Design method of attack-resistant of JCA
-      - title: Design and detection of RNGs
+          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; High Order  DPA - S1, Benedikt Gierlichs"
+          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; High Order  DPA - S2, Benedikt Gierlichs"
+          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>11:40 - 11:50</span> &nbsp; High Order  DPA - S3, Benedikt Gierlichs"
+          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
+          - "<span class='text-muted'>14:00 - 17:00</span> &nbsp; Excursion"
+      - title: "OCTOBER 24<br> <small>Friday</small>"
         list:
-          - Principles and rethinking of RNGs
-          - Attack and evaluation of ture RNGs
+          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Fully Homomorphic Encryption, Frederik Vercauteren"
+          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; Random Number Generators - S1, Viktor Fischer"
+          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>11:40 - 11:50</span> &nbsp; Random Number Generators - S2, Viktor Fischer"
+          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
+          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; Random Number Generators - S3, Viktor Fischer"
+          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; Random Number Generators - S4, Viktor Fischer"
+          - "<span class='text-muted'>15:40 - 16:00</span> &nbsp; Coffee Break"
+          - "<span class='text-muted'>16:00 - 16:50</span> &nbsp; Random Number Generators - S5, Viktor Fischer"
+          - "<span class='text-muted'>16:50 - 17:00</span> &nbsp; Closing Remarks"
 
   committee:
     panel:

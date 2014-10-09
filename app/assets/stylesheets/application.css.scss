@@ -236,6 +236,12 @@ table.table thead .sorting_desc_disabled { background: image-url('datatables/sor
   .sm-except-text-right {
     text-align: inherit;
   }
+  
+  h1, h2, h3 {
+    br {
+      display: none;
+    }
+  }
 }
 
 .map-wrapper {
