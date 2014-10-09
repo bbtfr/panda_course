@@ -42,7 +42,7 @@ zh-CN:
     wechat: 请关注微信公众号 
     navbar:
       speakers: 演讲者
-      program: 课程安排
+      program: 日程安排
       committee: 委员会
       registration: 注册
       sponsors: 赞助商
@@ -57,11 +57,11 @@ zh-CN:
 
   index:
     jumbotron:
-      title: 欢迎来到 PANDA 2014 暑假班
+      title: 欢迎来到 PANDA 2014 研讨会
       para: |
-        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.scsemicon.com/">山东华芯半导体有限公司</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+        本次研讨会由<a href="http://www.sdu.edu.cn">山东大学</a>、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.scsemicon.com/">山东华芯半导体有限公司</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。PANDA专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button: 
-        title: PANDA 2014 培训通知
+        title: PANDA 2014 会议通知
         link: /files/PANDA2014CN.pdf
     media:
       - image: images/dianlu.jpg
@@ -127,8 +127,6 @@ zh-CN:
           石竑松博士毕业于电子科技大学，研究方向为密码学和理论计算机科学，2007-2009 在加拿大 Calgary 大学 Rei Safavi-Naini 教授处（iCIS 实验室）学习，目前在中国信息安全测评中心从事密码产品安全评估工作，主要研究随机数发生器、侧信道安全及 Leakage-resilient Cryptography。
 
   program:
-    para: |
-      PANDA 2014为期5天，在顾问团的指导下，特拟定以下几个方向：
     panel:
       - title: 10月19日 周日
         list:
@@ -217,7 +215,7 @@ zh-CN:
 
   sponsors:
     para: |
-      感谢下列赞助商对PANDA 2014 暑假班的大力支持。
+      感谢下列赞助商对PANDA 2014 研讨会的大力支持。
     title:
       - 金牌赞助商
       - 银牌赞助商
@@ -244,7 +242,7 @@ zh-CN:
 
   registration:
     para: |
-      PANDA 2014暑期学校将于2014年10月20日（周一） 至 10月24日（周五）在山东济南开课，参加人员请填写报名信息。
+      PANDA 2014研讨会将于2014年10月20日（周一） 至 10月24日（周五）在山东济南开课，参加人员请填写报名信息。
     subtitle: 注册费用
     table:
       - - 
@@ -261,7 +259,7 @@ zh-CN:
 
   registration/new:
     success: 恭喜您成功报名，请等待我们的工作人员与您联系。
-    title: PANDA2014 暑期班注册
+    title: PANDA2014 研讨会注册
     invoice_title_tip: 如不需要发票则留空
     button: 提交
     note:
@@ -291,7 +289,7 @@ zh-CN:
         - 学生注册需发送学生证扫描件。
 
   accommodations:
-    title: "附近酒店"
+    title: "会议酒店"
     map: 地图
     list:
       - title: 济南东海山庄大酒店
