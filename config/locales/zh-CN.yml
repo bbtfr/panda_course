@@ -138,12 +138,12 @@ zh-CN:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>特邀报告</strong> Marc Witteman"
           - "<span class='text-muted'>09:50 - 10:30</span> <strong>银联卡安全性检测</strong> 彭乾"
           - "<span class='text-muted'>10:30 – 10:50</span> 茶歇"
-          - "<span class='text-muted'>10:50 - 11:40</span> <strong>密钥产品的安全评估-方法与问题</strong> 石竑松"
+          - "<span class='text-muted'>10:50 - 11:40</span> <strong>密钥产品的安全评估 - 方法与问题</strong> 石竑松"
           - "<span class='bg-info text-info'>12:10 - 14:00 午餐</span>"
-          - "<span class='text-muted'>14:00 - 14:50</span> <strong>硬件木马设计与检测-S1</strong> 金意儿"
-          - "<span class='text-muted'>14:50 - 15:40</span> <strong>硬件木马设计与检测-S2</strong> 金意儿"
+          - "<span class='text-muted'>14:00 - 14:50</span> <strong>硬件木马设计与检测 - S1</strong> 金意儿"
+          - "<span class='text-muted'>14:50 - 15:40</span> <strong>硬件木马设计与检测 - S2</strong> 金意儿"
           - "<span class='text-muted'>15:40 - 16:10</span> 茶歇"
-          - "<span class='text-muted'>16:10 - 17:00</span> <strong>硬件木马设计与检测-S3</strong> 金意儿"
+          - "<span class='text-muted'>16:10 - 17:00</span> <strong>硬件木马设计与检测 - S3</strong> 金意儿"
       - title: 10月21日 周二
         list:
           - "<span class='text-muted'>09:00 - 09:50</span> <strong>Lattice-based Attack on ECDSA</strong> Frederik Vercauteren"
