@@ -58,7 +58,7 @@ zh-CN:
     jumbotron:
       title: 欢迎来到 PANDA 2014 暑假班
       para: |
-        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.scsemicon.com/">华芯半导体</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
+        本次暑期班由<a href="http://www.sdu.edu.cn">山东大学</a>、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.scsemicon.com/">山东华芯半导体有限公司</a>共同举办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。 PANDA暑期课程专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button: 
         title: PANDA 2014 培训通知
         link: /files/PANDA2014CN.pdf
@@ -288,7 +288,7 @@ zh-CN:
     list:
       - title: 主办单位
         para: |
-          山东大学计算机科学与技术学院、山东省华芯半导体、深圳市纽创信安科技开发有限公司
+          山东大学计算机科学与技术学院、深圳市纽创信安科技开发有限公司、山东华芯半导体有限公司
       - title: 会议时间
         para: |
           报到时间：2014年10月19日晚17:00-21:00

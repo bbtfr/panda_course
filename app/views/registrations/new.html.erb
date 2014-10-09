@@ -4,7 +4,12 @@
   <div class="row">
 
     <div class="page-header col-md-offset-1 col-md-10">
-      <h2><%= t :title %></h2>
+      <h2>
+        <%= t :title %>
+        <% if params[:locale] == "en" %>
+          <small>如需发票，请在<a href="/zh-CN/registration/new">中文页面注册</a></small>
+        <% end %>
+      </h2>
     </div>
 
     <%= form_for @registration, url: registration_path, html: { class: "form-horizontal col-md-6" } do |f| %>
