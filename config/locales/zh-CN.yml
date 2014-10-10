@@ -17,6 +17,7 @@ zh-CN:
         invoice_needed: 是否需要发票
         affiliation: 所在单位
         created_at: 注册时间
+        request: 备注
       registration/title:
         prof: Prof.
         dr: Dr.
@@ -261,6 +262,7 @@ zh-CN:
     success: 恭喜您成功报名，请等待我们的工作人员与您联系。
     title: PANDA2014 研讨会注册
     invoice_title_tip: 如不需要发票则留空
+    request_tip: 请不要超过一百字
     button: 提交
     note:
       title: 备注：

@@ -243,6 +243,7 @@ en:
       Congratulations! You have successfully registered, please wait for our staff to contact you.
     title: PANDA2014 Summer School Registration
     button: Register
+    request_tip: No more than 150 words
     wire_transfer_tip: |
       If you insist on paying with wire transfer, please <a href="mailto:pandacourse@gmail.com">contact us</a> for necessary information.
     note:

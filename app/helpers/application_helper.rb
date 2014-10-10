@@ -45,6 +45,25 @@ module ApplicationHelper
     ret.html_safe
   end
 
+  def bootstrap_text_area f, attribute, placeholder = nil, options = {}
+    klass = f.object.class
+    human_attribute_name = klass.human_attribute_name(attribute)
+    ret = <<-EOF
+      <div class="form-group #{"has-error" if f.object.errors.any? && f.object.errors[attribute].any?}">
+        <label for="registration_#{attribute}" class="col-sm-4 control-label">
+          #{human_attribute_name}
+        </label>
+        <div class="col-sm-8">
+          #{f.text_area(attribute, class: "form-control", placeholder: placeholder||human_attribute_name, rows: 4)}
+    EOF
+    ret << "#{"<p class=\"help-block\">#{options[:tips]}</p>"}" if options[:tips]
+    ret << <<-EOF
+        </div>
+      </div>
+    EOF
+    ret.html_safe
+  end
+
   def bootstrap_password_field f, attribute, options = {}
     klass = f.object.class
     human_attribute_name = klass.human_attribute_name(attribute)

@@ -5,6 +5,8 @@ class Registration < ActiveRecord::Base
   validates_presence_of :invoice_needed
   validates_presence_of :invoice_title, if: -> (record) { record.invoice_needed == "invoice" }
 
+  validates_uniqueness_of :email
+
   before_save :generate_full_name
 
   def generate_full_name

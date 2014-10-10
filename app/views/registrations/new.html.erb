@@ -55,6 +55,9 @@
         <%= bootstrap_text_field f, :invoice_title, tips: t("invoice_title_tip") %>
       <% end %>
 
+      <%= bootstrap_text_area f, :request, t("request_tip") %>
+      
+
       <div class="form-group">
         <div class="col-sm-offset-4 col-sm-8">
           <button type="submit" class="btn btn-primary"><%= t :button %></button>
