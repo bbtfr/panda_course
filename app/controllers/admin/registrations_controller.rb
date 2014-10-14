@@ -4,7 +4,7 @@ class Admin::RegistrationsController < Admin::ApplicationController
   def index
     @registrations = Registration.all
 
-    @attributes = %i(id full_name affiliation profession title address postcode phone email payment_type invoice_title created_at)
+    @attributes = %i(id full_name affiliation profession title address postcode phone email payment_type invoice_title created_at request)
     @listed_attributes = %i(full_name profession title phone email payment_type)
     @detailed_attributes = @attributes
     @translate_attributes = %i(profession title payment_type)

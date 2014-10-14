@@ -42,7 +42,7 @@ en:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
-        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a>, <a href="http://www.opsefy.com/">Open Security Research</a> and <a href="http://www.scsemicon.com/">Sinochip Semiconductors</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
+        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">School of Computer Science and Technology, Shandong University, China</a>, <a href="http://www.opsefy.com/">Open Security Research</a> and <a href="http://www.scsemicon.com/">Sinochip Semiconductors</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button:
         title: Call For Participation
         link: /files/PANDA2014CN.pdf
