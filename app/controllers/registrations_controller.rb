@@ -19,7 +19,7 @@ class RegistrationsController < ApplicationController
     def registration_params
       params.require(:registration).permit(%i(first_name family_name \
         full_name profession title address postcode phone email \
-        payment_type invoice_title invoice_needed))
+        payment_type invoice_title invoice_needed affiliation request))
     end
 
 end
