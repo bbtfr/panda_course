@@ -42,7 +42,7 @@ en:
     jumbotron:
       title: Welcome to PANDA Course 2014
       para: |
-        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a>, <a href="http://www.opsefy.com/">Open Security Research</a> and <a href="http://www.scsemicon.com/">SCS Emicon</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
+        PANDA course is jointly organized by <a href="http://www.sdu.edu.cn">Shandong University, China</a>, <a href="http://www.opsefy.com/">Open Security Research</a> and <a href="http://www.scsemicon.com/">Sinochip Semiconductors</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button:
         title: Call For Participation
         link: /files/PANDA2014CN.pdf
@@ -106,6 +106,12 @@ en:
         subtitle: "CITSE, China"
         para: |
           Dr. Hongsong Shi is now an analyst at China Information Technology Security Evaluation Center (CITSE). He obtained his PhD from University of Electronic Science and Technology of China. He was also a visiting scholar at the iCIS lab led by Prof. Rei Safavi-Naini at Calgary university, Canada. His research interest now includes random number generators and their evaluation, side-channel analysis and leakage-resilient cryptography.
+
+      - image: images/pengqian.jpeg
+        title: Qian Peng
+        subtitle: "Bank Card Test Center"
+        para: |
+          银行卡检测中心安全技术专家，主要从事金融IC卡及读写机具安全研究和测试工作。参加工作以来，主要从事安全测试技术的研发与标准制定，熟悉金融IC卡芯片、嵌入式软件及读写机具功能与安全检测技术，曾参与金融IC卡、金融读写机具、移动支付等多项行业标准制定。为2011年国家发改委“国家金融IC卡安全检测中心”项目主要技术带头人，并参与工信部、核高基等国家专项的申请及研发工作，申请技术专利8项。
 
   program:
     panel:
