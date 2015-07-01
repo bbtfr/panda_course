@@ -27,7 +27,7 @@ en:
       speakers: Speakers
       program: Program
       committee: Committee
-      registration: Registration
+      # registration: Registration
       sponsors: Sponsor
       contact: Contact
       venue: Venue
@@ -59,7 +59,7 @@ en:
 
   speakers:
     well:
-      - image: images/Bart_Preneel.jpg
+      - image: images/bart_preneel.jpg
         title: Benedikt Gierlichs
         subtitle: "KU Leuven, Belgium"
         para: |

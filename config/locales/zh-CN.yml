@@ -45,7 +45,7 @@ zh-CN:
       speakers: 演讲者
       program: 日程安排
       committee: 委员会
-      registration: 注册
+      # registration: 注册
       sponsors: 赞助商
       contact: 联系我们
       venue: 地点
@@ -77,7 +77,7 @@ zh-CN:
 
   speakers:
     well:
-      - image: images/Bart_Preneel.jpg
+      - image: images/bart_preneel.jpg
         title: Benedikt Gierlichs
         subtitle: "KU Leuven, Belgium"
         para: |
