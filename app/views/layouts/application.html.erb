@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  
-  <title>Panda Course 2014</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Panda Course 2015</title>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  
+
   <%= csrf_meta_tags %>
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -17,7 +17,7 @@
   <![endif]-->
 </head>
 <body>
-  
+
   <header class="masthead <%= active?("index") ? "jumbotron" : "well"  %>">
     <div class="container">
       <h2><%= t "subtitle", scope: :layout %></h2>
@@ -30,10 +30,10 @@
     </div>
     <div class="right-top">
       <div class="languages">
-        Language: 
-        <a <%= raw locale?(:en) ? "class=\"active\"" : "href=\"#{english_path}\"" %>>English</a> 
-        | 
-        <a <%= raw locale?(:"zh-CN") ? "class=\"active\"" : "href=\"#{chinese_path}\"" %>>简体中文</a> 
+        Language:
+        <a <%= raw locale?(:en) ? "class=\"active\"" : "href=\"#{english_path}\"" %>>English</a>
+        |
+        <a <%= raw locale?(:"zh-CN") ? "class=\"active\"" : "href=\"#{chinese_path}\"" %>>简体中文</a>
       </div>
       <div class="weixin hidden-xs">
         <%= t(:wechat, scope: :layout) %><br>
@@ -54,7 +54,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<%= page_path(id: :index) %>">PANDA 2014</a>
+        <a class="navbar-brand" href="<%= page_path(id: :index) %>">PANDA 2015</a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -82,6 +82,6 @@
       <p class="text-muted">Designed and built with <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.</p>
     </div>
   </footer>
-  
+
 </body>
 </html>

@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <% t("well").each do |well| %>
       <div class="well speaker">
-        <%= image_tag well[:image], class: "img-thumbnail pull-left" %>
+        <%= image_tag well[:image], class: "img-thumbnail pull-left" if well[:image].present? %>
         <h2><%= well[:title] %> <small><%= well[:subtitle] %></small></h2>
         <p><%= simple_format well[:para] %></p>
       </div>

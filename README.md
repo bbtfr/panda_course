@@ -1,3 +1,3 @@
-WEBSITE for Panda Course 2014
+WEBSITE for Panda Course 2015
 ===
 

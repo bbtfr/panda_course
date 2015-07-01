@@ -18,7 +18,7 @@
   <% geoData = [] %>
   <% t(:list).each do |list| %>
     <% geoData.push({
-      position: list[:position], 
+      position: list[:position],
       title: list[:title],
       content: ("<h4>#{list[:title]}</h4>#{simple_format(list[:para])}")
     }) %>

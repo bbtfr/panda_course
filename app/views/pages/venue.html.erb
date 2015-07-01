@@ -27,7 +27,7 @@
 
       var marker = new google.maps.Marker({
         map: map,
-        content: "<%= t(:position)[:content] %>",
+        content: "<%= raw t(:position)[:content] %>",
         position: new google.maps.LatLng(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] %>)
       });
 
@@ -35,7 +35,7 @@
         infowindow.setContent(this.content);
         infowindow.open(map, this);
       });
-      google.maps.event.trigger(markers[i], 'click');
+      google.maps.event.trigger(marker, 'click');
     }
 
     $(document).ready(initialize);
@@ -43,17 +43,23 @@
 <% else %>
   <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=E5072c8281660dfc534548f8fda2be11"></script>
   <script type="text/javascript">
-    var local;
 
     function initialize() {
       // 百度地图API功能
-      var map = new BMap.Map("map");            // 创建Map实例
-      map.enableScrollWheelZoom(true);
-      var local = new BMap.LocalSearch(map, {
-        renderOptions: {map: map}, 
-        pageCapacity: 1
+      var map = new BMap.Map("map");
+      var point = new BMap.Point(<%= t(:position)[:lat] %>, <%= t(:position)[:lng] %>);
+      var marker = new BMap.Marker(point);  // 创建标注
+      map.addOverlay(marker);  // 将标注添加到地图中
+      map.centerAndZoom(new BMap.Point(<%= t(:position)[:lat] %> - 0.002, <%= t(:position)[:lng] %>), 18);
+      var opts = {
+        width : 200,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+      }
+      var infoWindow = new BMap.InfoWindow("<%= raw t(:position)[:content] %>", opts);  // 创建信息窗口对象
+      marker.addEventListener("click", function() {
+        map.openInfoWindow(infoWindow, point); //开启信息窗口
       });
-      local.search("<%= t(:title) %>");
+      map.openInfoWindow(infoWindow, point);
     }
 
     $(document).ready(initialize);
