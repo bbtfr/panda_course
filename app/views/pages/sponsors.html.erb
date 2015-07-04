@@ -1,29 +1,21 @@
-<div class="jumbotron">
+<div class="jumbotron sponsors">
   <p><%= t :para %></p>
 
   <div class="row">
-    <div class="col-md-5">
-      <h3><%= t(:title)[0] %></h3>
-      <p>
-        <a href="http://www.riscure.com/">
-          <%= image_tag "images/riscure.jpg", height: 135, width: 300 %>
-        </a>
-      </p>
-    </div>
-
-    <div class="col-md-7">
-      <h3><%= t(:title)[1] %></h3>
-      <p>
-        <a href="http://www.opsefy.com/">
-          <%= image_tag "images/osr.png", height: 135, width: 175 %>
-        </a>
-        <a href="http://www.scsemicon.com/">
-          <%= image_tag "images/scsemicon.png", height: 135, width: 140 %>
-        </a>
-        <a href="http://www.sklois.cn/">
-          <%= image_tag "images/Sklois.png", height: 135, width: 135 %>
-        </a>
-      </p>
-    </div>
+    <% t(:panel).each do |panel| %>
+      <div class="col-md-<%= panel[:width] %>">
+        <% if panel[:title] %>
+          <h3><%= panel[:title] %></h3>
+        <% end %>
+        <p>
+          <% panel[:list].each do |item| %>
+            <a href="<%= item[:url] %>">
+              <%= image_tag item[:image] %>
+            </a>
+          <% end %>
+        </p>
+      </div>
+    <% end %>
   </div>
+
 </div>

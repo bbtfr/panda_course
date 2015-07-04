@@ -68,11 +68,11 @@ zh-CN:
       - image: images/dianlu.jpg
         title: 创新思维
         para: 侧信道分析与故障分析。
-      - image: images/hacker.jpg
-        title: Hacker's Events
-        para: Riscure HACKATON Evening.
+      - image: images/world.jpg
+        title: 世界之窗
+        para: 深圳的美丽景色。
       - image: images/shenzhen.jpg
-        title: 创新活力
+        title: 心旷神怡
         para: 深圳的美丽景色。
 
   speakers:
@@ -81,31 +81,31 @@ zh-CN:
         title: Benedikt Gierlichs
         subtitle: "KU Leuven, Belgium"
         para: |
-          Bart Preneel is full professor at the KU Leuven where he heads the COSIC research group which has 60 members. He was visiting professor at five universities in Europe and was a research fellow at the University of California at Berkeley and a scientific advisor of Philips Research. He has authored more than 400 scientific publications and is inventor of 4 patents. His main research interests are cryptography, information security and privacy and he frequently consults on these topics. Bart Preneel has participated to more than 30 international research projects sponsored by the European Commission, for five of these as project manager. He has served as panel member for several research funding agencies including the European Research Council. He is president of the IACR (International Association for Cryptologic Research) and a member of the Permanent Stakeholders group of ENISA. He is serving on several advisory board including those of CASED (Darmstadt), Intrinsic-ID (the Netherlands) and the Royal Holloway Centre for Doctoral Training in Cyber Security Research (UK). He has served as program chair of 15 international conferences and he has been invited speaker at more than 80 conferences in 40 countries.
-
-      - image: images/gierlichs_benedikt.jpg
-        title: Benedikt Gierlichs
-        subtitle: "KU Leuven, Belgium"
-        para: |
-          Dr. Benedikt Gierlichs joined the COSIC research group at KU Leuven (Belgium) as a PhD student in 2006. He obtained a PhD in electrical engineering with his thesis on "Statistical and Information-Theoretic Methods for Power Analysis on Embedded Cryptography" in 2011. His research focuses on the (physical) security of embedded devices, in particular side-channel analysis, fault analysis and countermeasures. Prior to joining COSIC, Benedikt Gierlichs studied IT-security engineering at the university of Bochum and obtained an MSc in 2006. Further, he completed a long-term internship at the Security Technologies department of Gemplus (now part of Gemalto). Dr. Gierlichs is currently a post-doctoral fellow with the Funds for Scientific Research Flanders (Belgium). He is (co-)author of more than 25 scientific publications in international, peer-reviewed conferences and journals.
+          Bart Preneel is full professor at the KU Leuven where he heads the COSIC research group which has 60 members. He has authored more than 400 scientific publications and is inventor of 4 patents. His main research interests are cryptography, information security and privacy and he frequently consults on these topics. Bart Preneel has participated to more than 30 international research projects sponsored by the European Commission, for five of these as project manager. He has served as panel member for several research funding agencies including the European Research Council. He is president of the IACR (International Association for Cryptologic Research) and a member of the Permanent Stakeholders group of ENISA.
 
       - image: # images/marc_witteman.png
         title: Michael Ward
         subtitle: "Mastercard (Director of EMV SWG), UK"
         para: |
-          TBA
+          Michael Ward works in the Chip Centre of Excellence Product Security department within MasterCard Worldwide‘s Advanced Payments group. He provides security expertise in areas such as cryptography and key management for chip card applications and is chairman of the EMVCo Security Working Group. He participates in various international standards bodies including ISO/IEC JTC 1 /SC 27/WG 2 Information Technology - Security Techniques and Mechanisms, ISO TC 68 Financial Services, and the European Payments Council Security Payments Task Force. Before joining MasterCard he was an employee at APACS (the Association for Payment Clearing Services) in the UK where he was involved with the UK migration to chip card technology. He has a degree in mathematics from Oxford University and a Ph.D. from Royal Holloway, London University.
 
       - image: images/Olivier_Rioul.jpg
         title: Olivier Rioul
         subtitle: "Telecom-ParisTech, France"
         para: |
-          Olivier Rioul was born in Strasbourg, France on July 4, 1964. He received diplomas in Electrical Engineering from the Ecole Polytechnique, Palaiseau, France, and from Telecom University, Paris, in 1987 and 1989, respectively.  From 1989 to 1994, he was with the Centre National d’Etudes des Télécommunications (CNET), Issy-les-Moulineaux, France, where he worked on wavelet theory and image compression. In 1994, he joined the ENST, now Télécom ParisTech, where he is currently Associate Professor. His research interests include joint source-channel coding and information theory.
+         Olivier Rioul is a currently an associate professor at Télécom ParisTech. His research interests include joint source-channel coding and information theory. Olivier Rioul was born in Strasbourg, France on July 4, 1964. He received diplomas in Electrical Engineering from the Ecole Polytechnique, Palaiseau, France, and from Telecom University, Paris, in 1987 and 1989, respectively.  From 1989 to 1994, he was with the Centre National d’Etudes des Télécommunications (CNET), Issy-les-Moulineaux, France, where he worked on wavelet theory and image compression.
 
-      - image: images/lihuiyun.jpg
-        title: Huiyun Li
-        subtitle: "Chinese Academy of Science, China"
+      - image: images/gierlichs_benedikt.jpg
+        title: Benedikt Gierlichs
+        subtitle: "KU Leuven, Belgium"
         para: |
-          Huiyun Li obtained her PhD degree from Cambridge University, UK in 2006. She has been working with Shenzhen Institute of Advanced Technologies, China since 2006 and is the vice director of the Automotive Electronics Research Center. Her research interests include cryptographic module/IC design, evaluation and test, as well as power electronics and system in package (SIP) test. She has published 1 book and over 30 papers on international journals and conferences. She is the principle investigator (PI) of projects supported by China National High-tech 863 plan and National Science Foundation of China etc. She is the peer reviewer of multiple international academic journals and conference proceedings. She was awarded as Cambridge Overseas Trust Scholar (2003) and Outstanding Talent of Shenzhen (2009).
+          Benedikt Gierlichs is currently a post-doctoral fellow with the Funds for Scientific Research Flanders (Belgium). His research focuses on the (physical) security of embedded devices, in particular side-channel analysis, fault analysis and countermeasures. He is (co-)author of more than 25 scientific publications in international, peer-reviewed conferences and journals. Dr. Benedikt Gierlichs joined the COSIC research group at KU Leuven (Belgium) as a PhD student in 2006. He obtained a PhD in electrical engineering with his thesis on "Statistical and Information-Theoretic Methods for Power Analysis on Embedded Cryptography" in 2011. Prior to joining COSIC, Benedikt Gierlichs studied IT-security engineering at the university of Bochum and obtained an MSc in 2006. Further, he completed a long-term internship at the Security Technologies department of Gemplus (now part of Gemalto).
+
+      - image: images/fre.png
+        title: Frederik Vercauteren
+        subtitle: "COSIC, KU Leuven, Belgium"
+        para: |
+          Frederik Vercauteren received the M.Sc. degree in  computer  science,  the  M.Sc. degree in  pure  mathematics,  and  the  Ph.D. degree in electrical  engineering  from  the  Katholieke  Universiteit Leuven, Belgium. He is currently a Post-doctoral Fellow of the Research Foundation-Flanders (FWO) at the Department of Electrical Engineering, Katholieke Universiteit Leuven, Belgium. Previously, he held a lecturer position at the Department of Computer Science, University of Bristol, U.K. His current research interests include applications of computational number theory and arithmetic geometry in cryptography.
 
       - image: images/liyang.jpg
         title: Yang Li
@@ -113,11 +113,11 @@ zh-CN:
         para: |
           Yang Li received the B.E. degree in electronic and information engineering from Harbin Engineering University, Harbin, China, in 2008, the M.E. degree in information and communication engineering and the Ph.D. degree in faculty of informatics from the University of Electro-Communications, Tokyo, Japan, in 2011 and 2012, respectively. He is currently a Project Assistant Professor with the Department of Informatics, University of Electro-Communications. His current research interests include security evaluation and improvement for cryptographic hardware and embedded systems.
 
-      - image: images/fre.png
-        title: Frederik Vercauteren
-        subtitle: "COSIC, KU Leuven, Belgium"
+      - image: images/lihuiyun.jpg
+        title: Huiyun Li
+        subtitle: "Chinese Academy of Science, China"
         para: |
-          Frederik Vercauteren received the M.Sc. degree in computer science, the M.Sc. degree in pure mathematics, and the Ph.D. degree in electrical engineering from the Katholieke Universiteit Leuven, Belgium. He is currently a Postdoctoral Fellow of the Research Foundation-Flanders (FWO Vlaanderen) at the Department of Electrical Engineering, Katholieke Universiteit Leuven, Belgium. Previously, he held a lecturer position at the Department of Computer Science, University of Bristol, U.K. His current research interests include applications of computational number theory and arithmetic geometry in cryptography.
+          Huiyun Li obtained her PhD degree from Cambridge University, UK in 2006. She has been working with Shenzhen Institute of Advanced Technologies, China since 2006 and is the vice director of the Automotive Electronics Research Center. Her research interests include cryptographic module/IC design, evaluation and test, as well as power electronics and system in package (SIP) test. She has published 1 book and over 30 papers on international journals and conferences. She is the principle investigator (PI) of projects supported by China National High-tech 863 plan and National Science Foundation of China etc. She is the peer reviewer of multiple international academic journals and conference proceedings. She was awarded as Cambridge Overseas Trust Scholar (2003) and Outstanding Talent of Shenzhen (2009).
 
       - image: # images/user.png
         title: Qiang Xu
@@ -126,65 +126,61 @@ zh-CN:
           Qiang Xu is an Associate Professor of Computer Science & Engineering at The Chinese University of Hong Kong. He received his B.E. and M.E. degrees in Telecommunication Engineering from Beijing University of Posts & Telecommunications, China, in 1997 and 2000, respectively. After working at a start-up integrated circuit design house for one and a half years, he continued his graduate study and received his Ph.D. degree in Electrical & Computer Engineering from McMaster University, Canada, in 2005, and then joined CUHK. Dr. Xu leads the CUhk REliable computing laboratory (CURE Lab.). His research interests include fault-tolerant computing, trusted computing and accelerated computing for finance and biomedical applications. He received the Best Paper Award in 2004 IEEE/ACM Design, Automation and Test in Europe (DATE). He has four other papers nominated for best paper award at prestigious conferences. Dr. Xu is currently serving as an associate editor for IEEE Design and Test of Computers. He has also served as technical program committee members for a number of conferences on VLSI design and testing, including DAC, ITC, ICCAD, and DATE.
 
   program:
-    panel:
-      - title: "AUGUST 25<br> <small>Tuseday</small>"
-        list:
-          - "<span class='text-muted'>15:00 - 21:00</span> &nbsp; Registration & Reception "
-      - title: "AUGUST 26<br> <small>Wednesday</small>"
-        list:
-          - "<span class='text-muted'>09:00 - 09:30</span> &nbsp; Welcome, General Chair & Program Chair"
-          - "<span class='text-muted'>09:30 - 10:20</span> &nbsp; Challenges and trends in EMV payment system - S1, Michael Ward"
-          - "<span class='text-muted'>10:20 - 10:40</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>10:40 - 12:00</span> &nbsp; Challenges and trends in EMV payment system - S2, Michael Ward"
-          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
-          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; PCI PTS security - S1, TBD"
-          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; PCI PTS security - S2, TBD"
-          - "<span class='text-muted'>15:40 - 16:10</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>16:10 - 18:00</span> &nbsp; PCI PTS security - S3, TBD"
-      - title: "AUGUST 27<br> <small>Thursday</small>"
-        list:
-          - "<span class='text-muted'>09:00 - 10:00</span> &nbsp; Cryptography in payment, Bart Preneel"
-          - "<span class='text-muted'>10:00 - 11:00</span> &nbsp; FIDO, Frederik Vercauteren"
-          - "<span class='text-muted'>11:00 - 11:15</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>11:15 - 12:00</span> &nbsp; Security challenges in mobile payment, TBD"
-          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
-          - "<span class='text-muted'>14:00 - 15:00</span> &nbsp; Introduction to power analysis on cryptographic devices, Huiyun Lee"
-          - "<span class='text-muted'>15:00 - 16:00</span> &nbsp; Evaluation and Improvement of Generic-Emulating DPA Attacks, Yu Yu"
-          - "<span class='text-muted'>16:00 - 16:30</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>16:30 - 18:00</span> &nbsp; Introduction to Fault-sensitivity analysis, Yang Li"
-          - "<span class='bg-warning text-warning'>19:00 - 21:00 &nbsp; Trip to window of the world</span>"
-      - title: "AUGUST 28<br> <small>Friday</small>"
-        list:
-          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Introduction to white-box cryptography, Bart Preneel"
-          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; Privacy challenges for biometrics authentication, Bart Preneel"
-          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>11:00 - 12:00</span> &nbsp; Hardware security in EMV payment system, Michael Ward"
-          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
-          - "<span class='text-muted'>14:00 - 15:00</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint - S1, Oivier Rioul"
-          - "<span class='text-muted'>15:00 - 16:00</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint - S2, Oivier Rioul"
-          - "<span class='text-muted'>16:00 - 16:20</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>16:20 - 17:10</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint - S3, Oivier Rioul"
-          - "<span class='text-muted'>17:10 - 18:00</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint - S4, Oivier Rioul"
-          - "<span class='text-muted'>19:10 - 21:00</span> &nbsp; Banquet"
-      - title: "AUGUST 29<br> <small>Saturday</small>"
-        list:
-          - "<span class='text-muted'>09:00 - 09:50</span> &nbsp; Threshold implementation, Benedikt Gierlichs"
-          - "<span class='text-muted'>09:50 - 10:40</span> &nbsp; Inner product masking, Benedikt Gierlichs"
-          - "<span class='text-muted'>10:40 - 11:00</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>11:00 - 11:50</span> &nbsp; Attacking 1GHz ARM-Cortex A8, Benedikt Gierlichs"
-          - "<span class='bg-info text-info'>12:10 - 14:00 &nbsp; Lunch</span>"
-          - "<span class='text-muted'>14:00 - 14:50</span> &nbsp; Hardware Trojan - S1, Qiang Xu"
-          - "<span class='text-muted'>14:50 - 15:40</span> &nbsp; Hardware Trojan - S1, Qiang Xu"
-          - "<span class='text-muted'>15:40 - 16:00</span> &nbsp; Coffee Break"
-          - "<span class='text-muted'>16:00 - 17:00</span> &nbsp; Security evaluation for smart cards, TBD"
-          - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Student presentation"
-          - "<span class='text-muted'>18:00 - 18:15</span> &nbsp; Closing remarks"
+    session:
+      - title: "Section 1: Payment Security"
+        panel:
+          - title: "AUGUST 25<br> <small>Tuseday</small>"
+            list:
+              - "<span class='text-muted'>16:00 - 20:00</span> &nbsp; Registration & Reception "
+          - title: "AUGUST 26<br> <small>Wednesday</small>"
+            list:
+              - "<span class='text-muted'>09:15 - 10:00</span> &nbsp; Challenges and trends in EMV payment system - 1, Michael Ward"
+              - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Challenges and trends in EMV payment system - 2, Michael Ward"
+              - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Challenges and trends in EMV payment system - 3, Michael Ward"
+              - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; PCI PTS security - 1, TBD"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; PCI PTS security - 2, TBD"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; PCI PTS security - 3, TBD"
+              - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
+          - title: "AUGUST 27<br> <small>Thursday</small>"
+            list:
+              - "<span class='text-muted'>09:15 - 10:00</span> &nbsp; Cryptography in payment, Bart Preneel"
+              - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; FIDO protocols and implementation, Frederik Vercauteren"
+              - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Bitcoin security, Frederik Vercauteren"
+              - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
+      - title: "Section 2: Design and analysis of cryptographic chips"
+        panel:
+          - list:
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; Introduction to power analysis, Huiyun Li"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; Evaluation and Improvement of Generic-Emulating DPA Attacks, Yu Yu"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; Introduction to Fault-sensitivity analysis, Yang Li"
+              - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
+          - title: "AUGUST 28<br> <small>Friday</small>"
+            list:
+              - "<span class='text-muted'>09:15 - 10:00</span> &nbsp; Introduction to white-box cryptography, Bart Preneel"
+              - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Privacy challenges for biometrics authentication, Bart Preneel"
+              - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Hardware security in EMV payment system, Michael Ward"
+              - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
+              - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
+          - title: "AUGUST 29<br> <small>Saturday</small>"
+            list:
+              - "<span class='text-muted'>09:15 - 10:00</span> &nbsp; Threshold implementation, Benedikt Gierlichs"
+              - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Inner product masking, Benedikt Gierlichs"
+              - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Attacking 1GHz ARM-Cortex A8, Benedikt Gierlichs"
+              - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; Hardware Trojan, Qiang Xu"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; Hardware Trojan, Qiang Xu"
+              - "<span class='text-muted'>16:00 - 18:00</span> &nbsp; Student presentations & discussion"
+              - "<span class='text-muted'>18:00 - 18:15</span> &nbsp; Closing remarks"
 
   committee:
     panel:
       - title: 大会主席
         list:
-          #- "徐秋亮，山东大学"
+          # - "徐秋亮，山东大学"
           - "张锐，中国科学院"
           - "喻建平，深圳大学"
       - title: 程序委员会
@@ -192,7 +188,6 @@ zh-CN:
           - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
           - "白国强，清华大学"
           - "张勇，深圳大学"
-          - "Benedikt Gierlichs，鲁汶大学，比利时"
           - "周永彬，中国科学院"
           - "吴震，成都信息工程大学"
           - "王安，北京理工大学"
@@ -200,22 +195,41 @@ zh-CN:
 
       - title: 大会顾问
         list:
-          #- "鲍丰, 华为安全与隐私研究所所长，新加坡"
+          # - "鲍丰, 华为安全与隐私研究所所长，新加坡"
           - "陈弘毅, 清华大学微电子所"
           # - "林东岱, 中国科学院"
-          - "Ingrid Verbauwhede，鲁汶大学，比利时"
-          # - "Marc Witteman, Riscure, 荷兰"
+          - "Benedikt Gierlichs，鲁汶大学，比利时"
+          - "Marc Witteman, Riscure, 荷兰"
       - title: 组委会
         list:
           - "马晖，中国科学院"
-          - "朱无瑕，深圳市纽创信安科技开发有限公司"
+          - "赵鹏，深圳市纽创信安科技开发有限公司"
 
   sponsors:
     para: |
       感谢下列赞助商对PANDA 2015 研讨会的大力支持。
-    title:
-      - 金牌赞助商
-      - 银牌赞助商
+    panel:
+      # - title: 金牌赞助商
+      #   width: 5
+      #   list:
+      #     - url: http://www.riscure.com/
+      #       image: images/riscure.jpg
+      # - title: 银牌赞助商
+      #   width: 7
+      #   list:
+      #     - url: http://www.opsefy.com/
+      #       image: images/osr.png
+      #     - url: http://www.scsemicon.com/
+      #       image: images/scsemicon.png
+      #     - url: http://www.sklois.cn/
+      #       image: images/Sklois.png
+      - width: 12
+        list:
+          - url: http://www.opsefy.com/
+            image: images/osr.png
+          - url: http://www.sklois.cn/
+            image: images/Sklois.png
+
 
   contact:
     para: |
@@ -319,9 +333,10 @@ zh-CN:
       content: "<h5>深圳大学</h5> 广东省深圳市南山区<br> 南海大道3688号<br> 邮政编码: 518060"
     title: 深圳大学
     list:
+      - title: 指导单位
+        para: 中国密码学会芯片专委会
       - title: 主办单位
-        para: |
-          深圳市纽创信安科技开发有限公司、中国科学院信息工程研究所、深圳大学
+        para: 深圳市纽创信安科技开发有限公司、中国科学院信息工程研究所、深圳大学
       - title: 会议时间
         para: |
           报到时间：2015年8月25日15:00-21:00

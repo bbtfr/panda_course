@@ -1,16 +1,23 @@
-<% t("panel").each do |panel| %>
-  <div class="well">
-    <div class="row">
-      <div class="col-md-3">
-        <h3 class="sm-except-text-right ml20"><%= dash_nobr panel[:title] %></h3>
-      </div>
-      <div class="col-md-9">
-        <ul class="mt20 mb20">
-          <% panel[:list].each do |list| %>
-            <li><p><%= raw list %></p></li>
+<% t(:session).each do |session| %>
+  <% if session[:title] %>
+    <h3 class="mt30 ml50"><%= session[:title] %></h3>
+  <% end %>
+  <% session[:panel].each do |panel| %>
+    <div class="well">
+      <div class="row">
+        <div class="col-md-3">
+          <% if panel[:title] %>
+            <h3 class="sm-except-text-right ml20"><%= dash_nobr panel[:title] %></h3>
           <% end %>
-        </ul>
+        </div>
+        <div class="col-md-9">
+          <ul class="mt20 mb20">
+            <% panel[:list].each do |list| %>
+              <li><p><%= raw list %></p></li>
+            <% end %>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
+  <% end %>
 <% end %>

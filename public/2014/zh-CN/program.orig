@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Panda Course 2014</title>
+
+  <link data-turbolinks-track="true" href="/assets/animate.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/transition.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/collapse.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="A0ymlSqJ7vrkRTdVaz4Wz6x8tkKE4oSC8VI51UC6dLE=" name="csrf-token" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="/assets/html5shiv.min.js?body=1"></script>
+    <script src="/assets/respond.min.js?body=1"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="masthead well">
+    <div class="container">
+      <h2>Summer Course on Physical Attacks aNd Design Attestation 2014</h2>
+      <h1>PANDA Course 2014</h1>
+      <p>
+        山东济南
+        &nbsp;&nbsp;
+        2014年10月20日（周一） 至 10月24日（周五）
+      </p>
+    </div>
+    <div class="right-top">
+      <div class="languages">
+        Language:
+        <a href="/en/program">English</a>
+        |
+        <a class="active">简体中文</a>
+      </div>
+      <div class="weixin hidden-xs">
+        请关注微信公众号<br>
+        <img alt="Qr" src="/assets/images/QR.png" width="75" />
+
+        <img alt="Qr" class="qrcode bounceIn animated" src="/assets/images/QR.png" width="300" />
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/zh-CN/index">PANDA 2014</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li ><a href="/zh-CN/speakers">演讲者</a></li>
+            <li class="active"><a href="/zh-CN/program">日程安排</a></li>
+            <li ><a href="/zh-CN/committee">委员会</a></li>
+            <li ><a href="/zh-CN/registration">注册</a></li>
+            <li ><a href="/zh-CN/sponsors">赞助商</a></li>
+            <li ><a href="/zh-CN/contact">联系我们</a></li>
+            <li ><a href="/zh-CN/venue">地点</a></li>
+            <li ><a href="/zh-CN/accommodations">住宿</a></li>
+            <li ><a href="/zh-CN/stipend">Riscure奖学金</a></li>
+          <li><a href="/2013/">PANDA2013</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+      <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月19日 <small>周日</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>17:00 - 21:00</span> &nbsp; 报到、注册</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月20日 <small>周一</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>08:45 - 09:00</span> &nbsp; 欢迎辞，大会主席、程序委员会主席</p></li>
+            <li><p><span class='text-muted'>09:00 - 09:50</span> &nbsp; 特邀报告，Marc Witteman</p></li>
+            <li><p><span class='text-muted'>09:50 - 10:30</span> &nbsp; 银联卡安全性检测，彭乾</p></li>
+            <li><p><span class='text-muted'>10:30 - 10:50</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>10:50 - 11:40</span> &nbsp; 密钥产品的安全评估 - 方法与问题，石竑松</p></li>
+            <li><p><span class='bg-info text-info'>12:10 - 14:00 &nbsp; 午餐</span></p></li>
+            <li><p><span class='text-muted'>14:00 - 14:50</span> &nbsp; 硬件木马设计与检测 - S1，金意儿</p></li>
+            <li><p><span class='text-muted'>14:50 - 15:40</span> &nbsp; 硬件木马设计与检测 - S2，金意儿</p></li>
+            <li><p><span class='text-muted'>15:40 - 16:10</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>16:10 - 17:00</span> &nbsp; 硬件木马设计与检测 - S3，金意儿</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月21日 <small>周二</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>09:00 - 09:50</span> &nbsp; Lattice-based Attack on ECDSA，Frederik Vercauteren</p></li>
+            <li><p><span class='text-muted'>09:50 - 10:40</span> &nbsp; Smart Nest Thermostat - A Smart Spy in Your Home，金意儿</p></li>
+            <li><p><span class='text-muted'>10:40 - 11:00</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>11:00 - 11:50</span> &nbsp; Java Card Applet - S1，Stefan Tillich</p></li>
+            <li><p><span class='bg-info text-info'>12:10 - 14:00 &nbsp; 午餐</span></p></li>
+            <li><p><span class='text-muted'>14:00 - 14:50</span> &nbsp; Java Card Applet - S2，Stefan Tillich</p></li>
+            <li><p><span class='text-muted'>14:50 - 15:40</span> &nbsp; Java Card Applet - S3，Stefan Tillich</p></li>
+            <li><p><span class='text-muted'>15:40 - 16:10</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>16:10 - 17:00</span> &nbsp; Java Card Applet - S4，Stefan Tillich</p></li>
+            <li><p><span class='bg-warning text-warning'>18:00 - 21:00 &nbsp; Riscure HACKATON活动，Riscure</span></p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月22日 <small>周三</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>09:00 - 09:50</span> &nbsp; Java Card Applet - S5，Stefan Tillich</p></li>
+            <li><p><span class='text-muted'>09:50 - 10:40</span> &nbsp; Java Card Applet - S6，Stefan Tillich</p></li>
+            <li><p><span class='text-muted'>10:40 - 11:00</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>11:00 - 11:50</span> &nbsp; Template Attacks - S1，Benedikt Gierlichs</p></li>
+            <li><p><span class='bg-info text-info'>12:10 - 14:00 &nbsp; 午餐</span></p></li>
+            <li><p><span class='text-muted'>14:00 - 14:50</span> &nbsp; Template Attacks - S2，Benedikt Gierlichs</p></li>
+            <li><p><span class='text-muted'>14:50 - 15:40</span> &nbsp; Template Attacks - S3，Benedikt Gierlichs</p></li>
+            <li><p><span class='text-muted'>15:40 - 16:10</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>16:10 - 17:00</span> &nbsp; Template Attacks - S4，Benedikt Gierlichs</p></li>
+            <li><p><span class='text-muted'>18:00 - 21:00</span> &nbsp; 会议晚餐</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月23日 <small>周四</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>09:00 - 09:50</span> &nbsp; High Order  DPA - S1，Benedikt Gierlichs</p></li>
+            <li><p><span class='text-muted'>09:50 - 10:40</span> &nbsp; High Order  DPA - S2，Benedikt Gierlichs</p></li>
+            <li><p><span class='text-muted'>10:40 - 11:00</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>11:00 - 11:50</span> &nbsp; High Order  DPA - S3，Benedikt Gierlichs</p></li>
+            <li><p><span class='bg-info text-info'>12:10 - 14:00 &nbsp; 午餐</span></p></li>
+            <li><p><span class='text-muted'>14:00 - 17:00</span> &nbsp; Excursion</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="well">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="sm-except-text-right ml20">10月24日 <small>周五</small></h3>
+      </div>
+      <div class="col-md-9">
+        <ul class="mt20 mb20">
+            <li><p><span class='text-muted'>09:00 - 09:50</span> &nbsp; Fully Homomorphic Encryption （全同态密码技术），Frederik Vercauteren</p></li>
+            <li><p><span class='text-muted'>09:50 - 10:40</span> &nbsp; Random Number Generators - S1，Viktor Fischer</p></li>
+            <li><p><span class='text-muted'>10:40 - 11:00</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>11:00 - 11:50</span> &nbsp; Random Number Generators - S2，Viktor Fischer</p></li>
+            <li><p><span class='bg-info text-info'>12:10 - 14:00 &nbsp; 午餐</span></p></li>
+            <li><p><span class='text-muted'>14:00 - 14:50</span> &nbsp; Random Number Generators - S3，Viktor Fischer</p></li>
+            <li><p><span class='text-muted'>14:50 - 15:40</span> &nbsp; Random Number Generators - S4，Viktor Fischer</p></li>
+            <li><p><span class='text-muted'>15:40 - 16:00</span> &nbsp; 茶歇</p></li>
+            <li><p><span class='text-muted'>16:00 - 16:50</span> &nbsp; Random Number Generators - S5，Viktor Fischer</p></li>
+            <li><p><span class='text-muted'>16:50 - 17:00</span> &nbsp; 总结、再见</strong></p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Designed and built with <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

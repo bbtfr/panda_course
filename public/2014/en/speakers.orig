@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Panda Course 2014</title>
+
+  <link data-turbolinks-track="true" href="/assets/animate.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/transition.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/collapse.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="A0ymlSqJ7vrkRTdVaz4Wz6x8tkKE4oSC8VI51UC6dLE=" name="csrf-token" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="/assets/html5shiv.min.js?body=1"></script>
+    <script src="/assets/respond.min.js?body=1"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="masthead well">
+    <div class="container">
+      <h2>Summer Course on Physical Attacks aNd Design Attestation 2014</h2>
+      <h1>PANDA Course 2014</h1>
+      <p>
+        Jinan, Shandong, China
+        &nbsp;&nbsp;
+        Oct. 20 (Mon) - Oct. 24 (Fri), 2014
+      </p>
+    </div>
+    <div class="right-top">
+      <div class="languages">
+        Language:
+        <a class="active">English</a>
+        |
+        <a href="/zh-CN/speakers">简体中文</a>
+      </div>
+      <div class="weixin hidden-xs">
+        Follow us on Wechat<br>
+        <img alt="Qr" src="/assets/images/QR.png" width="75" />
+
+        <img alt="Qr" class="qrcode bounceIn animated" src="/assets/images/QR.png" width="300" />
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/en/index">PANDA 2014</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/en/speakers">Speakers</a></li>
+            <li ><a href="/en/program">Program</a></li>
+            <li ><a href="/en/committee">Committee</a></li>
+            <li ><a href="/en/registration">Registration</a></li>
+            <li ><a href="/en/sponsors">Sponsor</a></li>
+            <li ><a href="/en/contact">Contact</a></li>
+            <li ><a href="/en/venue">Venue</a></li>
+            <li ><a href="/en/accommodations">Accommodations</a></li>
+            <li ><a href="/en/stipend">Student Stipend</a></li>
+          <li><a href="/2013/">PANDA2013</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="row">
+  <div class="col-md-12">
+      <div class="well speaker">
+        <img alt="Gierlichs benedikt" class="img-thumbnail pull-left" src="/assets/images/gierlichs_benedikt.jpg" />
+        <h2>Benedikt Gierlichs <small>KU Leuven, Belgium</small></h2>
+        <p><p>Dr. Benedikt Gierlichs joined the COSIC research group at KU Leuven (Belgium) as a PhD student in 2006. He obtained a PhD in electrical engineering with his thesis on "Statistical and Information-Theoretic Methods for Power Analysis on Embedded Cryptography" in 2011. His research focuses on the (physical) security of embedded devices, in particular side-channel analysis, fault analysis and countermeasures. Prior to joining COSIC, Benedikt Gierlichs studied IT-security engineering at the university of Bochum and obtained an MSc in 2006. Further, he completed a long-term internship at the Security Technologies department of Gemplus (now part of Gemalto). Dr. Gierlichs is currently a post-doctoral fellow with the Funds for Scientific Research Flanders (Belgium). He is (co-)author of more than 25 scientific publications in international, peer-reviewed conferences and journals.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Marc witteman" class="img-thumbnail pull-left" src="/assets/images/marc_witteman.png" />
+        <h2>Marc F. Witteman <small>Riscure Delft, The Netherlands</small></h2>
+        <p><p>Marc Witteman has a long track record in the security industry. He has been involved with a variety of security projects for over two decades and worked on applications in mobile communications, payment industry, identification, and pay television. Recent work includes secure programming and ePassport security issues. He has authored several articles on smart card and embedded device security issues. Further, he has extensive experience as a trainer, lecturing security topics for audiences ranging from novices to experts. As a security analyst he developed several tools for testing software and hardware security. This includes Inspector, a platform for conducting side-channel analysis and JCworkBench, a logical test tool. Marc Witteman has an MSc in Electrical Engineering from the Delft University of Technology in the Netherlands. From 1989 till 2001 he worked for several telecom operators, the ETSI standardization body and a security evaluation facility. In 2001 he founded Riscure, a security lab based in the Netherlands. Riscure offers consulting and testing services to manufacturers and issuers of advanced security technology. Between 2001 and 2011 he raised the company to a leading security test lab, and side channel test tool vendor. In 2010 Marc Witteman started Riscure Inc, the US branch of Riscure, based in San Francisco, California. At present he is the Chief Technology Officer of the Riscure Security Lab.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Yier jin" class="img-thumbnail pull-left" src="/assets/images/yier_jin.png" />
+        <h2>Yier Jin <small>EECS Department, University of Central Florida</small></h2>
+        <p><p>Yier Jin is currently an assistant professor in the EECS Department at the University of Central Florida. He received his PhD degree in Electrical Engineering in 2012 from Yale University after he got the B.S. and M.S. degrees in Electrical Engineering from Zhejiang University, China, in 2005 and 2007, respectively. His research focuses on the areas of trusted embedded systems, trusted hardware intellectual property (IP) cores and hardware-software co-protection on computer systems. He proposed various approaches in the area of hardware security, including the first hardware Trojan detection methodology relying on local side-channel information, the first post-deployment hardware trust assessment framework, and the first proof-carrying hardware IP protection scheme. He is also interested in the security analysis on Internet of Things (IoT) and wearable devices with particular emphasis on information integrity and privacy protection in the IoT era. He serves and has served on the Organizing Committees and Technical Program Committees of many Conferences and Workshops such as HOST, ISVLSI, ATS, ICCD, etc.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Stefan tillich" class="img-thumbnail pull-left" src="/assets/images/stefan_tillich.jpg" />
+        <h2>Stefan Tillich <small>Yagoba, Austria</small></h2>
+        <p><p>Dr. Stefan Tillich graduated from the University of Graz in Austria, his research focuses on the design of crypto chips. After graduated, he worked at the University of Bristol for postdoctoral research, under the tutelage of renowned cryptographer Professor Nigel Smart, on side-channel attack techniques. In 2013, Dr. Stefan Tillich co-founded Yagoba with other two Graz University professors, and served as CTO. Yagoba is committed to high performance, high security Java Card Applet design.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Junfeng fan" class="img-thumbnail pull-left" src="/assets/images/junfeng_fan.jpg" />
+        <h2>Junfeng Fan <small>Open Security Research, China</small></h2>
+        <p><p>Dr. Junfeng Fan obtained his Ph.D from KU Leuven (Belgium). His research interests include design of high-performance crypto chips, low-power ECC accelerators and physical security of crypto chips. He has published eight papers in international journals and books, more than 20 papers in international conferences such as CHES and DAC. He proposed an efficient algorithm for modular multiplication for BN curves. Using this algorithm, he achieved the fastest hardware implementation of pairing using 256-bit BN curves when the paper was published. Together with Gierlichs and Vercauteren, he proposed an ECC attack method using the point at infinity. He is the founder of Open Security Research (OSR), which is dedicated to open research in cryptographic chip design and analysis.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Fischer" class="img-thumbnail pull-left" src="/assets/images/fischer.jpg" />
+        <h2>Viktor Fischer <small>Jean Monnet University Saint-Etienne, France</small></h2>
+        <p><p>Dr. Viktor Fischer is currently a full-time professor at the Jean Monnet University in Saint-Etienne in France, and also as an external consultant of a private company (Micronic) in Slovakia. His research activities are mostly realized at the Hubert Curien Laboratory of the Jean Monnet University.His main research interests include cryptographic chip design and analysis. He has done extensive research on random number generators with different mechanisms. He has published nearly thirty papers in International Conference, such as CHES, FPL, etc. He was invited to give a RNG tutorial at CHES'14 in Busan.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Fre" class="img-thumbnail pull-left" src="/assets/images/fre.png" />
+        <h2>Frederik Vercauteren <small>COSIC, KU Leuven, Belgium</small></h2>
+        <p><p>Frederik Vercauteren received the M.Sc. degree in computer science, the M.Sc. degree in pure mathematics, and the Ph.D. degree in electrical engineering from the Katholieke Universiteit Leuven, Belgium. He is currently a Postdoctoral Fellow of the Research Foundation-Flanders (FWO Vlaanderen) at the Department of Electrical Engineering, Katholieke Universiteit Leuven, Belgium. Previously, he held a lecturer position at the Department of Computer Science, University of Bristol, U.K. His current research interests include applications of computational number theory and arithmetic geometry in cryptography.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="User" class="img-thumbnail pull-left" src="/assets/images/user.png" />
+        <h2>Hongsong Shi <small>CITSE, China</small></h2>
+        <p><p>Dr. Hongsong Shi is now an analyst at China Information Technology Security Evaluation Center (CITSE). He obtained his PhD from University of Electronic Science and Technology of China. He was also a visiting scholar at the iCIS lab led by Prof. Rei Safavi-Naini at Calgary university, Canada. His research interest now includes random number generators and their evaluation, side-channel analysis and leakage-resilient cryptography.
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Pengqian" class="img-thumbnail pull-left" src="/assets/images/pengqian.jpeg" />
+        <h2>Qian Peng <small>Bank Card Test Center</small></h2>
+        <p><p>银行卡检测中心安全技术专家，主要从事金融IC卡及读写机具安全研究和测试工作。参加工作以来，主要从事安全测试技术的研发与标准制定，熟悉金融IC卡芯片、嵌入式软件及读写机具功能与安全检测技术，曾参与金融IC卡、金融读写机具、移动支付等多项行业标准制定。为2011年国家发改委“国家金融IC卡安全检测中心”项目主要技术带头人，并参与工信部、核高基等国家专项的申请及研发工作，申请技术专利8项。
+</p></p>
+      </div>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Designed and built with <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

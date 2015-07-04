@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Panda Course 2014</title>
+
+  <link data-turbolinks-track="true" href="/assets/animate.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/transition.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/collapse.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="A0ymlSqJ7vrkRTdVaz4Wz6x8tkKE4oSC8VI51UC6dLE=" name="csrf-token" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="/assets/html5shiv.min.js?body=1"></script>
+    <script src="/assets/respond.min.js?body=1"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="masthead well">
+    <div class="container">
+      <h2>Summer Course on Physical Attacks aNd Design Attestation 2014</h2>
+      <h1>PANDA Course 2014</h1>
+      <p>
+        Jinan, Shandong, China
+        &nbsp;&nbsp;
+        Oct. 20 (Mon) - Oct. 24 (Fri), 2014
+      </p>
+    </div>
+    <div class="right-top">
+      <div class="languages">
+        Language:
+        <a class="active">English</a>
+        |
+        <a href="/zh-CN/accommodations">简体中文</a>
+      </div>
+      <div class="weixin hidden-xs">
+        Follow us on Wechat<br>
+        <img alt="Qr" src="/assets/images/QR.png" width="75" />
+
+        <img alt="Qr" class="qrcode bounceIn animated" src="/assets/images/QR.png" width="300" />
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/en/index">PANDA 2014</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li ><a href="/en/speakers">Speakers</a></li>
+            <li ><a href="/en/program">Program</a></li>
+            <li ><a href="/en/committee">Committee</a></li>
+            <li ><a href="/en/registration">Registration</a></li>
+            <li ><a href="/en/sponsors">Sponsor</a></li>
+            <li ><a href="/en/contact">Contact</a></li>
+            <li ><a href="/en/venue">Venue</a></li>
+            <li class="active"><a href="/en/accommodations">Accommodations</a></li>
+            <li ><a href="/en/stipend">Student Stipend</a></li>
+          <li><a href="/2013/">PANDA2013</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="map-wrapper">
+  <div id="map"></div>
+
+  <div class="content">
+    <h3 class="ml20 mb20">Nearby Hotels</h3>
+    <ol class="ml20">
+        <li>
+          <h4>Donghai Shanzhuang Hotel <a class="mt0 btn btn-primary btn-xs" href="javascript: show(0);"><span class="glyphicon glyphicon-map-marker"></span>Map</a></h4>
+          <p>Address: A8, Zhihuiyuan, Shunhua Rd, Jinan
+<br />Reservation: 0531 - 88956111
+</p>
+        </li>
+        <li>
+          <h4>Dawei International Hotel <a class="mt0 btn btn-primary btn-xs" href="javascript: show(1);"><span class="glyphicon glyphicon-map-marker"></span>Map</a></h4>
+          <p>Address: 600, Shunhua East Rd, Lixia, Jinan
+<br />Reservation: 0531 - 88693666
+</p>
+        </li>
+        <li>
+          <h4>Junyue Shiyuan Hotel <a class="mt0 btn btn-primary btn-xs" href="javascript: show(2);"><span class="glyphicon glyphicon-map-marker"></span>Map</a></h4>
+          <p>Address: 7777, Jingshi Rd, Jinan
+<br />Reservation: 0531 - 85951111
+</p>
+        </li>
+    </ol>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var geoData = [{"position":{"lat":36.673672,"lng":117.137365},"title":"Donghai Shanzhuang Hotel","content":"\u003ch4\u003eDonghai Shanzhuang Hotel\u003c/h4\u003e\u003cp\u003eAddress: A8, Zhihuiyuan, Shunhua Rd, Jinan\n\u003cbr /\u003eReservation: 0531 - 88956111\n\u003c/p\u003e"},{"position":{"lat":36.67205,"lng":117.136132},"title":"Dawei International Hotel","content":"\u003ch4\u003eDawei International Hotel\u003c/h4\u003e\u003cp\u003eAddress: 600, Shunhua East Rd, Lixia, Jinan\n\u003cbr /\u003eReservation: 0531 - 88693666\n\u003c/p\u003e"},{"position":{"lat":36.660949,"lng":117.125541},"title":"Junyue Shiyuan Hotel","content":"\u003ch4\u003eJunyue Shiyuan Hotel\u003c/h4\u003e\u003cp\u003eAddress: 7777, Jingshi Rd, Jinan\n\u003cbr /\u003eReservation: 0531 - 85951111\n\u003c/p\u003e"}];
+  var geoCenter = {
+    "lat": 36.66889033333333,
+    "lng": 117.12301266666667
+  };
+</script>
+
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
+  <script type="text/javascript">
+    var markers = [];
+
+    function initialize() {
+      var center = new google.maps.LatLng(geoCenter["lat"], geoCenter["lng"]);
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        disableDefaultUI: true,
+        center: center,
+        zoom: 15
+      });
+
+      var infowindow = new google.maps.InfoWindow();
+
+      for (var i = 0; i < geoData.length; i++) {
+        var marker = new google.maps.Marker({
+          map: map,
+          content: geoData[i].content,
+          position: new google.maps.LatLng(geoData[i].position.lat, geoData[i].position.lng)
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.setContent(this.content);
+          infowindow.open(map, this);
+        });
+
+        markers.push(marker);
+      }
+    }
+
+    function show(i) {
+      google.maps.event.trigger(markers[i], 'click');
+    }
+
+    $(document).ready(initialize);
+  </script>
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Designed and built with <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

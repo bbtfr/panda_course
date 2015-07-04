@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Panda Course 2014</title>
+
+  <link data-turbolinks-track="true" href="/assets/animate.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/transition.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap/collapse.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="A0ymlSqJ7vrkRTdVaz4Wz6x8tkKE4oSC8VI51UC6dLE=" name="csrf-token" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="/assets/html5shiv.min.js?body=1"></script>
+    <script src="/assets/respond.min.js?body=1"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="masthead well">
+    <div class="container">
+      <h2>Summer Course on Physical Attacks aNd Design Attestation 2014</h2>
+      <h1>PANDA Course 2014</h1>
+      <p>
+        山东济南
+        &nbsp;&nbsp;
+        2014年10月20日（周一） 至 10月24日（周五）
+      </p>
+    </div>
+    <div class="right-top">
+      <div class="languages">
+        Language:
+        <a href="/en/speakers">English</a>
+        |
+        <a class="active">简体中文</a>
+      </div>
+      <div class="weixin hidden-xs">
+        请关注微信公众号<br>
+        <img alt="Qr" src="/assets/images/QR.png" width="75" />
+
+        <img alt="Qr" class="qrcode bounceIn animated" src="/assets/images/QR.png" width="300" />
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/zh-CN/index">PANDA 2014</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/zh-CN/speakers">演讲者</a></li>
+            <li ><a href="/zh-CN/program">日程安排</a></li>
+            <li ><a href="/zh-CN/committee">委员会</a></li>
+            <li ><a href="/zh-CN/registration">注册</a></li>
+            <li ><a href="/zh-CN/sponsors">赞助商</a></li>
+            <li ><a href="/zh-CN/contact">联系我们</a></li>
+            <li ><a href="/zh-CN/venue">地点</a></li>
+            <li ><a href="/zh-CN/accommodations">住宿</a></li>
+            <li ><a href="/zh-CN/stipend">Riscure奖学金</a></li>
+          <li><a href="/2013/">PANDA2013</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="row">
+  <div class="col-md-12">
+      <div class="well speaker">
+        <img alt="Gierlichs benedikt" class="img-thumbnail pull-left" src="/assets/images/gierlichs_benedikt.jpg" />
+        <h2>Benedikt Gierlichs <small>COSIC, KU Leuven, Belgium</small></h2>
+        <p><p>Benedikt Gierlichs博士毕业于鲁汶大学，师从于著名密码学家、前世界密码协会主席Bart Preneel教授。他的主要研究兴趣是旁路分析和错误注入分析及其防护。他是25篇学术论文的作者，包含CHES文章7篇、CT-RSA文章3篇、ASIACRYPT文章2篇、Journal of Cryptology一篇。
+<br />他是互信息分析（Mutual Information Analysis）的发明人。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Marc witteman" class="img-thumbnail pull-left" src="/assets/images/marc_witteman.png" />
+        <h2>Marc F. Witteman <small>Riscure Delft, The Netherlands</small></h2>
+        <p><p>Marc Witteman是荷兰Riscure创始人兼CTO，并将Riscure发展成为全球密码芯片检测设备的第一品牌。他在信息安全行业有超过20年的经验，参与过的项目包括移动通信、金融支付系统、身份认证、付费电视、电子护照等产品，他还是多篇关于智能卡和嵌入式系统安全的论文作者。作为一个资深安全侧平员，他开发了多个用于安全性检测的软硬件系统，包括后来成为Riscure产品的Inspector。他还是用于逻辑测试的JCworkBench的作者。
+<br />Marc Witteman热心参与信息安全行业的交流和培训，具有丰富的培训经验。他参加了2013年PANDA研讨会并作专题报告。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Yier jin" class="img-thumbnail pull-left" src="/assets/images/yier_jin.png" />
+        <h2>金意儿 <small>EECS Department, University of Central Florida, USA</small></h2>
+        <p><p>金意儿教授毕业于耶鲁大学，目前任职于中佛罗里达大学（UCF）。他的主要研究兴趣是硬件木马的设计和检测、可信嵌入式系统和硬件IP保护。他首先提出使用侧信道信息监测硬件木马的方法学、第一个在产品使用阶段的安全性评估框架和第一个自带证明的硬件IP保护策略。他对物联网和可穿戴电子的安全也有浓厚的兴趣。2014年，金意儿教授应邀在黑帽大会上作专题报告。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Stefan tillich" class="img-thumbnail pull-left" src="/assets/images/stefan_tillich.jpg" />
+        <h2>Stefan Tillich <small>Yagoba, Austria</small></h2>
+        <p><p>Stefan Tillich博士毕业于奥地利Graz大学，主要研究兴趣是密码芯片设计。博士毕业后，他在英国布里斯托大学从事博士后研究，师从著名密码学家Nigel Smart教授，主要研究侧信道攻击技术。Stefan Tillich博士于2013年和另外两位Graz大学教授共同创立了Yagoba，并担任CTO。Yagoba致力于高性能、高安全Java Card Applet设计。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Junfeng fan" class="img-thumbnail pull-left" src="/assets/images/junfeng_fan.jpg" />
+        <h2>樊俊锋 <small>Open Security Research, China</small></h2>
+        <p><p>樊俊锋博士毕业于比利时鲁汶大学，他的主要研究课题为密码芯片安全，在高性能密码芯片、低功耗椭圆曲线密码（ECC）核和抗物理攻击密码芯片设计。他在国际期刊上发表论文6篇，学术著作2本（章节），国际学术会议论文20余篇，包括CHES论文5篇。他率先提出了多项式-整数混合模乘算法，降低了基于BN曲线的线性对（Pairing）的运算复杂度。使用该算法，他设计了当时世界上最快的Pairing协处理器。他还设计了面向受限设备的超低功耗的ECC芯片，对ECC的抗攻击设计技术进行了系统化研究，提出了一系列低成本检错技术。与Gierlichs和Vercauteren联合设计了的基于无穷远点的攻击方法。他于2014年初在深圳创立了纽创信安开放安全技术研究所（Open Security Research, OSR），致力于密码芯片的攻击和防护新技术的研究。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Fischer" class="img-thumbnail pull-left" src="/assets/images/fischer.jpg" />
+        <h2>Viktor Fischer <small>Jean Monnet University Saint-Etienne, France</small></h2>
+        <p><p>Viktor Fischer博士任教于法国Saint-Etienne大学，主要研究兴趣为密码芯片设计和分析。他对不同平台、不同原理的随机数发生器做了长期、系统的研究，在CHES、FPL等国际会议上发表文章近30篇。他也应邀在2014的CHES会议上作随机数设计培训。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Fre" class="img-thumbnail pull-left" src="/assets/images/fre.png" />
+        <h2>Frederik Vercauteren <small>COSIC, KU Leuven, Belgium</small></h2>
+        <p><p>Frederik Vercauteren 博士任教于比利时鲁汶大学，主要研究兴趣为密码数学理论。他在椭圆曲线和超椭圆曲线、线性对（Pairing）和全同态密码领域都有重要成果。特别是在全同态密码技术方面，他在软硬件性能优化方面都有国际先进的研究进展。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="User" class="img-thumbnail pull-left" src="/assets/images/user.png" />
+        <h2>石竑松 <small>中国信息安全测评中心</small></h2>
+        <p><p>石竑松博士毕业于电子科技大学，研究方向为密码学和理论计算机科学，2007-2009 在加拿大 Calgary 大学 Rei Safavi-Naini 教授处（iCIS 实验室）学习，目前在中国信息安全测评中心从事密码产品安全评估工作，主要研究随机数发生器、侧信道安全及 Leakage-resilient Cryptography。
+</p></p>
+      </div>
+      <div class="well speaker">
+        <img alt="Pengqian" class="img-thumbnail pull-left" src="/assets/images/pengqian.jpeg" />
+        <h2>彭乾 <small>银行卡检测中心</small></h2>
+        <p><p>银行卡检测中心安全技术专家，主要从事金融IC卡及读写机具安全研究和测试工作。参加工作以来，主要从事安全测试技术的研发与标准制定，熟悉金融IC卡芯片、嵌入式软件及读写机具功能与安全检测技术，曾参与金融IC卡、金融读写机具、移动支付等多项行业标准制定。为2011年国家发改委“国家金融IC卡安全检测中心”项目主要技术带头人，并参与工信部、核高基等国家专项的申请及研发工作，申请技术专利8项。
+</p></p>
+      </div>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Designed and built with <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
