@@ -78,7 +78,7 @@ zh-CN:
   speakers:
     well:
       - image: images/bart_preneel.jpg
-        title: Benedikt Gierlichs
+        title: Bart Preneel
         subtitle: "KU Leuven, Belgium"
         para: |
           Bart Preneel is full professor at the KU Leuven where he heads the COSIC research group which has 60 members. He has authored more than 400 scientific publications and is inventor of 4 patents. His main research interests are cryptography, information security and privacy and he frequently consults on these topics. Bart Preneel has participated to more than 30 international research projects sponsored by the European Commission, for five of these as project manager. He has served as panel member for several research funding agencies including the European Research Council. He is president of the IACR (International Association for Cryptologic Research) and a member of the Permanent Stakeholders group of ENISA.
@@ -93,7 +93,7 @@ zh-CN:
         title: Olivier Rioul
         subtitle: "Telecom-ParisTech, France"
         para: |
-         Olivier Rioul is a currently an associate professor at Télécom ParisTech. His research interests include joint source-channel coding and information theory. Olivier Rioul was born in Strasbourg, France on July 4, 1964. He received diplomas in Electrical Engineering from the Ecole Polytechnique, Palaiseau, France, and from Telecom University, Paris, in 1987 and 1989, respectively.  From 1989 to 1994, he was with the Centre National d’Etudes des Télécommunications (CNET), Issy-les-Moulineaux, France, where he worked on wavelet theory and image compression.
+          Olivier Rioul is professor at Telecom ParisTech and at Ecole Polytechnique, France. He has written two books on information theory & coding and on probability theory. He received the Knight distinction of the Order of Academic Palms for contributions to higher education. He is a former head of the Digital Communications Group at Telecom ParisTech and is chargé de mission in relation with Higher School Preparatory Classes. He is a member of IEEE, IACR, SIAM. His present and past research interests are Shannon Theory, Side-Channel Analysis of cryptographic systems, Experimental Psychology applied to Human-Computer Interaction, Combined source-channel coding and Wavelet Theory.
 
       - image: images/gierlichs_benedikt.jpg
         title: Benedikt Gierlichs
@@ -111,7 +111,7 @@ zh-CN:
         title: Yang Li
         subtitle: "Nanjing University Of Posts And Telecommunications, China"
         para: |
-          Yang Li received the B.E. degree in electronic and information engineering from Harbin Engineering University, Harbin, China, in 2008, the M.E. degree in information and communication engineering and the Ph.D. degree in faculty of informatics from the University of Electro-Communications, Tokyo, Japan, in 2011 and 2012, respectively. He is currently a Project Assistant Professor with the Department of Informatics, University of Electro-Communications. His current research interests include security evaluation and improvement for cryptographic hardware and embedded systems.
+          Yang Li received the B.E. degree in electronic and information engineering from Harbin Engineering University, Harbin, China, in 2008, the M.E. degree in information and communication engineering and the Ph.D. degree in faculty of informatics from the University of Electro-Communications, Tokyo, Japan, in 2011 and 2012, respectively. He is currently an associated professor in College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics, China. His current research interests include security evaluation and improvement for cryptographic hardware and embedded systems.
 
       - image: images/lihuiyun.jpg
         title: Huiyun Li
@@ -161,9 +161,9 @@ zh-CN:
               - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Privacy challenges for biometrics authentication, Bart Preneel"
               - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Hardware security in EMV payment system, Michael Ward"
               - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
-              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
-              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
-              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Oivier Rioul"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Olivier Rioul"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Olivier Rioul"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; Side-Channel Analysis: A Mathematician's Viewpoint, Olivier Rioul"
               - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
           - title: "AUGUST 29<br> <small>Saturday</small>"
             list:
@@ -230,18 +230,16 @@ zh-CN:
           - url: http://www.sklois.cn/
             image: images/Sklois.png
 
-
   contact:
     para: |
       如果您有任何关于PANDA Course的疑问，请联系我们：
     panel:
-      - title: "张锐"
-        subtitle: "中国科学院"
+      - title: "赵鹏"
+        subtitle: "深圳市纽创信安科技开发有限公司"
         list:
           - |
             电子邮件：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>
-          - "电话：010 - 82546562 - 8206"
-          - "传真：010 - 82546564"
+          - "电话：0755 - 86950263"
       - title: "马晖"
         subtitle: "中国科学院"
         list:
