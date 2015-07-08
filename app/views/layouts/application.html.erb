@@ -62,7 +62,13 @@
           <% t("navbar", scope: :layout).each do |key, value| %>
             <li <%= raw "class=\"active\"" if active? key %>><%= link_to value, page_path(id: key) %></li>
           <% end %>
-          <li><a href="/2014/index.html">PANDA2014</a></li>
+          <% if locale?(:en) %>
+            <li><a href="/2014/en/index.html">PANDA2014</a></li>
+            <li><a href="/2013/index.html">PANDA2013</a></li>
+          <% elsif locale?(:"zh-CN") %>
+            <li><a href="/2014/index.html">PANDA2014</a></li>
+            <li><a href="/2013/indexC.html">PANDA2013</a></li>
+          <% end %>
         </ul>
       </div>
     </nav>

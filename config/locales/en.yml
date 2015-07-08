@@ -27,7 +27,7 @@ en:
       speakers: Speakers
       program: Program
       committee: Committee
-      # registration: Registration
+      registration: Registration
       sponsors: Sponsor
       contact: Contact
       venue: Venue
@@ -91,7 +91,7 @@ en:
 
       - image: images/liyang.jpg
         title: Yang Li
-        subtitle: "Nanjing University Of Posts And Telecommunications, China"
+        subtitle: "Nanjing University of Posts and Telecommunications, China"
         para: |
           Yang Li received the B.E. degree in electronic and information engineering from Harbin Engineering University, Harbin, China, in 2008, the M.E. degree in information and communication engineering and the Ph.D. degree in faculty of informatics from the University of Electro-Communications, Tokyo, Japan, in 2011 and 2012, respectively. He is currently an associated professor in College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics, China. His current research interests include security evaluation and improvement for cryptographic hardware and embedded systems.
 
@@ -100,6 +100,12 @@ en:
         subtitle: "Chinese Academy of Science, China"
         para: |
           Huiyun Li obtained her PhD degree from Cambridge University, UK in 2006. She has been working with Shenzhen Institute of Advanced Technologies, China since 2006 and is the vice director of the Automotive Electronics Research Center. Her research interests include cryptographic module/IC design, evaluation and test, as well as power electronics and system in package (SIP) test. She has published 1 book and over 30 papers on international journals and conferences. She is the principle investigator (PI) of projects supported by China National High-tech 863 plan and National Science Foundation of China etc. She is the peer reviewer of multiple international academic journals and conference proceedings. She was awarded as Cambridge Overseas Trust Scholar (2003) and Outstanding Talent of Shenzhen (2009).
+
+      - image: images/yuyu.jpg
+        title: Yu Yu
+        subtitle: "Shanghai Jiao Tong University, China"
+        para: |
+          Yu Yu is currently a research professor at Shanghai Jiao Tong University. He obtained his BSc from Fudan University in 2003, and his PhD from Nanyang Technological University in 2006. He worked as a researcher at the ICT security lab at T-Systems Singapore from 2006 to 2008, and as a postdoctoral researcher at the UCL Crypto Group from 2008-2010. After returned to China, he was employed by East China Normal University (2011-2012) and Tsinghua University (2012-2014). His research interests include foundations of cryptography, pseudorandomness, and leakage-resilient cryptography. He has a dozen of publications at major venues such as CRYPTO, CCS, TCC, Asiacrypt, and CHES.
 
       - image: # images/user.png
         title: Qiang Xu
@@ -169,7 +175,7 @@ en:
       - title: PROGRAM COMMITTEE
         list:
           - "Junfeng Fan (Chair), Open Security Research, China"
-          - "Guoqiang Bai, Tsinghua University"
+          - "Guoqiang Bai (Chair), Tsinghua University"
           - "Yong Zhang, Shenzhen University"
           # - "Yiwei Zhang, Nationz Technologies, China"
           # - "Benedikt Gierlichs, KU Leuven, Belgium"

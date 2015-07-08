@@ -45,7 +45,7 @@ zh-CN:
       speakers: 演讲者
       program: 日程安排
       committee: 委员会
-      # registration: 注册
+      registration: 注册
       sponsors: 赞助商
       contact: 联系我们
       venue: 地点
@@ -119,6 +119,12 @@ zh-CN:
         para: |
           Huiyun Li obtained her PhD degree from Cambridge University, UK in 2006. She has been working with Shenzhen Institute of Advanced Technologies, China since 2006 and is the vice director of the Automotive Electronics Research Center. Her research interests include cryptographic module/IC design, evaluation and test, as well as power electronics and system in package (SIP) test. She has published 1 book and over 30 papers on international journals and conferences. She is the principle investigator (PI) of projects supported by China National High-tech 863 plan and National Science Foundation of China etc. She is the peer reviewer of multiple international academic journals and conference proceedings. She was awarded as Cambridge Overseas Trust Scholar (2003) and Outstanding Talent of Shenzhen (2009).
 
+      - image: images/yuyu.jpg
+        title: Yu Yu
+        subtitle: "Shanghai Jiao Tong University, China"
+        para: |
+          Yu Yu is currently a research professor at Shanghai Jiao Tong University. He obtained his BSc from Fudan University in 2003, and his PhD from Nanyang Technological University in 2006. He worked as a researcher at the ICT security lab at T-Systems Singapore from 2006 to 2008, and as a postdoctoral researcher at the UCL Crypto Group from 2008-2010. After returned to China, he was employed by East China Normal University (2011-2012) and Tsinghua University (2012-2014). His research interests include foundations of cryptography, pseudorandomness, and leakage-resilient cryptography. He has a dozen of publications at major venues such as CRYPTO, CCS, TCC, Asiacrypt, and CHES.
+
       - image: # images/user.png
         title: Qiang Xu
         subtitle: "Chinese University of Hong Kong, China"
@@ -186,7 +192,7 @@ zh-CN:
       - title: 程序委员会
         list:
           - "樊俊锋（主席），深圳市纽创信安科技开发有限公司"
-          - "白国强，清华大学"
+          - "白国强（主席），清华大学"
           - "张勇，深圳大学"
           - "周永彬，中国科学院"
           - "吴震，成都信息工程大学"
