@@ -30,7 +30,7 @@
       <% else %>
         <%= bootstrap_text_field f, :full_name %>
       <% end %>
-    
+
       <%= bootstrap_text_field f, :affiliation %>
 
       <%= bootstrap_radio_buttons f, :profession, %i(student employee researcher) %>
@@ -46,6 +46,8 @@
       <%= bootstrap_text_field f, :phone %>
       <%= bootstrap_text_field f, :email %>
 
+      <%= bootstrap_radio_buttons f, :section_type, %i(all_sections section_1_only) %>
+
       <% if params[:locale] == "en" %>
         <%= bootstrap_radio_buttons f, :payment_type, %i(wire_transfer cash), tips: t("wire_transfer_tip") %>
         <%= bootstrap_radio_buttons f, :invoice_needed, %i(receipt nothing) %>
@@ -56,7 +58,7 @@
       <% end %>
 
       <%= bootstrap_text_area f, :request, t("request_tip") %>
-      
+
 
       <div class="form-group">
         <div class="col-sm-offset-4 col-sm-8">

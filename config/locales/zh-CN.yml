@@ -12,6 +12,7 @@ zh-CN:
         postcode: 邮编
         phone: 联系电话
         email: 电子邮箱
+        section_type: 课程选择
         payment_type: 注册费缴纳方式
         invoice_title: 发票抬头
         invoice_needed: 是否需要发票
@@ -27,6 +28,9 @@ zh-CN:
         student: 全职学生
         employee: 企业职员
         researcher: 大学教师或研究所职员
+      registration/section_type:
+        all_sections: 全部参加
+        section_1_only: 只参加支付系统安全部分
       registration/payment_type:
         wire_transfer: 银行转账汇款
         card_swipe: 现场刷卡支付
@@ -60,10 +64,10 @@ zh-CN:
     jumbotron:
       title: 欢迎来到 PANDA 2015 研讨会
       para: |
-        本次研讨会由中国密码学会芯片专委会指导、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.szu.edu.cn/2014/">深圳大学</a>共同举办，佛山芯珠微电子有限公司和济南钮信安全技术有限公司共同协办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。PANDA专注于密码芯片、密码设备的侧信道攻击和安全测评。
+        本次研讨会由中国密码学会密码芯片专业委员会指导、<a href="http://www.opsefy.com/">Open Security Research</a>和<a href="http://www.szu.edu.cn/2014/">深圳大学</a>共同举办，佛山芯珠微电子有限公司和济南钮信安全技术有限公司共同协办。旨在为国内外密码工程领域的在校学生、学者以及业界专家搭建一个交流平台。PANDA专注于密码芯片、密码设备的侧信道攻击和安全测评。
       button:
         title: PANDA 2015 会议通知
-        link: #/files/PANDA2015CN.pdf
+        link: /files/PANDA2015CN.pdf
     media:
       - image: images/dianlu.jpg
         title: 创新思维
@@ -85,9 +89,15 @@ zh-CN:
 
       - image: # images/marc_witteman.png
         title: Michael Ward
-        subtitle: "Mastercard (Director of EMV SWG), UK"
+        subtitle: "MasterCard, UK"
         para: |
           Michael Ward works in the Chip Centre of Excellence Product Security department within MasterCard Worldwide‘s Advanced Payments group. He provides security expertise in areas such as cryptography and key management for chip card applications and is chairman of the EMVCo Security Working Group. He participates in various international standards bodies including ISO/IEC JTC 1 /SC 27/WG 2 Information Technology - Security Techniques and Mechanisms, ISO TC 68 Financial Services, and the European Payments Council Security Payments Task Force. Before joining MasterCard he was an employee at APACS (the Association for Payment Clearing Services) in the UK where he was involved with the UK migration to chip card technology. He has a degree in mathematics from Oxford University and a Ph.D. from Royal Holloway, London University.
+
+      - image: images/peter_fillmore.jpg
+        title: Peter Fillmore
+        subtitle: "Independent researcher"
+        para: |
+          Peter Fillmore is a payment security expert with extensive experience in the design and certification of PCI PTS approved payment terminals. Peter has been involved with all types of terminal design - from simple swipe mechanisms to complex unattended systems. Previously he has spoken at Blackhat USA, Syscan and Breakpoint security conferences on contactless payment security implementations. His research work has been covered by all forms of international and national media including TV, radio and newspapers. Peter is interested in real world security systems and novel ways of breaking them.
 
       - image: images/Olivier_Rioul.jpg
         title: Olivier Rioul
@@ -144,9 +154,9 @@ zh-CN:
               - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Challenges and trends in EMV payment system - 2, Michael Ward"
               - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Challenges and trends in EMV payment system - 3, Michael Ward"
               - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
-              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; PCI PTS security - 1, TBD"
-              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; PCI PTS security - 2, TBD"
-              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; PCI PTS security - 3, TBD"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; PCI PTS security - 1, Peter Fillmore"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; PCI PTS security - 2, Peter Fillmore"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; PCI PTS security - 3, Peter Fillmore"
               - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
           - title: "AUGUST 27<br> <small>Thursday</small>"
             list:
@@ -206,6 +216,7 @@ zh-CN:
           # - "林东岱, 中国科学院"
           - "Benedikt Gierlichs，鲁汶大学，比利时"
           - "Marc Witteman, Riscure, 荷兰"
+          - "熊晓明, 广州国家现代服务业集成电路设计产业化基地"
       - title: 组委会
         list:
           - "马晖，中国科学院"
@@ -220,21 +231,15 @@ zh-CN:
       #   list:
       #     - url: http://www.riscure.com/
       #       image: images/riscure.jpg
-      # - title: 银牌赞助商
-      #   width: 7
-      #   list:
-      #     - url: http://www.opsefy.com/
-      #       image: images/osr.png
-      #     - url: http://www.scsemicon.com/
-      #       image: images/scsemicon.png
-      #     - url: http://www.sklois.cn/
-      #       image: images/Sklois.png
-      - width: 12
+      - title: 银牌赞助商
+        width: 9
         list:
+          - url: http://www.cn.nxp.com/
+            image: images/nxp.png
           - url: http://www.opsefy.com/
             image: images/osr.png
           - url: http://www.sklois.cn/
-            image: images/Sklois.png
+            image: images/sklois.png
 
   contact:
     para: |
@@ -259,15 +264,19 @@ zh-CN:
     para: |
       PANDA 2015研讨会将于2015年8月26日（周三） 至 8月29日（周六）在深圳开课，参加人员请填写报名信息。
     subtitle: 注册费用
+    description: |
+      本次会议分为两个部分：支付系统安全和芯片安全。企业参会人员可选择只参加支付系统安全部分，也可两个都选择。<br>
+      企业参会人员仅参加支付安全注册费为2000元/人，参加整个会议注册费为4000元/人；<br>
+      全职在校学生注册费为1500元/人；大学老师和研究所职员注册费为2500元/人。
     table:
       - -
         - 费用
-      - - "学生"
-        - "3,000 RMB"
+      - - "全职学生"
+        - "1,500 RMB（需提交在校证明，例如学生证扫描件）"
       - - "大学教师或研究所职员"
-        - "4,000 RMB"
+        - "2,500 RMB"
       - - "公司职员"
-        - "6,000 RMB"
+        - "4,000 RMB（全部课程）<br>2,000 RMB（最初的1.5天）"
     para2: |
       如果您在注册事宜上有任何的疑问，请联系马晖先生（ 邮箱：<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a> ）。
     button: 立即报名
@@ -303,6 +312,7 @@ zh-CN:
           </ol>
         - 通过银行汇款缴纳注册费，须将银行汇款凭证扫描件发送至<a href="mailto:pandacourse@gmail.com">pandacourse@gmail.com</a>。
         - 学生注册需发送学生证扫描件。
+        - <span class="text-danger">本次会议分为两个部分:支付系统安全和芯片安全。企业参会人员可选择只参加支 付系统安全部分,也可两个都选择。</span>
 
   accommodations:
     title: "会议酒店"
@@ -338,7 +348,7 @@ zh-CN:
     title: 深圳大学
     list:
       - title: 指导单位
-        para: 中国密码学会芯片专委会
+        para: 中国密码学会密码芯片专业委员会
       - title: 主办单位
         para: 深圳市纽创信安科技开发有限公司、中国科学院信息工程研究所、深圳大学
       - title: 会议时间
@@ -375,3 +385,7 @@ zh-CN:
       too_long: 过长（最长为 %{count} 个字符）
       too_short: 过短（最短为 %{count} 个字符）
       wrong_length: 长度非法（必须为 %{count} 个字符）
+
+  time:
+    formats:
+      default: "%Y年%m月%d日 %H:%M"

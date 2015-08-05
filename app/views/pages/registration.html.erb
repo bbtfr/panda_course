@@ -1,7 +1,9 @@
-<!-- <div class="jumbotron">
+<div class="jumbotron">
   <p><%= t :para %></p>
 
   <h3><%= t :subtitle %></h3>
+
+  <span><%= raw t :description %></span>
 
   <div class="row">
     <div class="col-md-6">
@@ -19,7 +21,7 @@
           <% table.each do |tr| %>
             <tr>
               <% tr.each do |td| %>
-                <td><%= td %></td>
+                <td><%= raw td %></td>
               <% end %>
             </tr>
           <% end %>
@@ -32,6 +34,4 @@
   <br>
 
   <%= link_to "#{t(:button)} »", new_registration_path, class: "btn btn-lg btn-warning" %>
-</div> -->
-
-<%= render "pages/to_be_announced" %>
+</div>

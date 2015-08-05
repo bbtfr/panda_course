@@ -45,7 +45,7 @@ en:
         PANDA course is jointly organized by <a href="http://www.szu.edu.cn/2014/">Shenzhen University</a> and <a href="http://www.opsefy.com/">Open Security Research</a>. PANDA aims at providing a platform for security design engineers, analysts and researchers to exchange ideas and discuss recent advances in the field of cryptographic circuits.
       button:
         title: Call For Participation
-        link: #/files/PANDA2014CN.pdf
+        link: /files/PANDA2015CN.pdf
     media:
       - image: images/dianlu.jpg
         title: Creative Ideas
@@ -67,9 +67,15 @@ en:
 
       - image: # images/marc_witteman.png
         title: Michael Ward
-        subtitle: "Mastercard (Director of EMV SWG), UK"
+        subtitle: "MasterCard, UK"
         para: |
           Michael Ward works in the Chip Centre of Excellence Product Security department within MasterCard Worldwide‘s Advanced Payments group. He provides security expertise in areas such as cryptography and key management for chip card applications and is chairman of the EMVCo Security Working Group. He participates in various international standards bodies including ISO/IEC JTC 1 /SC 27/WG 2 Information Technology - Security Techniques and Mechanisms, ISO TC 68 Financial Services, and the European Payments Council Security Payments Task Force. Before joining MasterCard he was an employee at APACS (the Association for Payment Clearing Services) in the UK where he was involved with the UK migration to chip card technology. He has a degree in mathematics from Oxford University and a Ph.D. from Royal Holloway, London University.
+
+      - image: images/peter_fillmore.jpg
+        title: Peter Fillmore
+        subtitle: "Independent researcher"
+        para: |
+          Peter Fillmore is a payment security expert with extensive experience in the design and certification of PCI PTS approved payment terminals. Peter has been involved with all types of terminal design - from simple swipe mechanisms to complex unattended systems. Previously he has spoken at Blackhat USA, Syscan and Breakpoint security conferences on contactless payment security implementations. His research work has been covered by all forms of international and national media including TV, radio and newspapers. Peter is interested in real world security systems and novel ways of breaking them.
 
       - image: images/Olivier_Rioul.jpg
         title: Olivier Rioul
@@ -126,9 +132,9 @@ en:
               - "<span class='text-muted'>10:20 - 11:00</span> &nbsp; Challenges and trends in EMV payment system - 2, Michael Ward"
               - "<span class='text-muted'>11:20 - 12:00</span> &nbsp; Challenges and trends in EMV payment system - 3, Michael Ward"
               - "<span class='bg-info text-info'>12:00 - 14:00</span> &nbsp; Lunch"
-              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; PCI PTS security - 1, TBD"
-              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; PCI PTS security - 2, TBD"
-              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; PCI PTS security - 3, TBD"
+              - "<span class='text-muted'>14:00 - 14:40</span> &nbsp; PCI PTS security - 1, Peter Fillmore"
+              - "<span class='text-muted'>15:00 - 15:40</span> &nbsp; PCI PTS security - 2, Peter Fillmore"
+              - "<span class='text-muted'>16:00 - 16:40</span> &nbsp; PCI PTS security - 3, Peter Fillmore"
               - "<span class='text-muted'>17:00 - 18:00</span> &nbsp; Q & A"
           - title: "AUGUST 27<br> <small>Thursday</small>"
             list:
@@ -182,7 +188,7 @@ en:
           - "Yongbin Zhou, CAS, China"
           - "Zhen Wu, Chengdu University of Information Technology, China"
           - "An Wang, Beijing Institute of Technology, China"
-          - "Yang Li, Nanjing University Of Posts And Telecommunications, China"
+          - "Yang Li, Nanjing University of Posts and Telecommunications, China"
       - title: ADVISORY COMMITTEE
         list:
           # - "Feng Bao, Huawei Research, Singapore"
@@ -191,6 +197,7 @@ en:
           # - "Dongdai Lin, CAS, China"
           # - "Ingrid Verbauwhede, KU Leuven, Belgium"
           - "Marc Witteman, Riscure, The Neitherland"
+          - "Xiaoming Xiong, Guangzhou National Integrated Circuit Design Industrialization Center for Modern Service Industry"
       - title: ORGANIZATION COMMITTEE
         list:
           - "Hui Ma, CAS, China"
@@ -205,21 +212,15 @@ en:
       #   list:
       #     - url: http://www.riscure.com/
       #       image: images/riscure.jpg
-      # - title: SILVER SPONSORS
-      #   width: 7
-      #   list:
-      #     - url: http://www.opsefy.com/
-      #       image: images/osr.png
-      #     - url: http://www.scsemicon.com/
-      #       image: images/scsemicon.png
-      #     - url: http://www.sklois.cn/
-      #       image: images/Sklois.png
-      - width: 12
+      - title: SILVER SPONSORS
+        width: 7
         list:
+          - url: http://www.cn.nxp.com/
+            image: images/nxp.png
           - url: http://www.opsefy.com/
             image: images/osr.png
           - url: http://www.sklois.cn/
-            image: images/Sklois.png
+            image: images/sklois.png
 
   contact:
     para: |
@@ -244,15 +245,16 @@ en:
     para: |
       The PANDA 2015 Summer School will be held in Shenzhen, China, from Aug. 26 (Tue) - Aug. 29 (Sat), 2015, Please complete the registration form.
     subtitle: Registration Fee
+    description: ""
     table:
       - -
         - Fee
       - - "Student"
-        - "CNY 3,000"
+        - "CNY 1,500"
       - - "Academic researcher"
-        - "CNY 4,000"
+        - "CNY 2,500"
       - - "Company employee"
-        - "CNY 6,000"
+        - "CNY 4,000 (Section 1 & 2) <br>CNY 2,000 (Section 1 only)"
     para2: |
       You have any question about the registration, please email Mr. Hui Ma via <a href="mailto:pandacourse@gmail.com/">pandacourse@gmail.com</a>.
     button: Register Now
