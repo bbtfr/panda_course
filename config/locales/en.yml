@@ -213,7 +213,7 @@ en:
       #     - url: http://www.riscure.com/
       #       image: images/riscure.jpg
       - title: SILVER SPONSORS
-        width: 7
+        width: 9
         list:
           - url: http://www.cn.nxp.com/
             image: images/nxp.png
