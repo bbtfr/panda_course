@@ -22,6 +22,10 @@ module ApplicationHelper
     url_for(options.merge(locale: :"zh-CN"))
   end
 
+  def secure_path options = {}
+    request.original_url.sub("http://", "https://")
+  end
+
   def t key, options = {}
     I18n.t(key, options.reverse_merge(scope: params[:id]))
   end

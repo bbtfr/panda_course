@@ -23,6 +23,7 @@ en:
     location: "Shenzhen, China"
     time: "Aug. 26 (Wen) - Aug. 29 (Sat), 2015"
     wechat: Follow us on Wechat
+    secure: SSL-enabled
     navbar:
       speakers: Speakers
       program: Program
