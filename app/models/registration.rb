@@ -11,6 +11,8 @@ class Registration < ActiveRecord::Base
 
   before_save :generate_full_name
 
+  default_scope -> { where.not(hidden: true) }
+
   def generate_full_name
     self.full_name ||= "#{first_name} #{family_name}"
   end

@@ -2,7 +2,7 @@
   <div id="map"></div>
 
   <div class="content">
-    <h3 class="ml20 mb20"><%= t(:title) %></h3>
+    <h4 class="ml20 mb20"><%= t(:title) %></h4>
     <ol class="ml20">
       <% t(:list).each_with_index do |list, index| %>
         <li>
@@ -31,8 +31,8 @@
   };
 </script>
 
-<% if params[:locale] == "en" %>
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
+<%# if params[:locale] == "en" %>
+<!--   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC81D29r_jCs93QwACNyW6BC_nBjU8mSAk&amp;sensor=false"></script>
   <script type="text/javascript">
     var markers = [];
 
@@ -68,8 +68,8 @@
     }
 
     $(document).ready(initialize);
-  </script>
-<% else %>
+  </script> -->
+<%# else %>
   <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=E5072c8281660dfc534548f8fda2be11"></script>
   <script type="text/javascript">
     var local;
@@ -88,4 +88,4 @@
 
     $(document).ready(initialize);
   </script>
-<% end %>
+<%# end %>

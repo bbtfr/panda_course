@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150805122855) do
+ActiveRecord::Schema.define(version: 20150810145655) do
 
   create_table "registrations", force: true do |t|
     t.string   "first_name"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20150805122855) do
     t.string   "invoice_needed"
     t.text     "request"
     t.string   "section_type"
+    t.boolean  "hidden",         default: false
   end
 
   create_table "settings", force: true do |t|
