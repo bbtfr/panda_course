@@ -7,7 +7,7 @@ class Registration < ActiveRecord::Base
   validates_presence_of :invoice_title, if: -> (record) { record.invoice_needed == "invoice" }
   validates_presence_of :section_type, if: -> (record) { record.profession == "employee" }
 
-  validates_uniqueness_of :email
+  # validates_uniqueness_of :email
 
   before_save :generate_full_name
 
