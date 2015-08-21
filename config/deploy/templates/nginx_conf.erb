@@ -1,0 +1,75 @@
+upstream app_server {
+  server unix:/tmp/unicorn.sock fail_timeout=0;
+}
+
+server {
+  listen   80;
+  listen   443 ssl;
+  charset  utf-8;
+  server_name  localhost;
+
+  ssl_certificate     /etc/nginx/ssl/server.crt;
+  ssl_certificate_key /etc/nginx/ssl/server.key;
+
+  keepalive_timeout 5;
+
+  error_page 500 502 504 /500.html;
+  error_page 503 @503;
+
+  root        /var/www/panda_course/current/public;
+  access_log  /var/www/panda_course/current/log/nginx_access.log;
+  error_log   /var/www/panda_course/current/log/nginx_error.log;
+  rewrite_log on;
+
+  location ~* ^/(images|javascripts|stylesheets|img)/  {
+    access_log    off;
+    log_not_found off;
+    expires       max;
+    break;
+  }
+
+  location / {
+    proxy_set_header Host               $host;
+    proxy_set_header X-Forwarded-Host   $host;
+    proxy_set_header X-Forwarded-Server $host;
+    proxy_set_header X-Real-IP          $remote_addr;
+    proxy_set_header X-Forward-For      $proxy_add_x_forwarded_for;
+    proxy_buffering  on;
+    proxy_redirect   off;
+
+    if (!-f $request_filename) {
+      proxy_pass http://app_server;
+      break;
+    }
+  }
+
+  location ^~ /assets/ {
+    gzip_static on;
+    expires max;
+    add_header Cache-Control public;
+  }
+
+  location = /50x.html {
+    root html;
+  }
+
+  location = /404.html {
+    root html;
+  }
+
+  location @503 {
+    error_page 405 = /system/maintenance.html;
+    if (-f $document_root/system/maintenance.html) {
+      rewrite ^(.*)$ /system/maintenance.html break;
+    }
+    rewrite ^(.*)$ /503.html break;
+  }
+
+  if ($request_method !~ ^(GET|HEAD|PUT|PATCH|POST|DELETE|OPTIONS)$ ){
+    return 405;
+  }
+
+  if (-f $document_root/system/maintenance.html) {
+    return 503;
+  }
+}

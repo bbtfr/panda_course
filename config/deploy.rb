@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.4.0'
 
 set :application, 'panda_course'
 set :repo_url, 'https://github.com/bbtfr/panda_course.git'
@@ -18,8 +18,8 @@ set :deploy_to, '/var/www/panda_course'
 # set :format, :pretty
 
 # Default value for :log_level is :debug
-set :log_level, :debug
-# set :log_level, :info
+# set :log_level, :debug
+set :log_level, :info
 
 # Default value for :pty is false
 # set :pty, true
@@ -35,25 +35,3 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-namespace :deploy do
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
-      invoke 'unicorn:restart'
-    end
-  end
-
-  after :publishing, :restart
-
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-      within release_path do
-        rake 'tmp:clear'
-      end
-    end
-  end
-end
