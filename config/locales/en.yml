@@ -282,7 +282,7 @@ en:
         - Students should also provide an evidence of their student status issued by their universities (e.g. a copy of the student ID).
 
   accommodations:
-    title: "Nearby Hotels"
+    title: Nearby Hotels
     map: Map
     list:
       - title: 深圳圣淘沙酒店（桃园店）
@@ -330,13 +330,13 @@ en:
       - title: 指导单位
         para: 中国密码学会芯片专委会
       - title: 主办单位
-        para: 深圳市纽创信安科技开发有限公司、中国科学院信息工程研究所、深圳大学
+        para: 深圳大学、中国科学院信息工程研究所、深圳市纽创信安科技开发有限公司
       - title: 会议时间
         para: |
           报到时间：2015年8月25日15:00-21:00
           会议时间：2015年8月26日至29日
       - title: 会议地点
-        para: 深圳大学 科技楼
+        para: 深圳大学科技楼第三报告厅
       - title: 参会人员
         para: |
-          高等院校、科研院所从事密码芯片及相关专业的专家、学者、科技工作者，信息安全专业和密码专业的在读博士生、研究生，从事密码产品开发和应用的企事业技术人员。
+          高等院校、科研院所从事密码芯片及相关专业的专家、学者、科技工作者，信息安全专业和密码专业的在读硕士生、博士生，从事密码产品开发和应用的企事业技术人员。
